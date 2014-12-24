@@ -2,11 +2,19 @@
 
 Geolocation-based web app for locating schools and school districts near you.
 
-## Technologies
+## Technical Details
 
-* [Angular](https://angularjs.org/)
-* [Leaflet](http://leafletjs.com/)
-* [Mapbox](https://www.mapbox.com/)
+### Data Upload/Translate Process
+
+* *Ongoing discussion: https://github.com/codeforokc/school-finder/issues/4*
+
+### Client
+
+* Create [Mapbox](https://www.mapbox.com/) map without dataset
+* Use [Turf](http://turfjs.org/) to query for distance information
+* Use [Leaflet](http://leafletjs.com/) or [Turf](http://turfjs.org/) to query for polygon information at a point
+* Use [Leaflet](http://leafletjs.com/) to visualize schools/school districts on top of Mapbox map via dataset
+* Use [Mapbox Geocoding API](https://www.mapbox.com/developers/api/geocoding/) for reverse geocoding addresses
 
 ## Data
 
