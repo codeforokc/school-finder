@@ -1,0 +1,24 @@
+{
+  "name": "school-finder-data-ingest",
+  "version": "0.0.0",
+  "description": "Data ingest for school-finder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codeforokc/school-finder"
+  },
+  "author": "Karl Kirch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codeforokc/school-finder/issues"
+  },
+  "homepage": "https://github.com/codeforokc/school-finder",
+  "dependencies": {
+    "async": "^0.9.0",
+    "terraformer-arcgis-parser": "^1.0.4",
+    "terraformer-wkt-parser": "^1.0.0"
+  }
+}
