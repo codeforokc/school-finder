@@ -7,6 +7,10 @@
         {
           "id": "1",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "417",
+            "schoolDistrictName": "Jones"
+          },
           "arcs": [
             [
               0,
@@ -17,6 +21,10 @@
         {
           "id": "2",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "417",
+            "schoolDistrictName": "Jones"
+          },
           "arcs": [
             [
               2,
@@ -27,6 +35,10 @@
         {
           "id": "3",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "077",
+            "schoolDistrictName": "Mustang"
+          },
           "arcs": [
             [
               4
@@ -36,6 +48,10 @@
         {
           "id": "4",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "412",
+            "schoolDistrictName": "Putnam City"
+          },
           "arcs": [
             [
               5
@@ -45,6 +61,10 @@
         {
           "id": "5",
           "type": "MultiPolygon",
+          "properties": {
+            "schoolDistrictCode": "420",
+            "schoolDistrictName": "Millwood"
+          },
           "arcs": [
             [
               [
@@ -65,6 +85,10 @@
         {
           "id": "6",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "422",
+            "schoolDistrictName": "Mid-Del City"
+          },
           "arcs": [
             [
               12,
@@ -81,6 +105,10 @@
         {
           "id": "7",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "424",
+            "schoolDistrictName": "Crutcho"
+          },
           "arcs": [
             [
               18,
@@ -93,6 +121,10 @@
         {
           "id": "8",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "426",
+            "schoolDistrictName": "Oklahoma City"
+          },
           "arcs": [
             [
               22,
@@ -103,6 +135,10 @@
         {
           "id": "9",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "496",
+            "schoolDistrictName": "McLoud"
+          },
           "arcs": [
             [
               24
@@ -112,6 +148,10 @@
         {
           "id": "10",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "422",
+            "schoolDistrictName": "Mid-Del City"
+          },
           "arcs": [
             [
               -18,
@@ -122,6 +162,10 @@
         {
           "id": "11",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "422",
+            "schoolDistrictName": "Mid-Del City"
+          },
           "arcs": [
             [
               26,
@@ -134,6 +178,10 @@
         {
           "id": "12",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "Not Available",
+            "schoolDistrictName": "Deer Creek"
+          },
           "arcs": [
             [
               28,
@@ -146,6 +194,10 @@
         {
           "id": "13",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "071",
+            "schoolDistrictName": "Piedmont"
+          },
           "arcs": [
             [
               32,
@@ -156,6 +208,10 @@
         {
           "id": "14",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "426",
+            "schoolDistrictName": "Oklahoma City"
+          },
           "arcs": [
             [
               34
@@ -165,6 +221,10 @@
         {
           "id": "15",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "123",
+            "schoolDistrictName": "Little Axe"
+          },
           "arcs": [
             [
               35,
@@ -178,6 +238,10 @@
         {
           "id": "16",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "426",
+            "schoolDistrictName": "Oklahoma City"
+          },
           "arcs": [
             [
               40,
@@ -189,6 +253,10 @@
         {
           "id": "17",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "420",
+            "schoolDistrictName": "Millwood"
+          },
           "arcs": [
             [
               -8,
@@ -200,6 +268,10 @@
         {
           "id": "18",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "426",
+            "schoolDistrictName": "Oklahoma City"
+          },
           "arcs": [
             [
               44,
@@ -210,6 +282,10 @@
         {
           "id": "19",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "076",
+            "schoolDistrictName": "Union City"
+          },
           "arcs": [
             [
               46,
@@ -228,6 +304,10 @@
         {
           "id": "20",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "412",
+            "schoolDistrictName": "Putnam City"
+          },
           "arcs": [
             [
               56
@@ -237,6 +317,10 @@
         {
           "id": "21",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "426",
+            "schoolDistrictName": "Oklahoma City"
+          },
           "arcs": [
             [
               57
@@ -246,6 +330,10 @@
         {
           "id": "22",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "119",
+            "schoolDistrictName": "Norman"
+          },
           "arcs": [
             [
               58
@@ -255,6 +343,10 @@
         {
           "id": "23",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "119",
+            "schoolDistrictName": "Norman"
+          },
           "arcs": [
             [
               59
@@ -264,6 +356,10 @@
         {
           "id": "24",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "119",
+            "schoolDistrictName": "Norman"
+          },
           "arcs": [
             [
               60,
@@ -275,6 +371,10 @@
         {
           "id": "25",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "116",
+            "schoolDistrictName": "Moore"
+          },
           "arcs": [
             [
               63,
@@ -287,6 +387,10 @@
         {
           "id": "26",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "116",
+            "schoolDistrictName": "Moore"
+          },
           "arcs": [
             [
               66,
@@ -299,6 +403,10 @@
         {
           "id": "27",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "422",
+            "schoolDistrictName": "Mid-Del City"
+          },
           "arcs": [
             [
               -69,
@@ -310,6 +418,10 @@
         {
           "id": "28",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "118",
+            "schoolDistrictName": "Robin Hill"
+          },
           "arcs": [
             [
               71,
@@ -322,6 +434,10 @@
         {
           "id": "29",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "496",
+            "schoolDistrictName": "McLoud"
+          },
           "arcs": [
             [
               -70,
@@ -333,6 +449,10 @@
         {
           "id": "30",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "426",
+            "schoolDistrictName": "Oklahoma City"
+          },
           "arcs": [
             [
               74,
@@ -343,6 +463,10 @@
         {
           "id": "31",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "426",
+            "schoolDistrictName": "Oklahoma City"
+          },
           "arcs": [
             [
               76
@@ -352,6 +476,10 @@
         {
           "id": "32",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "071",
+            "schoolDistrictName": "Piedmont"
+          },
           "arcs": [
             [
               77,
@@ -369,6 +497,10 @@
         {
           "id": "33",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "071",
+            "schoolDistrictName": "Piedmont"
+          },
           "arcs": [
             [
               84,
@@ -381,6 +513,10 @@
         {
           "id": "34",
           "type": "MultiPolygon",
+          "properties": {
+            "schoolDistrictCode": "072",
+            "schoolDistrictName": "Yukon"
+          },
           "arcs": [
             [
               [
@@ -404,6 +540,10 @@
         {
           "id": "35",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "074",
+            "schoolDistrictName": "Banner"
+          },
           "arcs": [
             [
               93,
@@ -418,6 +558,10 @@
         {
           "id": "36",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "074",
+            "schoolDistrictName": "Banner"
+          },
           "arcs": [
             [
               -55,
@@ -430,6 +574,10 @@
         {
           "id": "37",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "076",
+            "schoolDistrictName": "Union City"
+          },
           "arcs": [
             [
               -47,
@@ -442,6 +590,10 @@
         {
           "id": "38",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "077",
+            "schoolDistrictName": "Mustang"
+          },
           "arcs": [
             [
               101,
@@ -462,6 +614,10 @@
         {
           "id": "39",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "072",
+            "schoolDistrictName": "Yukon"
+          },
           "arcs": [
             [
               -54,
@@ -480,6 +636,10 @@
         {
           "id": "40",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "Not Available",
+            "schoolDistrictName": "Western Heights"
+          },
           "arcs": [
             [
               -105,
@@ -493,6 +653,10 @@
         {
           "id": "41",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "116",
+            "schoolDistrictName": "Moore"
+          },
           "arcs": [
             [
               114,
@@ -508,6 +672,10 @@
         {
           "id": "42",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "Not Available",
+            "schoolDistrictName": "Crooked Oak"
+          },
           "arcs": [
             [
               118,
@@ -520,6 +688,10 @@
         {
           "id": "43",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "416",
+            "schoolDistrictName": "Harrah"
+          },
           "arcs": [
             [
               122,
@@ -537,6 +709,10 @@
         {
           "id": "44",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "416",
+            "schoolDistrictName": "Harrah"
+          },
           "arcs": [
             [
               131,
@@ -552,6 +728,10 @@
         {
           "id": "45",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "496",
+            "schoolDistrictName": "McLoud"
+          },
           "arcs": [
             [
               -124,
@@ -565,6 +745,10 @@
         {
           "id": "46",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "416",
+            "schoolDistrictName": "Harrah"
+          },
           "arcs": [
             [
               -140,
@@ -577,6 +761,10 @@
         {
           "id": "47",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "496",
+            "schoolDistrictName": "McLoud"
+          },
           "arcs": [
             [
               -133,
@@ -589,6 +777,10 @@
         {
           "id": "48",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "416",
+            "schoolDistrictName": "Harrah"
+          },
           "arcs": [
             [
               143,
@@ -603,6 +795,10 @@
         {
           "id": "49",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "496",
+            "schoolDistrictName": "McLoud"
+          },
           "arcs": [
             [
               -141,
@@ -614,6 +810,10 @@
         {
           "id": "50",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "496",
+            "schoolDistrictName": "McLoud"
+          },
           "arcs": [
             [
               -146,
@@ -626,6 +826,10 @@
         {
           "id": "51",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "496",
+            "schoolDistrictName": "McLoud"
+          },
           "arcs": [
             [
               -74,
@@ -642,6 +846,10 @@
         {
           "id": "52",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "123",
+            "schoolDistrictName": "Little Axe"
+          },
           "arcs": [
             [
               -39,
@@ -653,6 +861,10 @@
         {
           "id": "53",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "414",
+            "schoolDistrictName": "Choctaw/Nicoma Park"
+          },
           "arcs": [
             [
               153,
@@ -669,6 +881,10 @@
         {
           "id": "54",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "417",
+            "schoolDistrictName": "Jones"
+          },
           "arcs": [
             [
               159,
@@ -688,6 +904,10 @@
         {
           "id": "55",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "424",
+            "schoolDistrictName": "Crutcho"
+          },
           "arcs": [
             [
               166,
@@ -702,6 +922,10 @@
         {
           "id": "56",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "422",
+            "schoolDistrictName": "Mid-Del City"
+          },
           "arcs": [
             [
               -75,
@@ -717,6 +941,10 @@
         {
           "id": "57",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "426",
+            "schoolDistrictName": "Oklahoma City"
+          },
           "arcs": [
             [
               -169,
@@ -733,6 +961,10 @@
         {
           "id": "58",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "417",
+            "schoolDistrictName": "Jones"
+          },
           "arcs": [
             [
               177,
@@ -743,6 +975,10 @@
         {
           "id": "59",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "417",
+            "schoolDistrictName": "Jones"
+          },
           "arcs": [
             [
               178,
@@ -754,6 +990,10 @@
         {
           "id": "60",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "Not Available",
+            "schoolDistrictName": "Oakdale"
+          },
           "arcs": [
             [
               180,
@@ -767,6 +1007,10 @@
         {
           "id": "61",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "420",
+            "schoolDistrictName": "Millwood"
+          },
           "arcs": [
             [
               185,
@@ -782,6 +1026,10 @@
         {
           "id": "62",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "426",
+            "schoolDistrictName": "Oklahoma City"
+          },
           "arcs": [
             [
               -187,
@@ -812,6 +1060,10 @@
         {
           "id": "63",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "417",
+            "schoolDistrictName": "Jones"
+          },
           "arcs": [
             [
               -184,
@@ -828,6 +1080,10 @@
         {
           "id": "64",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "413",
+            "schoolDistrictName": "Luther"
+          },
           "arcs": [
             [
               -192,
@@ -843,6 +1099,10 @@
         {
           "id": "65",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "413",
+            "schoolDistrictName": "Luther"
+          },
           "arcs": [
             [
               201,
@@ -864,6 +1124,10 @@
         {
           "id": "66",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "418",
+            "schoolDistrictName": "Edmond"
+          },
           "arcs": [
             [
               208,
@@ -882,6 +1146,10 @@
         {
           "id": "67",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "417",
+            "schoolDistrictName": "Jones"
+          },
           "arcs": [
             [
               -194,
@@ -894,6 +1162,10 @@
         {
           "id": "68",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "Not Available",
+            "schoolDistrictName": "Edmond"
+          },
           "arcs": [
             [
               218,
@@ -924,6 +1196,10 @@
         {
           "id": "69",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "414",
+            "schoolDistrictName": "Choctaw/Nicoma Park"
+          },
           "arcs": [
             [
               234,
@@ -936,6 +1212,10 @@
         {
           "id": "70",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "422",
+            "schoolDistrictName": "Mid-Del City"
+          },
           "arcs": [
             [
               235,
@@ -951,6 +1231,10 @@
         {
           "id": "71",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "118",
+            "schoolDistrictName": "Robin Hill"
+          },
           "arcs": [
             [
               -72,
@@ -968,6 +1252,10 @@
         {
           "id": "72",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "119",
+            "schoolDistrictName": "Norman"
+          },
           "arcs": [
             [
               -37,
@@ -982,6 +1270,10 @@
         {
           "id": "73",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "116",
+            "schoolDistrictName": "Moore"
+          },
           "arcs": [
             [
               240,
@@ -994,6 +1286,10 @@
         {
           "id": "74",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "426",
+            "schoolDistrictName": "Oklahoma City"
+          },
           "arcs": [
             [
               241,
@@ -1042,6 +1338,10 @@
         {
           "id": "75",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "412",
+            "schoolDistrictName": "Putnam City"
+          },
           "arcs": [
             [
               -110,
@@ -1070,6 +1370,10 @@
         {
           "id": "76",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "412",
+            "schoolDistrictName": "Bethany"
+          },
           "arcs": [
             [
               259
@@ -1079,6 +1383,10 @@
         {
           "id": "77",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "412",
+            "schoolDistrictName": "Putnam City"
+          },
           "arcs": [
             [
               -259
@@ -1091,6 +1399,10 @@
         {
           "id": "78",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "415",
+            "schoolDistrictName": "Deer Creek"
+          },
           "arcs": [
             [
               -32,
@@ -1105,6 +1417,10 @@
         {
           "id": "79",
           "type": "Polygon",
+          "properties": {
+            "schoolDistrictCode": "Not Available",
+            "schoolDistrictName": "Deer Creek"
+          },
           "arcs": [
             [
               -219,

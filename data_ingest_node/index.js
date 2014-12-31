@@ -73,6 +73,10 @@ function init() {
 function toTopoJson(geojson, cb) {
   return cb(undefined, topojson.topology({
     collection: geojson
+  },{
+    'property-transform': function propertyTransform(feature) {
+      return feature.properties;
+    }
   }));
 }
 

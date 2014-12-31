@@ -7,6 +7,10 @@
         {
           "id": "1",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Dewey School Visual & Performing Arts",
+            "originalSchoolName": "DEWEY SCHL VISUAL & PERF. ARTS"
+          },
           "arcs": [
             [
               0
@@ -16,6 +20,10 @@
         {
           "id": "2",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Parkview Adventist Academy",
+            "originalSchoolName": "PARKVIEW ADVENTIST ACADEMY"
+          },
           "arcs": [
             [
               1,
@@ -26,6 +34,10 @@
         {
           "id": "3",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Thelma R. Parks Elementary School",
+            "originalSchoolName": "THELMA R. PARKS ES"
+          },
           "arcs": [
             [
               3
@@ -35,6 +47,10 @@
         {
           "id": "4",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "John Wesley Charter School",
+            "originalSchoolName": "JOHN WESLEY CHARTER SCHOOL"
+          },
           "arcs": [
             [
               4
@@ -44,6 +60,10 @@
         {
           "id": "5",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Kipp Reach College Prep",
+            "originalSchoolName": "KIPP REACH COLLEGE PREP"
+          },
           "arcs": [
             [
               5
@@ -53,6 +73,10 @@
         {
           "id": "8",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Seeworth Academy",
+            "originalSchoolName": "SEEWORTH ACADEMY"
+          },
           "arcs": [
             [
               6
@@ -62,6 +86,10 @@
         {
           "id": "9",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Marcus Garvey Leadership Charter School",
+            "originalSchoolName": "MARCUS GARVEY LEADERSHIP CS"
+          },
           "arcs": [
             [
               7
@@ -71,6 +99,10 @@
         {
           "id": "10",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Santa Fe Elementary School",
+            "originalSchoolName": "SANTA FE ES"
+          },
           "arcs": [
             [
               8
@@ -80,6 +112,10 @@
         {
           "id": "11",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Eastlake Elementary School",
+            "originalSchoolName": "EASTLAKE ES"
+          },
           "arcs": [
             [
               9
@@ -89,6 +125,10 @@
         {
           "id": "12",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Moore-Norman Career Tech",
+            "originalSchoolName": "MOORE-NORMAN CAREER TECH"
+          },
           "arcs": [
             [
               10
@@ -98,6 +138,10 @@
         {
           "id": "13",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Briarwood Elementary School",
+            "originalSchoolName": "BRIARWOOD ES"
+          },
           "arcs": [
             [
               11
@@ -107,6 +151,10 @@
         {
           "id": "14",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Southwest Covenant School",
+            "originalSchoolName": "SOUTHWEST COVENANT SCHOOL"
+          },
           "arcs": [
             [
               12
@@ -116,6 +164,10 @@
         {
           "id": "15",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Surrey Hills Elementary School",
+            "originalSchoolName": "SURREY HILLS ES"
+          },
           "arcs": [
             [
               13
@@ -125,6 +177,10 @@
         {
           "id": "16",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Skyview Elementary School",
+            "originalSchoolName": "SKYVIEW ES"
+          },
           "arcs": [
             [
               14
@@ -134,6 +190,10 @@
         {
           "id": "17",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Shedeck Elementary School",
+            "originalSchoolName": "SHEDECK ES"
+          },
           "arcs": [
             [
               15
@@ -143,6 +203,10 @@
         {
           "id": "18",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Parkland Elementary School",
+            "originalSchoolName": "PARKLAND ES"
+          },
           "arcs": [
             [
               16
@@ -152,6 +216,10 @@
         {
           "id": "20",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Mustang North Middle School",
+            "originalSchoolName": "MUSTANG NORTH MS"
+          },
           "arcs": [
             [
               17,
@@ -162,6 +230,10 @@
         {
           "id": "21",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Mustang Valley Elementary School",
+            "originalSchoolName": "MUSTANG VALLEY ES"
+          },
           "arcs": [
             [
               19
@@ -171,6 +243,10 @@
         {
           "id": "22",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Mustang Middle School",
+            "originalSchoolName": "MUSTANG MS"
+          },
           "arcs": [
             [
               20,
@@ -182,6 +258,10 @@
         {
           "id": "23",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Canadian Valley Technology Center - Bethany",
+            "originalSchoolName": "CANADIAN VALLEY TECHNOLOGY CENTER - BETHANY"
+          },
           "arcs": [
             [
               23
@@ -191,6 +271,10 @@
         {
           "id": "24",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Hoover Middle School",
+            "originalSchoolName": "HOOVER MS"
+          },
           "arcs": [
             [
               24
@@ -200,6 +284,10 @@
         {
           "id": "25",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Western Village Academy",
+            "originalSchoolName": "WESTERN VILLAGE ACADEMY"
+          },
           "arcs": [
             [
               25
@@ -209,6 +297,10 @@
         {
           "id": "26",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Christ The King Catholic School",
+            "originalSchoolName": "CHRIST THE KING CATHOLIC SCHOOL"
+          },
           "arcs": [
             [
               26
@@ -218,6 +310,10 @@
         {
           "id": "27",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "West Nichols Hills Elementary School",
+            "originalSchoolName": "WEST NICHOLS HILLS ES"
+          },
           "arcs": [
             [
               27
@@ -227,6 +323,10 @@
         {
           "id": "28",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Johnson Elementary School",
+            "originalSchoolName": "JOHNSON ES"
+          },
           "arcs": [
             [
               28
@@ -236,6 +336,10 @@
         {
           "id": "29",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Mustang Trails Elementary School",
+            "originalSchoolName": "MUSTANG TRAILS ES"
+          },
           "arcs": [
             [
               29
@@ -245,6 +349,10 @@
         {
           "id": "30",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Unknown Near Santa Fe In Moore",
+            "originalSchoolName": "UNKNOWN NEAR SANTA FE IN MOORE"
+          },
           "arcs": [
             [
               30
@@ -254,6 +362,10 @@
         {
           "id": "31",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Fisher Elementary School",
+            "originalSchoolName": "FISHER ES"
+          },
           "arcs": [
             [
               31
@@ -263,6 +375,10 @@
         {
           "id": "32",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Northwest Christian School",
+            "originalSchoolName": "NORTHWEST CHRISTIAN SCHOOL"
+          },
           "arcs": [
             [
               32
@@ -272,6 +388,10 @@
         {
           "id": "33",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Nichols Hills Elementary School",
+            "originalSchoolName": "NICHOLS HILLS ES"
+          },
           "arcs": [
             [
               33
@@ -281,6 +401,10 @@
         {
           "id": "34",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Bishop Mcguiness Catholic High School",
+            "originalSchoolName": "BISHOP MCGUINESS CATHOLIC HS"
+          },
           "arcs": [
             [
               34
@@ -290,6 +414,10 @@
         {
           "id": "35",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Belle Isle Enterprise School",
+            "originalSchoolName": "BELLE ISLE ENTERPRISE SCHOOL"
+          },
           "arcs": [
             [
               35
@@ -299,6 +427,10 @@
         {
           "id": "36",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Putnam Heights Elementary School",
+            "originalSchoolName": "PUTNAM HEIGHTS ES"
+          },
           "arcs": [
             [
               36
@@ -308,6 +440,10 @@
         {
           "id": "37",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Cleveland Elementary School",
+            "originalSchoolName": "CLEVELAND ES"
+          },
           "arcs": [
             [
               37
@@ -317,6 +453,10 @@
         {
           "id": "38",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Northwest Classen High School",
+            "originalSchoolName": "NORTHWEST CLASSEN HS"
+          },
           "arcs": [
             [
               38
@@ -326,6 +466,10 @@
         {
           "id": "39",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Astec Charter Middle School",
+            "originalSchoolName": "ASTEC CHARTER MS"
+          },
           "arcs": [
             [
               39
@@ -335,6 +479,10 @@
         {
           "id": "40",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "St. John's Episcopal School",
+            "originalSchoolName": "ST. JOHN'S EPISCOPAL SCHOOL"
+          },
           "arcs": [
             [
               40
@@ -344,6 +492,10 @@
         {
           "id": "41",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Kenneth Cooper Middle School",
+            "originalSchoolName": "KENNETH COOPER MS"
+          },
           "arcs": [
             [
               41
@@ -353,6 +505,10 @@
         {
           "id": "42",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Providence Hall Christian School",
+            "originalSchoolName": "PROVIDENCE HALL CHRISTIAN SCHOOL"
+          },
           "arcs": [
             [
               42
@@ -362,6 +518,10 @@
         {
           "id": "43",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Coolidge Elementary School",
+            "originalSchoolName": "COOLIDGE ES"
+          },
           "arcs": [
             [
               43
@@ -371,6 +531,10 @@
         {
           "id": "44",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Capitol Hill High School",
+            "originalSchoolName": "CAPITOL HILL HS"
+          },
           "arcs": [
             [
               44
@@ -380,6 +544,10 @@
         {
           "id": "45",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Hayes Elementary School",
+            "originalSchoolName": "HAYES ES"
+          },
           "arcs": [
             [
               45
@@ -389,6 +557,10 @@
         {
           "id": "46",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Webster Middle School",
+            "originalSchoolName": "WEBSTER MS"
+          },
           "arcs": [
             [
               46
@@ -398,6 +570,10 @@
         {
           "id": "47",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Parmelee Elementary School",
+            "originalSchoolName": "PARMELEE ES"
+          },
           "arcs": [
             [
               47
@@ -407,6 +583,10 @@
         {
           "id": "48",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Hillcrest Elementary School",
+            "originalSchoolName": "HILLCREST ES"
+          },
           "arcs": [
             [
               48
@@ -416,6 +596,10 @@
         {
           "id": "50",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Del City High School",
+            "originalSchoolName": "DEL CITY HS"
+          },
           "arcs": [
             [
               49
@@ -425,6 +609,10 @@
         {
           "id": "51",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Kerr Middle School",
+            "originalSchoolName": "KERR MS"
+          },
           "arcs": [
             [
               50
@@ -434,6 +622,10 @@
         {
           "id": "52",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Parkview Elementary School",
+            "originalSchoolName": "PARKVIEW ES"
+          },
           "arcs": [
             [
               51
@@ -443,6 +635,10 @@
         {
           "id": "53",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Life Christian Academy",
+            "originalSchoolName": "LIFE CHRISTIAN ACADEMY"
+          },
           "arcs": [
             [
               52
@@ -452,6 +648,10 @@
         {
           "id": "54",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Deer Creek Elementary School",
+            "originalSchoolName": "DEER CREEK ES"
+          },
           "arcs": [
             [
               53
@@ -461,6 +661,10 @@
         {
           "id": "55",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Pleasant Hill Elementary School",
+            "originalSchoolName": "PLEASANT HILL ES"
+          },
           "arcs": [
             [
               54
@@ -470,6 +674,10 @@
         {
           "id": "56",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Mustang High School",
+            "originalSchoolName": "MUSTANG MHS"
+          },
           "arcs": [
             [
               -23,
@@ -481,6 +689,10 @@
         {
           "id": "57",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Mustang Education Center",
+            "originalSchoolName": "MUSTANG EDUCATION CTR"
+          },
           "arcs": [
             [
               57
@@ -490,6 +702,10 @@
         {
           "id": "59",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Apple Creek Elementary School",
+            "originalSchoolName": "APPLE CREEK ES"
+          },
           "arcs": [
             [
               58
@@ -499,6 +715,10 @@
         {
           "id": "60",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Quail Creek Elementary School",
+            "originalSchoolName": "QUAIL CREEK ES"
+          },
           "arcs": [
             [
               59
@@ -508,6 +728,10 @@
         {
           "id": "61",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "King's Gate Christian School",
+            "originalSchoolName": "KING'S GATE CHRISTIAN SCHOOL"
+          },
           "arcs": [
             [
               60
@@ -517,6 +741,10 @@
         {
           "id": "62",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Wiley Post Elementary School",
+            "originalSchoolName": "WILEY POST ES"
+          },
           "arcs": [
             [
               61
@@ -526,6 +754,10 @@
         {
           "id": "63",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Hefner Middle School",
+            "originalSchoolName": "HEFNER MS"
+          },
           "arcs": [
             [
               62
@@ -535,6 +767,10 @@
         {
           "id": "64",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Trinity School",
+            "originalSchoolName": "TRINITY SCHOOL"
+          },
           "arcs": [
             [
               63
@@ -544,6 +780,10 @@
         {
           "id": "65",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Crescent Academy",
+            "originalSchoolName": "CRESCENT ACADEMY"
+          },
           "arcs": [
             [
               64
@@ -553,6 +793,10 @@
         {
           "id": "66",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Ridgeview Elementary School",
+            "originalSchoolName": "RIDGEVIEW ES"
+          },
           "arcs": [
             [
               65
@@ -562,6 +806,10 @@
         {
           "id": "67",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "St. Eugene Catholic School",
+            "originalSchoolName": "ST. EUGENE CATHOLIC SCHOOL"
+          },
           "arcs": [
             [
               66
@@ -571,6 +819,10 @@
         {
           "id": "68",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Chisholm Elementary School",
+            "originalSchoolName": "CHISHOLM ES"
+          },
           "arcs": [
             [
               67
@@ -580,6 +832,10 @@
         {
           "id": "69",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Harvest Christian School",
+            "originalSchoolName": "HARVEST CHRISTIAN SCHOOL"
+          },
           "arcs": [
             [
               68
@@ -589,6 +845,10 @@
         {
           "id": "70",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Central Seventh-Day Adventist",
+            "originalSchoolName": "CENTRAL SEVENTH-DAY ADVENTIST"
+          },
           "arcs": [
             [
               69
@@ -598,6 +858,10 @@
         {
           "id": "71",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Tulakes Elementary School",
+            "originalSchoolName": "TULAKES ES"
+          },
           "arcs": [
             [
               70
@@ -607,6 +871,10 @@
         {
           "id": "72",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Lake Park Elementary School",
+            "originalSchoolName": "LAKE PARK ES"
+          },
           "arcs": [
             [
               71
@@ -616,6 +884,10 @@
         {
           "id": "73",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Putnam City Academy",
+            "originalSchoolName": "PUTNAM CITY ACADEMY"
+          },
           "arcs": [
             [
               72
@@ -625,6 +897,10 @@
         {
           "id": "74",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Western Oaks Elementary School",
+            "originalSchoolName": "WESTERN OAKS ES"
+          },
           "arcs": [
             [
               73,
@@ -635,6 +911,10 @@
         {
           "id": "75",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Winds West Elementary School",
+            "originalSchoolName": "WINDS WEST ES"
+          },
           "arcs": [
             [
               75,
@@ -646,6 +926,10 @@
         {
           "id": "76",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Metro Tech Aviation Career Campus",
+            "originalSchoolName": "METRO TECH AVIATION CAREER CAMPUS"
+          },
           "arcs": [
             [
               78
@@ -655,6 +939,10 @@
         {
           "id": "77",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Roosevelt Middle School",
+            "originalSchoolName": "ROOSEVELT MS"
+          },
           "arcs": [
             [
               79
@@ -664,6 +952,10 @@
         {
           "id": "79",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Central Oak Elementary School",
+            "originalSchoolName": "CENTRAL OAK ES"
+          },
           "arcs": [
             [
               80,
@@ -674,6 +966,10 @@
         {
           "id": "82",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Schwartz Elementary School",
+            "originalSchoolName": "SCHWARTZ ES"
+          },
           "arcs": [
             [
               82
@@ -683,6 +979,10 @@
         {
           "id": "83",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Crooked Oak Middle School",
+            "originalSchoolName": "CROOKED OAK MS"
+          },
           "arcs": [
             [
               83,
@@ -694,6 +994,10 @@
         {
           "id": "84",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Crooked Oak High School",
+            "originalSchoolName": "CROOKED OAK HS"
+          },
           "arcs": [
             [
               -85,
@@ -704,6 +1008,10 @@
         {
           "id": "85",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Wheeler Community Learning Center",
+            "originalSchoolName": "WHEELER COMMUNITY LEARNING CTR"
+          },
           "arcs": [
             [
               86
@@ -713,6 +1021,10 @@
         {
           "id": "86",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Heronville Elementary School",
+            "originalSchoolName": "HERONVILLE ES"
+          },
           "arcs": [
             [
               87
@@ -722,6 +1034,10 @@
         {
           "id": "87",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "St. James Catholic School",
+            "originalSchoolName": "ST. JAMES CATHOLIC SCHOOL"
+          },
           "arcs": [
             [
               88
@@ -731,6 +1047,10 @@
         {
           "id": "88",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Rancho Village Elementary School",
+            "originalSchoolName": "RANCHO VILLAGE ES"
+          },
           "arcs": [
             [
               89
@@ -740,6 +1060,10 @@
         {
           "id": "89",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Metro Tech South Bryant Campus",
+            "originalSchoolName": "METRO TECH SOUTH BRYANT CAMPUS"
+          },
           "arcs": [
             [
               90
@@ -749,6 +1073,10 @@
         {
           "id": "90",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Southern Hills Elementary School",
+            "originalSchoolName": "SOUTHERN HILLS ES"
+          },
           "arcs": [
             [
               91
@@ -758,6 +1086,10 @@
         {
           "id": "91",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Monroney Middle School",
+            "originalSchoolName": "MONRONEY MS"
+          },
           "arcs": [
             [
               92
@@ -767,6 +1099,10 @@
         {
           "id": "92",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Mid-Del Christian School",
+            "originalSchoolName": "MID-DEL CHRISTIAN SCHOOL"
+          },
           "arcs": [
             [
               93
@@ -776,6 +1112,10 @@
         {
           "id": "93",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Oakridge Elementary School",
+            "originalSchoolName": "OAKRIDGE ES"
+          },
           "arcs": [
             [
               94
@@ -785,6 +1125,10 @@
         {
           "id": "94",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Highland Park Elementary School",
+            "originalSchoolName": "HIGHLAND PARK ES"
+          },
           "arcs": [
             [
               95
@@ -794,6 +1138,10 @@
         {
           "id": "95",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Edmond Santa Fe High School",
+            "originalSchoolName": "EDMOND SANTA FE HS"
+          },
           "arcs": [
             [
               96
@@ -803,6 +1151,10 @@
         {
           "id": "96",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Francis Tuttle Portland Campus",
+            "originalSchoolName": "FRANCIS TUTTLE PORTLAND CAMPUS"
+          },
           "arcs": [
             [
               97
@@ -812,6 +1164,10 @@
         {
           "id": "97",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Francis Tuttle Rockwell Campus",
+            "originalSchoolName": "FRANCIS TUTTLE ROCKWELL CAMPUS"
+          },
           "arcs": [
             [
               98
@@ -821,6 +1177,10 @@
         {
           "id": "98",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Will Rogers Elementary School",
+            "originalSchoolName": "WILL ROGERS ES"
+          },
           "arcs": [
             [
               99
@@ -830,6 +1190,10 @@
         {
           "id": "99",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Ralph Downs Elementary School",
+            "originalSchoolName": "RALPH DOWNS ES"
+          },
           "arcs": [
             [
               100
@@ -839,6 +1203,10 @@
         {
           "id": "100",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "James L Dennis Elementary School",
+            "originalSchoolName": "JAMES L DENNIS ES"
+          },
           "arcs": [
             [
               101,
@@ -849,6 +1217,10 @@
         {
           "id": "101",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Putnam City North High School",
+            "originalSchoolName": "PUTNAM CITY NORTH HS"
+          },
           "arcs": [
             [
               -102,
@@ -859,6 +1231,10 @@
         {
           "id": "102",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Christian Academy",
+            "originalSchoolName": "CHRISTIAN ACADEMY"
+          },
           "arcs": [
             [
               104
@@ -868,6 +1244,10 @@
         {
           "id": "103",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Harvest Hills Elementary School",
+            "originalSchoolName": "HARVEST HILLS ES"
+          },
           "arcs": [
             [
               105
@@ -877,6 +1257,10 @@
         {
           "id": "104",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Cimarron Middle School",
+            "originalSchoolName": "CIMARRON MS"
+          },
           "arcs": [
             [
               106
@@ -886,6 +1270,10 @@
         {
           "id": "105",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Angie Debo Elementary School",
+            "originalSchoolName": "ANGIE DEBO ES"
+          },
           "arcs": [
             [
               107
@@ -895,6 +1283,10 @@
         {
           "id": "106",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Stonegate Elementary School",
+            "originalSchoolName": "STONEGATE ES"
+          },
           "arcs": [
             [
               108
@@ -904,6 +1296,10 @@
         {
           "id": "107",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Brink Junior High",
+            "originalSchoolName": "BRINK JHS"
+          },
           "arcs": [
             [
               109
@@ -913,6 +1309,10 @@
         {
           "id": "108",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Kelly Elementary School",
+            "originalSchoolName": "KELLY ES"
+          },
           "arcs": [
             [
               110
@@ -922,6 +1322,10 @@
         {
           "id": "109",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "St. John's Lutheran School",
+            "originalSchoolName": "ST. JOHN'S LUTHERAN SCHOOL"
+          },
           "arcs": [
             [
               111
@@ -931,6 +1335,10 @@
         {
           "id": "110",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Southgate-Rippetoe Learning Ct",
+            "originalSchoolName": "SOUTHGATE-RIPPETOE LEARNING CT"
+          },
           "arcs": [
             [
               112
@@ -940,6 +1348,10 @@
         {
           "id": "111",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Highland West Junior High",
+            "originalSchoolName": "HIGHLAND WEST JHS"
+          },
           "arcs": [
             [
               113
@@ -949,6 +1361,10 @@
         {
           "id": "112",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Oklahoma School Of Science/Math",
+            "originalSchoolName": "OKLA SCHOOL OF SCIENCE/MATH"
+          },
           "arcs": [
             [
               114
@@ -958,6 +1374,10 @@
         {
           "id": "113",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Emerson Alternative School Ed. (Middle School)",
+            "originalSchoolName": "EMERSON ALTERNATIVE ED. (MS)"
+          },
           "arcs": [
             [
               115
@@ -967,6 +1387,10 @@
         {
           "id": "114",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Gatewood Elementary School",
+            "originalSchoolName": "GATEWOOD ES"
+          },
           "arcs": [
             [
               116
@@ -976,6 +1400,10 @@
         {
           "id": "115",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Putnam City High School",
+            "originalSchoolName": "PUTNAM CITY HS"
+          },
           "arcs": [
             [
               117
@@ -985,6 +1413,10 @@
         {
           "id": "116",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Bethany Middle School",
+            "originalSchoolName": "BETHANY MS"
+          },
           "arcs": [
             [
               118,
@@ -995,6 +1427,10 @@
         {
           "id": "117",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Madison Elementary School",
+            "originalSchoolName": "MADISON ES"
+          },
           "arcs": [
             [
               120
@@ -1004,6 +1440,10 @@
         {
           "id": "118",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Linwood Elementary School",
+            "originalSchoolName": "LINWOOD ES"
+          },
           "arcs": [
             [
               121
@@ -1013,6 +1453,10 @@
         {
           "id": "119",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Apollo Elementary School",
+            "originalSchoolName": "APOLLO ES"
+          },
           "arcs": [
             [
               122
@@ -1022,6 +1466,10 @@
         {
           "id": "120",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Putnam City West High School",
+            "originalSchoolName": "PUTNAM CITY WEST HS"
+          },
           "arcs": [
             [
               123
@@ -1031,6 +1479,10 @@
         {
           "id": "121",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Greenvale Elementary School",
+            "originalSchoolName": "GREENVALE ES"
+          },
           "arcs": [
             [
               124
@@ -1040,6 +1492,10 @@
         {
           "id": "122",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Francis Tuttle Reno Campus",
+            "originalSchoolName": "FRANCIS TUTTLE RENO CAMPUS"
+          },
           "arcs": [
             [
               125
@@ -1049,6 +1505,10 @@
         {
           "id": "123",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Pierce Elementary School",
+            "originalSchoolName": "PIERCE ES"
+          },
           "arcs": [
             [
               126
@@ -1058,6 +1518,10 @@
         {
           "id": "124",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Rockwood Elementary School",
+            "originalSchoolName": "ROCKWOOD ES"
+          },
           "arcs": [
             [
               127
@@ -1067,6 +1531,10 @@
         {
           "id": "125",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Arthur Elementary School",
+            "originalSchoolName": "ARTHUR ES"
+          },
           "arcs": [
             [
               128
@@ -1076,6 +1544,10 @@
         {
           "id": "126",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Shidler Elementary School",
+            "originalSchoolName": "SHIDLER ES"
+          },
           "arcs": [
             [
               129
@@ -1085,6 +1557,10 @@
         {
           "id": "127",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Central Elementary School",
+            "originalSchoolName": "CENTRAL ES"
+          },
           "arcs": [
             [
               130
@@ -1094,6 +1570,10 @@
         {
           "id": "128",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Broadmoore Elementary School",
+            "originalSchoolName": "BROADMOORE ES"
+          },
           "arcs": [
             [
               131
@@ -1103,6 +1583,10 @@
         {
           "id": "129",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Sky Ranch Elementary School",
+            "originalSchoolName": "SKY RANCH ES"
+          },
           "arcs": [
             [
               132
@@ -1112,6 +1596,10 @@
         {
           "id": "130",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Moore West Junior High",
+            "originalSchoolName": "MOORE WEST JHS"
+          },
           "arcs": [
             [
               133
@@ -1121,6 +1609,10 @@
         {
           "id": "131",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Kingsgate Elementary School",
+            "originalSchoolName": "KINGSGATE ES"
+          },
           "arcs": [
             [
               134
@@ -1130,6 +1622,10 @@
         {
           "id": "132",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Houchin Elementary School",
+            "originalSchoolName": "HOUCHIN ES"
+          },
           "arcs": [
             [
               135
@@ -1139,6 +1635,10 @@
         {
           "id": "133",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Sooner Elementary School",
+            "originalSchoolName": "SOONER ES"
+          },
           "arcs": [
             [
               136
@@ -1148,6 +1648,10 @@
         {
           "id": "134",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Earlywine Elementary School",
+            "originalSchoolName": "EARLYWINE ES"
+          },
           "arcs": [
             [
               137
@@ -1157,6 +1661,10 @@
         {
           "id": "135",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Red Oak Elementary School",
+            "originalSchoolName": "RED OAK ES"
+          },
           "arcs": [
             [
               138
@@ -1166,6 +1674,10 @@
         {
           "id": "136",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Old Arbor Grove Elementary School",
+            "originalSchoolName": "OLD ARBOR GROVE ES"
+          },
           "arcs": [
             [
               139
@@ -1181,6 +1693,10 @@
         {
           "id": "137",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Eugene Field Elementary School",
+            "originalSchoolName": "EUGENE FIELD ES"
+          },
           "arcs": [
             [
               142
@@ -1190,6 +1706,10 @@
         {
           "id": "138",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Wilson Elementary School",
+            "originalSchoolName": "WILSON ES"
+          },
           "arcs": [
             [
               143
@@ -1199,6 +1719,10 @@
         {
           "id": "139",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Hawthorne Elementary School",
+            "originalSchoolName": "HAWTHORNE ES"
+          },
           "arcs": [
             [
               144
@@ -1208,6 +1732,10 @@
         {
           "id": "140",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Mark Twain Elementary School",
+            "originalSchoolName": "MARK TWAIN ES"
+          },
           "arcs": [
             [
               145
@@ -1217,6 +1745,10 @@
         {
           "id": "141",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Millwood High School",
+            "originalSchoolName": "MILLWOOD HS"
+          },
           "arcs": [
             [
               146,
@@ -1227,6 +1759,10 @@
         {
           "id": "142",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "St. John Christian Heritage",
+            "originalSchoolName": "ST. JOHN CHRISTIAN HERITAGE"
+          },
           "arcs": [
             [
               148
@@ -1236,6 +1772,10 @@
         {
           "id": "143",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Martin Luther King Elementary School",
+            "originalSchoolName": "MARTIN LUTHER KING ES"
+          },
           "arcs": [
             [
               149
@@ -1245,6 +1785,10 @@
         {
           "id": "145",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "John Marhall Middle School/High School",
+            "originalSchoolName": "JOHN MARHALL MS/HS"
+          },
           "arcs": [
             [
               150
@@ -1254,6 +1798,10 @@
         {
           "id": "146",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Pathways Middle College High School",
+            "originalSchoolName": "PATHWAYS MIDDLE COLLEGE HIGH SCHOOL"
+          },
           "arcs": [
             [
               151
@@ -1263,6 +1811,10 @@
         {
           "id": "148",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Clyde Howell Elementary School",
+            "originalSchoolName": "CLYDE HOWELL ES"
+          },
           "arcs": [
             [
               152
@@ -1272,6 +1824,10 @@
         {
           "id": "149",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "West Field Elementary School",
+            "originalSchoolName": "WEST FIELD ES"
+          },
           "arcs": [
             [
               153
@@ -1281,6 +1837,10 @@
         {
           "id": "150",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Antioch Christian Academy",
+            "originalSchoolName": "ANTIOCH CHRISTIAN ACADEMY"
+          },
           "arcs": [
             [
               154
@@ -1290,6 +1850,10 @@
         {
           "id": "151",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Cesar Chavez Elementary School",
+            "originalSchoolName": "CESAR CHAVEZ ES"
+          },
           "arcs": [
             [
               155
@@ -1299,6 +1863,10 @@
         {
           "id": "152",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Corpus Christi Catholic School",
+            "originalSchoolName": "CORPUS CHRISTI CATHOLIC SCHOOL"
+          },
           "arcs": [
             [
               156
@@ -1308,6 +1876,10 @@
         {
           "id": "153",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "North Care Abf Alternative School School",
+            "originalSchoolName": "NORTH CARE ABF ALTERNATIVE SCHOOL"
+          },
           "arcs": [
             [
               157
@@ -1317,6 +1889,10 @@
         {
           "id": "155",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Crossings Christian School",
+            "originalSchoolName": "CROSSINGS CHRISTIAN SCHOOL"
+          },
           "arcs": [
             [
               158
@@ -1326,6 +1902,10 @@
         {
           "id": "156",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Messiah Lutheran School",
+            "originalSchoolName": "MESSIAH LUTHERAN SCHOOL"
+          },
           "arcs": [
             [
               159
@@ -1335,6 +1915,10 @@
         {
           "id": "157",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Messiah Lutheran School",
+            "originalSchoolName": "MESSIAH LUTHERAN SCHOOL"
+          },
           "arcs": [
             [
               160
@@ -1344,6 +1928,10 @@
         {
           "id": "158",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "New Life Christian Academy",
+            "originalSchoolName": "NEW LIFE CHRISTIAN ACADEMY"
+          },
           "arcs": [
             [
               161
@@ -1353,6 +1941,10 @@
         {
           "id": "159",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Spencer Road Christian School",
+            "originalSchoolName": "SPENCER ROAD CHRISTIAN SCHOOL"
+          },
           "arcs": [
             [
               162
@@ -1362,6 +1954,10 @@
         {
           "id": "160",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Snu School For Children",
+            "originalSchoolName": "SNU SCHOOL FOR CHILDREN"
+          },
           "arcs": [
             [
               163
@@ -1371,6 +1967,10 @@
         {
           "id": "161",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Western Heights High School",
+            "originalSchoolName": "WESTERN HEIGHTS HS"
+          },
           "arcs": [
             [
               164,
@@ -1383,6 +1983,10 @@
         {
           "id": "165",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Western Heights Academy",
+            "originalSchoolName": "WESTERN HEIGHTS ACADEMY"
+          },
           "arcs": [
             [
               -167,
@@ -1394,6 +1998,10 @@
         {
           "id": "166",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Yukon Middle School",
+            "originalSchoolName": "YUKON MS"
+          },
           "arcs": [
             [
               169
@@ -1403,6 +2011,10 @@
         {
           "id": "167",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Yukon Alternative School High School",
+            "originalSchoolName": "YUKON ALTERNATIVE HS"
+          },
           "arcs": [
             [
               170
@@ -1412,6 +2024,10 @@
         {
           "id": "168",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Central Elementary School",
+            "originalSchoolName": "CENTRAL ES"
+          },
           "arcs": [
             [
               171
@@ -1421,6 +2037,10 @@
         {
           "id": "169",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Hurst Academy",
+            "originalSchoolName": "HURST ACADEMY"
+          },
           "arcs": [
             [
               172
@@ -1430,6 +2050,10 @@
         {
           "id": "170",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Hurst Academy",
+            "originalSchoolName": "HURST ACADEMY"
+          },
           "arcs": [
             [
               173
@@ -1439,6 +2063,10 @@
         {
           "id": "171",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Harvest Hills Christian School",
+            "originalSchoolName": "HARVEST HILLS CHRISTIAN SCHOOL"
+          },
           "arcs": [
             [
               174
@@ -1448,6 +2076,10 @@
         {
           "id": "173",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Preach Unto Them Jesus Academy",
+            "originalSchoolName": "PREACH UNTO THEM JESUS ACADEMY"
+          },
           "arcs": [
             [
               175
@@ -1457,6 +2089,10 @@
         {
           "id": "174",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Piedmont High School",
+            "originalSchoolName": "PIEDMONT HS"
+          },
           "arcs": [
             [
               176
@@ -1466,6 +2102,10 @@
         {
           "id": "175",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Piedmont Middle School",
+            "originalSchoolName": "PIEDMONT MS"
+          },
           "arcs": [
             [
               177
@@ -1475,6 +2115,10 @@
         {
           "id": "176",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Wayland Bonds Elementary School",
+            "originalSchoolName": "WAYLAND BONDS ES"
+          },
           "arcs": [
             [
               178
@@ -1484,6 +2128,10 @@
         {
           "id": "177",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Star Spencer High School",
+            "originalSchoolName": "STAR SPENCER HS"
+          },
           "arcs": [
             [
               179
@@ -1493,6 +2141,10 @@
         {
           "id": "178",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Midwest City High School",
+            "originalSchoolName": "MIDWEST CITY HS"
+          },
           "arcs": [
             [
               180
@@ -1502,6 +2154,10 @@
         {
           "id": "179",
           "type": "MultiPolygon",
+          "properties": {
+            "schoolName": "Adams Elementary School",
+            "originalSchoolName": "ADAMS ES"
+          },
           "arcs": [
             [
               [
@@ -1518,6 +2174,10 @@
         {
           "id": "180",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Barnes Elementary School",
+            "originalSchoolName": "BARNES ES"
+          },
           "arcs": [
             [
               183
@@ -1527,6 +2187,10 @@
         {
           "id": "181",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Bethany High School",
+            "originalSchoolName": "BETHANY HS"
+          },
           "arcs": [
             [
               184,
@@ -1537,6 +2201,10 @@
         {
           "id": "182",
           "type": "MultiPolygon",
+          "properties": {
+            "schoolName": "Bishop John Carroll School",
+            "originalSchoolName": "BISHOP JOHN CARROLL SCHOOL"
+          },
           "arcs": [
             [
               [
@@ -1553,6 +2221,10 @@
         {
           "id": "183",
           "type": "MultiPolygon",
+          "properties": {
+            "schoolName": "Bodine Elementary School",
+            "originalSchoolName": "BODINE ES"
+          },
           "arcs": [
             [
               [
@@ -1569,6 +2241,10 @@
         {
           "id": "184",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Britton Elementary School",
+            "originalSchoolName": "BRITTON ES"
+          },
           "arcs": [
             [
               190
@@ -1578,6 +2254,10 @@
         {
           "id": "185",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Bryant Elementary School",
+            "originalSchoolName": "BRYANT ES"
+          },
           "arcs": [
             [
               191
@@ -1587,6 +2267,10 @@
         {
           "id": "186",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Buchanan Elementary School",
+            "originalSchoolName": "BUCHANAN ES"
+          },
           "arcs": [
             [
               192
@@ -1596,6 +2280,10 @@
         {
           "id": "187",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Capitol Hill Elementary School",
+            "originalSchoolName": "CAPITOL HILL ES"
+          },
           "arcs": [
             [
               193
@@ -1605,6 +2293,10 @@
         {
           "id": "188",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Carl Albert Middle School",
+            "originalSchoolName": "CARL ALBERT MS"
+          },
           "arcs": [
             [
               194
@@ -1614,6 +2306,10 @@
         {
           "id": "189",
           "type": "MultiPolygon",
+          "properties": {
+            "schoolName": "Casady School",
+            "originalSchoolName": "CASADY SCHOOL"
+          },
           "arcs": [
             [
               [
@@ -1635,6 +2331,10 @@
         {
           "id": "190",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Central Elementary School",
+            "originalSchoolName": "CENTRAL ES"
+          },
           "arcs": [
             [
               198
@@ -1644,6 +2344,10 @@
         {
           "id": "191",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Summit Middle School",
+            "originalSchoolName": "SUMMIT MS"
+          },
           "arcs": [
             [
               199,
@@ -1654,6 +2358,10 @@
         {
           "id": "192",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Classen Middle School Of Advanced Studies",
+            "originalSchoolName": "CLASSEN MS OF ADVANCED STUDIES"
+          },
           "arcs": [
             [
               201
@@ -1663,6 +2371,10 @@
         {
           "id": "193",
           "type": "MultiPolygon",
+          "properties": {
+            "schoolName": "Columbus Enterprise School",
+            "originalSchoolName": "COLUMBUS ENTERPRISE SCHOOL"
+          },
           "arcs": [
             [
               [
@@ -1684,6 +2396,10 @@
         {
           "id": "194",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Coronado Heights Elementary School",
+            "originalSchoolName": "CORONADO HEIGHTS ES"
+          },
           "arcs": [
             [
               205
@@ -1693,6 +2409,10 @@
         {
           "id": "195",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Council Grove Elementary School",
+            "originalSchoolName": "COUNCIL GROVE ES"
+          },
           "arcs": [
             [
               206
@@ -1702,6 +2422,10 @@
         {
           "id": "196",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Douglass High School",
+            "originalSchoolName": "DOUGLASS HS"
+          },
           "arcs": [
             [
               207
@@ -1711,6 +2435,10 @@
         {
           "id": "197",
           "type": "MultiPolygon",
+          "properties": {
+            "schoolName": "Dove Science Academy (OKC)",
+            "originalSchoolName": "DOVE SCIENCE ACADEMY (OKC)"
+          },
           "arcs": [
             [
               [
@@ -1727,6 +2455,10 @@
         {
           "id": "199",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Midwest City Elementary School",
+            "originalSchoolName": "MIDWEST CITY ES"
+          },
           "arcs": [
             [
               210
@@ -1736,6 +2468,10 @@
         {
           "id": "200",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Edgemere Elementary School",
+            "originalSchoolName": "EDGEMERE ES"
+          },
           "arcs": [
             [
               211
@@ -1745,6 +2481,10 @@
         {
           "id": "201",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Edwards Elementary School",
+            "originalSchoolName": "EDWARDS ES"
+          },
           "arcs": [
             [
               212
@@ -1754,6 +2494,10 @@
         {
           "id": "202",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Eisenhower Elementary School",
+            "originalSchoolName": "EISENHOWER ES"
+          },
           "arcs": [
             [
               213
@@ -1763,6 +2507,10 @@
         {
           "id": "203",
           "type": "MultiPolygon",
+          "properties": {
+            "schoolName": "F. D. Moon Academy/Mass Media",
+            "originalSchoolName": "F. D. MOON ACADEMY/MASS MEDIA"
+          },
           "arcs": [
             [
               [
@@ -1779,6 +2527,10 @@
         {
           "id": "204",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Fairview Elementary School",
+            "originalSchoolName": "FAIRVIEW ES"
+          },
           "arcs": [
             [
               216
@@ -1788,6 +2540,10 @@
         {
           "id": "205",
           "type": "MultiPolygon",
+          "properties": {
+            "schoolName": "Fillmore Elementary School",
+            "originalSchoolName": "FILLMORE ES"
+          },
           "arcs": [
             [
               [
@@ -1804,6 +2560,10 @@
         {
           "id": "206",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Green Pastures Elementary School",
+            "originalSchoolName": "GREEN PASTURES ES"
+          },
           "arcs": [
             [
               219
@@ -1813,6 +2573,10 @@
         {
           "id": "207",
           "type": "MultiPolygon",
+          "properties": {
+            "schoolName": "Harding Charter Preparatory High School",
+            "originalSchoolName": "HARDING CHARTER PREPARATORY HS"
+          },
           "arcs": [
             [
               [
@@ -1829,6 +2593,10 @@
         {
           "id": "208",
           "type": "MultiPolygon",
+          "properties": {
+            "schoolName": "Harding Fine Arts Academy",
+            "originalSchoolName": "HARDING FINE ARTS ACADEMY"
+          },
           "arcs": [
             [
               [
@@ -1845,6 +2613,10 @@
         {
           "id": "209",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Heritage Hall School",
+            "originalSchoolName": "HERITAGE HALL SCHOOL"
+          },
           "arcs": [
             [
               224
@@ -1854,6 +2626,10 @@
         {
           "id": "210",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Hilldale Elementary School",
+            "originalSchoolName": "HILLDALE ES"
+          },
           "arcs": [
             [
               225
@@ -1863,6 +2639,10 @@
         {
           "id": "211",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Horace Mann Elementary School",
+            "originalSchoolName": "HORACE MANN ES"
+          },
           "arcs": [
             [
               226
@@ -1872,6 +2652,10 @@
         {
           "id": "212",
           "type": "MultiPolygon",
+          "properties": {
+            "schoolName": "Independence Charter Middle School",
+            "originalSchoolName": "INDEPENDENCE CHARTER MS"
+          },
           "arcs": [
             [
               [
@@ -1888,6 +2672,10 @@
         {
           "id": "213",
           "type": "MultiPolygon",
+          "properties": {
+            "schoolName": "Jackson Middle School",
+            "originalSchoolName": "JACKSON MS"
+          },
           "arcs": [
             [
               [
@@ -1909,6 +2697,10 @@
         {
           "id": "214",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Jarman Junior High",
+            "originalSchoolName": "JARMAN JHS"
+          },
           "arcs": [
             [
               232
@@ -1918,6 +2710,10 @@
         {
           "id": "215",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Jefferson Middle School",
+            "originalSchoolName": "JEFFERSON MS"
+          },
           "arcs": [
             [
               233
@@ -1927,6 +2723,10 @@
         {
           "id": "216",
           "type": "MultiPolygon",
+          "properties": {
+            "schoolName": "John Glenn Elementary School",
+            "originalSchoolName": "JOHN GLENN ES"
+          },
           "arcs": [
             [
               [
@@ -1943,6 +2743,10 @@
         {
           "id": "217",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Oklahoma Centennial High School",
+            "originalSchoolName": "OKLAHOMA CENTENNIAL HS"
+          },
           "arcs": [
             [
               236
@@ -1952,6 +2756,10 @@
         {
           "id": "218",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Kaiser Elementary School",
+            "originalSchoolName": "KAISER ES"
+          },
           "arcs": [
             [
               237
@@ -1961,6 +2769,10 @@
         {
           "id": "219",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "D D Kirkland Elementary School",
+            "originalSchoolName": "D D KIRKLAND ES"
+          },
           "arcs": [
             [
               238
@@ -1970,6 +2782,10 @@
         {
           "id": "220",
           "type": "MultiPolygon",
+          "properties": {
+            "schoolName": "Lee Elementary School",
+            "originalSchoolName": "LEE ES"
+          },
           "arcs": [
             [
               [
@@ -1996,6 +2812,10 @@
         {
           "id": "221",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "The About Face Academy",
+            "originalSchoolName": "THE ABOUT FACE ACADEMY"
+          },
           "arcs": [
             [
               243
@@ -2005,6 +2825,10 @@
         {
           "id": "222",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Mayfield Middle School",
+            "originalSchoolName": "MAYFIELD MS"
+          },
           "arcs": [
             [
               244
@@ -2014,6 +2838,10 @@
         {
           "id": "223",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Monroe Elementary School",
+            "originalSchoolName": "MONROE ES"
+          },
           "arcs": [
             [
               245
@@ -2023,6 +2851,10 @@
         {
           "id": "224",
           "type": "MultiPolygon",
+          "properties": {
+            "schoolName": "Mount Saint Mary High School",
+            "originalSchoolName": "MOUNT SAINT MARY HIGH SCHOOL"
+          },
           "arcs": [
             [
               [
@@ -2049,6 +2881,10 @@
         {
           "id": "225",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Mustang High School",
+            "originalSchoolName": "MUSTANG HS"
+          },
           "arcs": [
             [
               -56,
@@ -2060,6 +2896,10 @@
         {
           "id": "226",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "North East Academy Health/Science/Engineering",
+            "originalSchoolName": "NE ACAD HEALTH/SCI/ENGINEERING"
+          },
           "arcs": [
             [
               251
@@ -2069,6 +2909,10 @@
         {
           "id": "227",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "North Highland Math/Science School",
+            "originalSchoolName": "NORTH HIGHLAND MATH/SCI SCHOOL"
+          },
           "arcs": [
             [
               252
@@ -2078,6 +2922,10 @@
         {
           "id": "228",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Northridge Elementary School",
+            "originalSchoolName": "NORTHRIDGE ES"
+          },
           "arcs": [
             [
               253
@@ -2087,6 +2935,10 @@
         {
           "id": "229",
           "type": "MultiPolygon",
+          "properties": {
+            "schoolName": "Parker Elementary School",
+            "originalSchoolName": "PARKER ES"
+          },
           "arcs": [
             [
               [
@@ -2113,6 +2965,10 @@
         {
           "id": "230",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Prairie Queen Elementary School",
+            "originalSchoolName": "PRAIRIE QUEEN ES"
+          },
           "arcs": [
             [
               258
@@ -2122,6 +2978,10 @@
         {
           "id": "232",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Rollingwood Elementary School",
+            "originalSchoolName": "ROLLINGWOOD ES"
+          },
           "arcs": [
             [
               259
@@ -2131,6 +2991,10 @@
         {
           "id": "233",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Rosary School",
+            "originalSchoolName": "ROSARY SCHOOL"
+          },
           "arcs": [
             [
               260
@@ -2140,6 +3004,10 @@
         {
           "id": "234",
           "type": "MultiPolygon",
+          "properties": {
+            "schoolName": "Sacred Heart Catholic School",
+            "originalSchoolName": "SACRED HEART CATHOLIC SCHOOL"
+          },
           "arcs": [
             [
               [
@@ -2156,6 +3024,10 @@
         {
           "id": "235",
           "type": "MultiPolygon",
+          "properties": {
+            "schoolName": "Santa Fe South High School",
+            "originalSchoolName": "SANTA FE SOUTH HS"
+          },
           "arcs": [
             [
               [
@@ -2172,6 +3044,10 @@
         {
           "id": "236",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Sequoyah Elementary School",
+            "originalSchoolName": "SEQUOYAH ES"
+          },
           "arcs": [
             [
               265
@@ -2181,6 +3057,10 @@
         {
           "id": "237",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Lakeview Elementary School",
+            "originalSchoolName": "LAKEVIEW ES"
+          },
           "arcs": [
             [
               266
@@ -2190,6 +3070,10 @@
         {
           "id": "238",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Soldier Creek Elementary School",
+            "originalSchoolName": "SOLDIER CREEK ES"
+          },
           "arcs": [
             [
               267
@@ -2199,6 +3083,10 @@
         {
           "id": "239",
           "type": "MultiPolygon",
+          "properties": {
+            "schoolName": "Solomon Schechter Academy",
+            "originalSchoolName": "SOLOMON SCHECHTER ACADEMY"
+          },
           "arcs": [
             [
               [
@@ -2215,6 +3103,10 @@
         {
           "id": "240",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Southeast High School",
+            "originalSchoolName": "SOUTHEAST HS"
+          },
           "arcs": [
             [
               270
@@ -2224,6 +3116,10 @@
         {
           "id": "241",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Spencer Elementary School",
+            "originalSchoolName": "SPENCER ES"
+          },
           "arcs": [
             [
               271
@@ -2233,6 +3129,10 @@
         {
           "id": "242",
           "type": "MultiPolygon",
+          "properties": {
+            "schoolName": "Stand Watie Elementary School",
+            "originalSchoolName": "STAND WATIE ES"
+          },
           "arcs": [
             [
               [
@@ -2249,6 +3149,10 @@
         {
           "id": "243",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Taft Middle School",
+            "originalSchoolName": "TAFT MS"
+          },
           "arcs": [
             [
               274
@@ -2258,6 +3162,10 @@
         {
           "id": "244",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Tinker Elementary School",
+            "originalSchoolName": "TINKER ES"
+          },
           "arcs": [
             [
               275
@@ -2267,6 +3175,10 @@
         {
           "id": "245",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Townsend Elementary School",
+            "originalSchoolName": "TOWNSEND ES"
+          },
           "arcs": [
             [
               276
@@ -2276,6 +3188,10 @@
         {
           "id": "246",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "U. S. Grant High School",
+            "originalSchoolName": "U. S. GRANT HS"
+          },
           "arcs": [
             [
               277
@@ -2285,6 +3201,10 @@
         {
           "id": "247",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Van Buren Elementary School",
+            "originalSchoolName": "VAN BUREN ES"
+          },
           "arcs": [
             [
               278
@@ -2294,6 +3214,10 @@
         {
           "id": "248",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Washington Irving Elementary School",
+            "originalSchoolName": "WASHINGTON IRVING ES"
+          },
           "arcs": [
             [
               279
@@ -2303,6 +3227,10 @@
         {
           "id": "249",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Western Heights Middle School",
+            "originalSchoolName": "WESTERN HEIGHTS MS"
+          },
           "arcs": [
             [
               -78,
@@ -2315,6 +3243,10 @@
         {
           "id": "250",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Western Oaks Middle School",
+            "originalSchoolName": "WESTERN OAKS MS"
+          },
           "arcs": [
             [
               -74,
@@ -2325,6 +3257,10 @@
         {
           "id": "251",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Westminster School",
+            "originalSchoolName": "WESTMINSTER SCHOOL"
+          },
           "arcs": [
             [
               282
@@ -2334,6 +3270,10 @@
         {
           "id": "252",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Westmoore High School",
+            "originalSchoolName": "WESTMOORE HS"
+          },
           "arcs": [
             [
               283
@@ -2343,6 +3283,10 @@
         {
           "id": "253",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Westwood Elementary School",
+            "originalSchoolName": "WESTWOOD ES"
+          },
           "arcs": [
             [
               284
@@ -2352,6 +3296,10 @@
         {
           "id": "254",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Willowbrook Elementary School",
+            "originalSchoolName": "WILLOWBROOK ES"
+          },
           "arcs": [
             [
               285
@@ -2361,6 +3309,10 @@
         {
           "id": "255",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Windsor Hills Baptist School",
+            "originalSchoolName": "WINDSOR HILLS BAPTIST SCH"
+          },
           "arcs": [
             [
               286
@@ -2370,6 +3322,10 @@
         {
           "id": "256",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Windsor Hills Elementary School",
+            "originalSchoolName": "WINDSOR HILLS ES"
+          },
           "arcs": [
             [
               287
@@ -2379,6 +3335,10 @@
         {
           "id": "257",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "St. Charles Borromeo School",
+            "originalSchoolName": "ST. CHARLES BORROMEO SCHOOL"
+          },
           "arcs": [
             [
               288
@@ -2388,6 +3348,10 @@
         {
           "id": "258",
           "type": "MultiPolygon",
+          "properties": {
+            "schoolName": "Metro Tech Springlake Campus",
+            "originalSchoolName": "METRO TECH SPRINGLAKE CAMPUS"
+          },
           "arcs": [
             [
               [
@@ -2405,6 +3369,10 @@
         {
           "id": "259",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Metro Tech Adult & Continuing Education Campus",
+            "originalSchoolName": "METRO TECH ADULT & CONT EDUCATION CAMPUS"
+          },
           "arcs": [
             [
               291
@@ -2414,6 +3382,10 @@
         {
           "id": "260",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Pathways (Willard Formerly)  Alternative School",
+            "originalSchoolName": "PATHWAYS (WILLARD FORMERLY)  ALTERNATIVE"
+          },
           "arcs": [
             [
               292
@@ -2423,6 +3395,10 @@
         {
           "id": "261",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Heartland Cottage Home School",
+            "originalSchoolName": "HEARTLAND COTTAGE HOME SCHOOL"
+          },
           "arcs": [
             [
               293
@@ -2432,6 +3408,10 @@
         {
           "id": "266",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "John Rex Elementary School",
+            "originalSchoolName": "JOHN REX ES"
+          },
           "arcs": [
             [
               294
@@ -2441,6 +3421,10 @@
         {
           "id": "267",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Telstar Elementary School",
+            "originalSchoolName": "TELSTAR ES"
+          },
           "arcs": [
             [
               295
@@ -2450,6 +3434,10 @@
         {
           "id": "268",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Santa Fe South Middle School",
+            "originalSchoolName": "SANTA FE SOUTH MS"
+          },
           "arcs": [
             [
               296
@@ -2459,6 +3447,10 @@
         {
           "id": "269",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Rogers Middle School",
+            "originalSchoolName": "ROGERS MS"
+          },
           "arcs": [
             [
               297
@@ -2468,6 +3460,10 @@
         {
           "id": "270",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Harper Academy Charter School",
+            "originalSchoolName": "HARPER ACADEMY CS"
+          },
           "arcs": [
             [
               298
@@ -2477,6 +3473,10 @@
         {
           "id": "272",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Northwood Elementary School",
+            "originalSchoolName": "NORTHWOOD ES"
+          },
           "arcs": [
             [
               299
@@ -2486,6 +3486,10 @@
         {
           "id": "273",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Spring Creek Elementary School",
+            "originalSchoolName": "SPRING CREEK ES"
+          },
           "arcs": [
             [
               300
@@ -2495,6 +3499,10 @@
         {
           "id": "274",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Grove Valley Elementary School",
+            "originalSchoolName": "GROVE VALLEY ES"
+          },
           "arcs": [
             [
               301
@@ -2504,6 +3512,10 @@
         {
           "id": "275",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Frontier Elementary School",
+            "originalSchoolName": "FRONTIER ES"
+          },
           "arcs": [
             [
               302
@@ -2513,6 +3525,10 @@
         {
           "id": "276",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Prairie Vale Elementary School",
+            "originalSchoolName": "PRAIRIE VALE ES"
+          },
           "arcs": [
             [
               303
@@ -2522,6 +3538,10 @@
         {
           "id": "277",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Deer Creek Middle School",
+            "originalSchoolName": "DEER CREEK MS"
+          },
           "arcs": [
             [
               304
@@ -2531,6 +3551,10 @@
         {
           "id": "279",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Deer Creek High School",
+            "originalSchoolName": "DEER CREEK HS"
+          },
           "arcs": [
             [
               305,
@@ -2541,6 +3565,10 @@
         {
           "id": "280",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Deer Creek Independent School",
+            "originalSchoolName": "DEER CREEK IS"
+          },
           "arcs": [
             [
               307,
@@ -2551,6 +3579,10 @@
         {
           "id": "281",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Rose Union Elementary School",
+            "originalSchoolName": "ROSE UNION ES"
+          },
           "arcs": [
             [
               308
@@ -2560,6 +3592,10 @@
         {
           "id": "282",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Stone Ridge Elementary School",
+            "originalSchoolName": "STONE RIDGE ES"
+          },
           "arcs": [
             [
               309
@@ -2569,6 +3605,10 @@
         {
           "id": "283",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Bethany Elementary School",
+            "originalSchoolName": "BETHANY ES"
+          },
           "arcs": [
             [
               310,
@@ -2581,6 +3621,10 @@
         {
           "id": "284",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Yukon High School",
+            "originalSchoolName": "YUKON HS"
+          },
           "arcs": [
             [
               312,
@@ -2591,6 +3635,10 @@
         {
           "id": "285",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Independence Elementary School",
+            "originalSchoolName": "INDEPENDENCE ES"
+          },
           "arcs": [
             [
               314,
@@ -2601,6 +3649,10 @@
         {
           "id": "286",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Myers Elementary School",
+            "originalSchoolName": "MYERS ES"
+          },
           "arcs": [
             [
               315
@@ -2610,6 +3662,10 @@
         {
           "id": "287",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Arbor Grove Elementary School",
+            "originalSchoolName": "ARBOR GROVE ES"
+          },
           "arcs": [
             [
               316
@@ -2619,6 +3675,10 @@
         {
           "id": "288",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "James L Capps Middle School",
+            "originalSchoolName": "JAMES L CAPPS MS"
+          },
           "arcs": [
             [
               317
@@ -2628,6 +3688,10 @@
         {
           "id": "305",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Millwood Elementary School",
+            "originalSchoolName": "MILLWOOD ES"
+          },
           "arcs": [
             [
               318,
@@ -2638,6 +3702,10 @@
         {
           "id": "306",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Oakdale School",
+            "originalSchoolName": "OAKDALE SCHOOL"
+          },
           "arcs": [
             [
               319
@@ -2647,6 +3715,10 @@
         {
           "id": "307",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Mustang Creek Elementary School",
+            "originalSchoolName": "MUSTANG CREEK ES"
+          },
           "arcs": [
             [
               320,
@@ -2657,6 +3729,10 @@
         {
           "id": "308",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Canadian Valley Tech Center",
+            "originalSchoolName": "CANADIAN VALLEY TECH CENTER"
+          },
           "arcs": [
             [
               321
@@ -2666,6 +3742,10 @@
         {
           "id": "309",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Canyon Ridge Independent School",
+            "originalSchoolName": "CANYON RIDGE IS"
+          },
           "arcs": [
             [
               322
@@ -2675,6 +3755,10 @@
         {
           "id": "310",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Bridgestone Independent School",
+            "originalSchoolName": "BRIDGESTONE IS"
+          },
           "arcs": [
             [
               323
@@ -2684,6 +3768,10 @@
         {
           "id": "311",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Prairie View Elementary School",
+            "originalSchoolName": "PRAIRIE VIEW ES"
+          },
           "arcs": [
             [
               324
@@ -2693,6 +3781,10 @@
         {
           "id": "312",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Orvis Risner Elementary School",
+            "originalSchoolName": "ORVIS RISNER ES"
+          },
           "arcs": [
             [
               325
@@ -2702,6 +3794,10 @@
         {
           "id": "313",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Edmond Memorial High School",
+            "originalSchoolName": "EDMOND MEMORIAL HS"
+          },
           "arcs": [
             [
               326
@@ -2711,6 +3807,10 @@
         {
           "id": "314",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Will Rogers Elementary School",
+            "originalSchoolName": "WILL ROGERS ES"
+          },
           "arcs": [
             [
               327
@@ -2720,6 +3820,10 @@
         {
           "id": "315",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Central Middle School",
+            "originalSchoolName": "CENTRAL MS"
+          },
           "arcs": [
             [
               328
@@ -2729,6 +3833,10 @@
         {
           "id": "316",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Clegern Elementary School",
+            "originalSchoolName": "CLEGERN ES"
+          },
           "arcs": [
             [
               329
@@ -2738,6 +3846,10 @@
         {
           "id": "317",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Sunset Elementary School",
+            "originalSchoolName": "SUNSET ES"
+          },
           "arcs": [
             [
               330
@@ -2747,6 +3859,10 @@
         {
           "id": "318",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Centennial Elementary School",
+            "originalSchoolName": "CENTENNIAL ES"
+          },
           "arcs": [
             [
               331
@@ -2756,6 +3872,10 @@
         {
           "id": "319",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Sequoyah Middle School",
+            "originalSchoolName": "SEQUOYAH MS"
+          },
           "arcs": [
             [
               332
@@ -2765,6 +3885,10 @@
         {
           "id": "320",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Edmond North High School",
+            "originalSchoolName": "EDMOND NORTH HS"
+          },
           "arcs": [
             [
               333,
@@ -2775,6 +3899,10 @@
         {
           "id": "321",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "John Ross Elementary School",
+            "originalSchoolName": "JOHN ROSS ES"
+          },
           "arcs": [
             [
               335,
@@ -2785,6 +3913,10 @@
         {
           "id": "322",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Cheyenne Middle School",
+            "originalSchoolName": "CHEYENNE MS"
+          },
           "arcs": [
             [
               336
@@ -2794,6 +3926,10 @@
         {
           "id": "323",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Cross Timbers Elementary School",
+            "originalSchoolName": "CROSS TIMBERS ES"
+          },
           "arcs": [
             [
               337
@@ -2803,6 +3939,10 @@
         {
           "id": "324",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Ida Freeman Elementary School",
+            "originalSchoolName": "IDA FREEMAN ES"
+          },
           "arcs": [
             [
               338
@@ -2812,6 +3952,10 @@
         {
           "id": "325",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Russell Dougherty Elementary School",
+            "originalSchoolName": "RUSSELL DOUGHERTY ES"
+          },
           "arcs": [
             [
               339
@@ -2821,6 +3965,10 @@
         {
           "id": "326",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Northern Hills Elementary School",
+            "originalSchoolName": "NORTHERN HILLS ES"
+          },
           "arcs": [
             [
               340
@@ -2830,6 +3978,10 @@
         {
           "id": "327",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Luther High School",
+            "originalSchoolName": "LUTHER HS"
+          },
           "arcs": [
             [
               341
@@ -2839,6 +3991,10 @@
         {
           "id": "328",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Luther Middle School",
+            "originalSchoolName": "LUTHER MS"
+          },
           "arcs": [
             [
               342,
@@ -2849,6 +4005,10 @@
         {
           "id": "329",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Luther Elementary School",
+            "originalSchoolName": "LUTHER ES"
+          },
           "arcs": [
             [
               -344,
@@ -2859,6 +4019,10 @@
         {
           "id": "330",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Jones Elementary School",
+            "originalSchoolName": "JONES ES"
+          },
           "arcs": [
             [
               345
@@ -2868,6 +4032,10 @@
         {
           "id": "331",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Jones High School",
+            "originalSchoolName": "JONES HS"
+          },
           "arcs": [
             [
               346
@@ -2877,6 +4045,10 @@
         {
           "id": "332",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Jones Middle School",
+            "originalSchoolName": "JONES MS"
+          },
           "arcs": [
             [
               347
@@ -2886,6 +4058,10 @@
         {
           "id": "334",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Choctaw Middle School",
+            "originalSchoolName": "CHOCTAW MS"
+          },
           "arcs": [
             [
               348,
@@ -2896,6 +4072,10 @@
         {
           "id": "335",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Choctaw Elementary School",
+            "originalSchoolName": "CHOCTAW ES"
+          },
           "arcs": [
             [
               -349,
@@ -2906,6 +4086,10 @@
         {
           "id": "336",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Westfall Elementary School",
+            "originalSchoolName": "WESTFALL ES"
+          },
           "arcs": [
             [
               351
@@ -2915,6 +4099,10 @@
         {
           "id": "337",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Choctaw High School",
+            "originalSchoolName": "CHOCTAW HS"
+          },
           "arcs": [
             [
               352
@@ -2924,6 +4112,10 @@
         {
           "id": "338",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Nicoma Park Middle School",
+            "originalSchoolName": "NICOMA PARK MS"
+          },
           "arcs": [
             [
               353,
@@ -2934,6 +4126,10 @@
         {
           "id": "339",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Nicoma Park Elementary School",
+            "originalSchoolName": "NICOMA PARK ES"
+          },
           "arcs": [
             [
               355,
@@ -2945,6 +4141,10 @@
         {
           "id": "340",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Nicoma Park Independent School",
+            "originalSchoolName": "NICOMA PARK IS"
+          },
           "arcs": [
             [
               358,
@@ -2956,6 +4156,10 @@
         {
           "id": "341",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Crutch School",
+            "originalSchoolName": "CRUTCH SCHOOL"
+          },
           "arcs": [
             [
               360
@@ -2965,6 +4169,10 @@
         {
           "id": "342",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Cleveland Bailey Elementary School",
+            "originalSchoolName": "CLEVELAND BAILEY ES"
+          },
           "arcs": [
             [
               361
@@ -2974,6 +4182,10 @@
         {
           "id": "343",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Ridgecrest Elementary School",
+            "originalSchoolName": "RIDGECREST ES"
+          },
           "arcs": [
             [
               362
@@ -2983,6 +4195,10 @@
         {
           "id": "344",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Steed Elementary School",
+            "originalSchoolName": "STEED ES"
+          },
           "arcs": [
             [
               363
@@ -2992,6 +4208,10 @@
         {
           "id": "345",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Del Crest Middle School",
+            "originalSchoolName": "DEL CREST MS"
+          },
           "arcs": [
             [
               364
@@ -3001,6 +4221,10 @@
         {
           "id": "346",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Epperly Heights Elementary School",
+            "originalSchoolName": "EPPERLY HEIGHTS ES"
+          },
           "arcs": [
             [
               365
@@ -3010,6 +4234,10 @@
         {
           "id": "347",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Del City Elementary School",
+            "originalSchoolName": "DEL CITY ES"
+          },
           "arcs": [
             [
               366
@@ -3019,6 +4247,10 @@
         {
           "id": "348",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Carl Albert High School",
+            "originalSchoolName": "CARL ALBERT HS"
+          },
           "arcs": [
             [
               367
@@ -3028,6 +4260,10 @@
         {
           "id": "349",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "James Griffith Independent School",
+            "originalSchoolName": "JAMES GRIFFITH IS"
+          },
           "arcs": [
             [
               368,
@@ -3038,6 +4274,10 @@
         {
           "id": "350",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Indian Meridian Elementary School",
+            "originalSchoolName": "INDIAN MERIDIAN ES"
+          },
           "arcs": [
             [
               370,
@@ -3048,6 +4288,10 @@
         {
           "id": "351",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Banner School",
+            "originalSchoolName": "BANNER SCHOOL"
+          },
           "arcs": [
             [
               371
@@ -3057,6 +4301,10 @@
         {
           "id": "352",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Lakehoma Elementary School",
+            "originalSchoolName": "LAKEHOMA ES"
+          },
           "arcs": [
             [
               372
@@ -3066,6 +4314,10 @@
         {
           "id": "353",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Centennial Elementary School",
+            "originalSchoolName": "CENTENNIAL ES"
+          },
           "arcs": [
             [
               373
@@ -3075,6 +4327,10 @@
         {
           "id": "354",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Mustang Elementary School",
+            "originalSchoolName": "MUSTANG ES"
+          },
           "arcs": [
             [
               374
@@ -3084,6 +4340,10 @@
         {
           "id": "355",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Central Junior High",
+            "originalSchoolName": "CENTRAL JH"
+          },
           "arcs": [
             [
               375
@@ -3093,6 +4353,10 @@
         {
           "id": "356",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Moore High School",
+            "originalSchoolName": "MOORE HS"
+          },
           "arcs": [
             [
               376
@@ -3102,6 +4366,10 @@
         {
           "id": "357",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Winding Creek Elementary School",
+            "originalSchoolName": "WINDING CREEK ES"
+          },
           "arcs": [
             [
               377
@@ -3111,6 +4379,10 @@
         {
           "id": "358",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Northmoore Elementary School",
+            "originalSchoolName": "NORTHMOORE ES"
+          },
           "arcs": [
             [
               378
@@ -3120,6 +4392,10 @@
         {
           "id": "359",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Oakridge Elementary School",
+            "originalSchoolName": "OAKRIDGE ES"
+          },
           "arcs": [
             [
               379
@@ -3129,6 +4405,10 @@
         {
           "id": "360",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Southmoore High School",
+            "originalSchoolName": "SOUTHMOORE HS"
+          },
           "arcs": [
             [
               380
@@ -3138,6 +4418,10 @@
         {
           "id": "361",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Highland East Junior High",
+            "originalSchoolName": "HIGHLAND EAST JH"
+          },
           "arcs": [
             [
               381
@@ -3147,6 +4431,10 @@
         {
           "id": "362",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Heritage Trails Elementary School",
+            "originalSchoolName": "HERITAGE TRAILS ES"
+          },
           "arcs": [
             [
               382
@@ -3156,6 +4444,10 @@
         {
           "id": "363",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Robin Hill School",
+            "originalSchoolName": "ROBIN HILL SCHOOL"
+          },
           "arcs": [
             [
               383
@@ -3165,6 +4457,10 @@
         {
           "id": "364",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "South Lake Elementary School",
+            "originalSchoolName": "SOUTH LAKE ES"
+          },
           "arcs": [
             [
               384
@@ -3174,6 +4470,10 @@
         {
           "id": "365",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Roosevelt Elementary School",
+            "originalSchoolName": "ROOSEVELT ES"
+          },
           "arcs": [
             [
               385
@@ -3183,6 +4483,10 @@
         {
           "id": "366",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Mcloud High School",
+            "originalSchoolName": "MCLOUD HS"
+          },
           "arcs": [
             [
               386,
@@ -3193,6 +4497,10 @@
         {
           "id": "367",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Mcloud Junior High",
+            "originalSchoolName": "MCLOUD JH"
+          },
           "arcs": [
             [
               -388,
@@ -3203,6 +4511,10 @@
         {
           "id": "368",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Union City School",
+            "originalSchoolName": "UNION CITY SCHOOL"
+          },
           "arcs": [
             [
               389
@@ -3212,6 +4524,10 @@
         {
           "id": "369",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Charles Haskell Elementary School",
+            "originalSchoolName": "CHARLES HASKELL ES"
+          },
           "arcs": [
             [
               390,
@@ -3222,6 +4538,10 @@
         {
           "id": "370",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Christian Heritage Academy",
+            "originalSchoolName": "CHRISTIAN HERITAGE ACADEMY"
+          },
           "arcs": [
             [
               391
@@ -3231,6 +4551,10 @@
         {
           "id": "371",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Clara Reynolds Elementary School",
+            "originalSchoolName": "CLARA REYNOLDS ES"
+          },
           "arcs": [
             [
               392
@@ -3240,6 +4564,10 @@
         {
           "id": "372",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Virginia Smith Elementary School",
+            "originalSchoolName": "VIRGINIA SMITH ES"
+          },
           "arcs": [
             [
               393,
@@ -3251,6 +4579,10 @@
         {
           "id": "373",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Harrah Junior High",
+            "originalSchoolName": "HARRAH JH"
+          },
           "arcs": [
             [
               -395,
@@ -3261,6 +4593,10 @@
         {
           "id": "374",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Harrah High School",
+            "originalSchoolName": "HARRAH HS"
+          },
           "arcs": [
             [
               -394,
@@ -3271,6 +4607,10 @@
         {
           "id": "375",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Harrah Middle School",
+            "originalSchoolName": "HARRAH MS"
+          },
           "arcs": [
             [
               398
@@ -3280,6 +4620,10 @@
         {
           "id": "376",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Russell Babb Elementary School",
+            "originalSchoolName": "RUSSELL BABB ES"
+          },
           "arcs": [
             [
               399
@@ -3289,6 +4633,10 @@
         {
           "id": "377",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Mcloud Independent School",
+            "originalSchoolName": "MCLOUD IS"
+          },
           "arcs": [
             [
               400,
@@ -3299,6 +4647,10 @@
         {
           "id": "378",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Mcloud Elementary School",
+            "originalSchoolName": "MCLOUD ES"
+          },
           "arcs": [
             [
               402,
@@ -3309,6 +4661,10 @@
         {
           "id": "379",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Lakeview Elementary School",
+            "originalSchoolName": "LAKEVIEW ES"
+          },
           "arcs": [
             [
               403
@@ -3318,6 +4674,10 @@
         {
           "id": "380",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Little Axe High School",
+            "originalSchoolName": "LITTLE AXE HS"
+          },
           "arcs": [
             [
               404,
@@ -3330,6 +4690,10 @@
         {
           "id": "382",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Little Axe Elementary School",
+            "originalSchoolName": "LITTLE AXE ES"
+          },
           "arcs": [
             [
               408,
@@ -3340,6 +4704,10 @@
         {
           "id": "383",
           "type": "Polygon",
+          "properties": {
+            "schoolName": "Little Axe Middle School",
+            "originalSchoolName": "LITTLE AXE MS"
+          },
           "arcs": [
             [
               409,
