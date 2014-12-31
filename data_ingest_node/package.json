@@ -18,6 +18,7 @@
   "homepage": "https://github.com/codeforokc/school-finder",
   "dependencies": {
     "async": "^0.9.0",
+    "proj4": "^2.3.3",
     "terraformer-arcgis-parser": "^1.0.4",
     "terraformer-wkt-parser": "^1.0.0"
   }

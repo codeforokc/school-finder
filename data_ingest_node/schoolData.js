@@ -5,6 +5,7 @@
 */
 
 var async = require('async');
+var reproject = require('./reproject');
 var WKT = require('terraformer-wkt-parser');
 
 var preReplacePatterns = {
@@ -104,7 +105,7 @@ function schoolToGeoJson(school) {
   return geoJson = {
     id: school.object_id,
     type: "Feature",
-    geometry: WKT.parse(school.shape),
+    geometry: reproject.reprojectGeometry(WKT.parse(school.shape)),
     properties: {
       schoolName: school.school_name,
       originalSchoolName: school.original_school_name
