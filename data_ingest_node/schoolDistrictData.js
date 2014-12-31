@@ -53,6 +53,7 @@ function createRowAggregator(rows) {
 function schoolDistrictToGeoJson(schoolDistrict) {
   return geoJson = {
     id: schoolDistrict.object_id,
+    type: "Feature",
     geometry: WKT.parse(schoolDistrict.shape),
     properties: {
       schoolDistrictCode: schoolDistrict.school_district_code,

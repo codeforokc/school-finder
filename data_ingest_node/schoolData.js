@@ -103,6 +103,7 @@ function capitalizeFirstLetter(str) {
 function schoolToGeoJson(school) {
   return geoJson = {
     id: school.object_id,
+    type: "Feature",
     geometry: WKT.parse(school.shape),
     properties: {
       schoolName: school.school_name,
