@@ -6,6 +6,7 @@
 
 var async = require('async');
 var reproject = require('./reproject');
+var topojson = require('topojson');
 var WKT = require('terraformer-wkt-parser');
 
 var preReplacePatterns = {};

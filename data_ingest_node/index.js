@@ -7,24 +7,45 @@
 var async = require('async');
 var fs = require('fs');
 var schools = require('./schoolData');
-var schoolDistricts = require('./schoolDistrictData')
+var schoolDistricts = require('./schoolDistrictData');
+var topojson = require('topojson');
+
+var parseTypeFns = {
+  school: schools.parseData,
+  schoolDistrict: schoolDistricts.parseData
+};
+var outputTransformFns = {
+  geojson: noop,
+  topojson: toTopoJson
+};
 
 init();
 
 function init() {
 
-  var ingestType = process.argv[2];
-  var inputFileName = process.argv[3];
-  var validInput = true;
-  var ingestFn = function(dataString, cb){cb();}; //noop
-  var uploadFn = function(dataObj, cb){cb();}; //noop
+  var ingestTypeStr = process.argv[2];
+  var outputTypeStr = process.argv[3];
+  var inputFileName = process.argv[4];
 
-  if (!ingestType) {
-    console.error("Invalid ingest type. Must be one of [school]");
+  var validInput = true;
+  var parseFn = parseTypeFns[ingestTypeStr];
+  var outputTransformFn = outputTransformFns[outputTypeStr];
+  var uploadFn = function(dataObj, cb){
+    //just log for now
+    console.log(JSON.stringify(dataObj, null, 2));
+    cb();
+  };
+
+  if (!parseFn) {
+    console.error("Invalid ingest type. Must be one of %s", JSON.stringify(Object.keys(ingestTypeFns)));
     validInput = false;
   }
   if (!inputFileName) {
     console.error("Invalid file name.");
+    validInput = false;
+  }
+  if (!outputTransformFn) {
+    console.error("Invalid output type. Must be one of %s", JSON.stringify(Object.keys(outputTransformFns)));
     validInput = false;
   }
 
@@ -32,29 +53,12 @@ function init() {
     process.exit(1);
   }
 
-  if (ingestType == "school") {
-    ingestFn = function(stringData, cb) {
-      return cb(undefined, schools.parseData(stringData));
-    }
-    uploadFn = function(dataObj, cb) {
-      console.log(JSON.stringify(dataObj, null, 2));
-      cb();
-    }
-  }
-
-  if (ingestType == "schoolDistrict") {
-    ingestFn = function(stringData, cb) {
-      return cb(undefined, schoolDistricts.parseData(stringData));
-    }
-    uploadFn = function(dataObj, cb) {
-      console.log(JSON.stringify(dataObj, null, 2));
-      cb();
-    }
-  }
-
   async.waterfall([
     async.apply(fs.readFile, inputFileName, { encoding: 'utf8'}),
-    async.apply(ingestFn),
+    async.apply(function(dataStr, cb) {
+      return cb(undefined, parseFn(dataStr));
+    }),
+    async.apply(outputTransformFn),
     async.apply(uploadFn)
   ], function(err) {
     var exitCode = 0;
@@ -64,4 +68,14 @@ function init() {
     }
     process.exit(exitCode);
   });
+}
+
+function toTopoJson(geojson, cb) {
+  return cb(undefined, topojson.topology({
+    collection: geojson
+  }));
+}
+
+function noop(geojson, cb) {
+  cb(undefined, geojson);
 }
