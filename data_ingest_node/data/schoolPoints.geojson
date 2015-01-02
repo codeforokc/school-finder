@@ -1,0 +1,5135 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4998995434325,
+          35.50543596167833
+        ]
+      },
+      "properties": {
+        "schoolName": "Dewey School Visual & Performing Arts",
+        "originalSchoolName": "DEWEY SCHL VISUAL & PERF. ARTS"
+      }
+    },
+    {
+      "id": "2",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.47839167294069,
+          35.51581844826852
+        ]
+      },
+      "properties": {
+        "schoolName": "Parkview Adventist Academy",
+        "originalSchoolName": "PARKVIEW ADVENTIST ACADEMY"
+      }
+    },
+    {
+      "id": "3",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4844339213018,
+          35.50159050255422
+        ]
+      },
+      "properties": {
+        "schoolName": "Thelma R. Parks Elementary School",
+        "originalSchoolName": "THELMA R. PARKS ES"
+      }
+    },
+    {
+      "id": "4",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.47057617295707,
+          35.48776476350122
+        ]
+      },
+      "properties": {
+        "schoolName": "John Wesley Charter School",
+        "originalSchoolName": "JOHN WESLEY CHARTER SCHOOL"
+      }
+    },
+    {
+      "id": "5",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.47841378874574,
+          35.48298050626134
+        ]
+      },
+      "properties": {
+        "schoolName": "Kipp Reach College Prep",
+        "originalSchoolName": "KIPP REACH COLLEGE PREP"
+      }
+    },
+    {
+      "id": "8",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.49435553308666,
+          35.59705787182857
+        ]
+      },
+      "properties": {
+        "schoolName": "Seeworth Academy",
+        "originalSchoolName": "SEEWORTH ACADEMY"
+      }
+    },
+    {
+      "id": "9",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4839395112107,
+          35.495861411938876
+        ]
+      },
+      "properties": {
+        "schoolName": "Marcus Garvey Leadership Charter School",
+        "originalSchoolName": "MARCUS GARVEY LEADERSHIP CS"
+      }
+    },
+    {
+      "id": "10",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.51355893912393,
+          35.34073983069587
+        ]
+      },
+      "properties": {
+        "schoolName": "Santa Fe Elementary School",
+        "originalSchoolName": "SANTA FE ES"
+      }
+    },
+    {
+      "id": "11",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.53938748988013,
+          35.33608691964011
+        ]
+      },
+      "properties": {
+        "schoolName": "Eastlake Elementary School",
+        "originalSchoolName": "EASTLAKE ES"
+      }
+    },
+    {
+      "id": "12",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.54988119702816,
+          35.33630650454761
+        ]
+      },
+      "properties": {
+        "schoolName": "Moore-Norman Career Tech",
+        "originalSchoolName": "MOORE-NORMAN CAREER TECH"
+      }
+    },
+    {
+      "id": "13",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.52022469267288,
+          35.32104880926644
+        ]
+      },
+      "properties": {
+        "schoolName": "Briarwood Elementary School",
+        "originalSchoolName": "BRIARWOOD ES"
+      }
+    },
+    {
+      "id": "14",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.72236805073595,
+          35.491497067693324
+        ]
+      },
+      "properties": {
+        "schoolName": "Southwest Covenant School",
+        "originalSchoolName": "SOUTHWEST COVENANT SCHOOL"
+      }
+    },
+    {
+      "id": "15",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.72224424352942,
+          35.57841147431708
+        ]
+      },
+      "properties": {
+        "schoolName": "Surrey Hills Elementary School",
+        "originalSchoolName": "SURREY HILLS ES"
+      }
+    },
+    {
+      "id": "16",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.72341815450088,
+          35.50132286751802
+        ]
+      },
+      "properties": {
+        "schoolName": "Skyview Elementary School",
+        "originalSchoolName": "SKYVIEW ES"
+      }
+    },
+    {
+      "id": "17",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.74938412610516,
+          35.48224237994831
+        ]
+      },
+      "properties": {
+        "schoolName": "Shedeck Elementary School",
+        "originalSchoolName": "SHEDECK ES"
+      }
+    },
+    {
+      "id": "18",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.74368494631011,
+          35.48569732478012
+        ]
+      },
+      "properties": {
+        "schoolName": "Parkland Elementary School",
+        "originalSchoolName": "PARKLAND ES"
+      }
+    },
+    {
+      "id": "20",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.71469859237868,
+          35.45161829670544
+        ]
+      },
+      "properties": {
+        "schoolName": "Mustang North Middle School",
+        "originalSchoolName": "MUSTANG NORTH MS"
+      }
+    },
+    {
+      "id": "21",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.69099184302819,
+          35.434347819053784
+        ]
+      },
+      "properties": {
+        "schoolName": "Mustang Valley Elementary School",
+        "originalSchoolName": "MUSTANG VALLEY ES"
+      }
+    },
+    {
+      "id": "22",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7318728431152,
+          35.3810037675725
+        ]
+      },
+      "properties": {
+        "schoolName": "Mustang Middle School",
+        "originalSchoolName": "MUSTANG MS"
+      }
+    },
+    {
+      "id": "23",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.62947299671521,
+          35.51118752735464
+        ]
+      },
+      "properties": {
+        "schoolName": "Canadian Valley Technology Center - Bethany",
+        "originalSchoolName": "CANADIAN VALLEY TECHNOLOGY CENTER - BETHANY"
+      }
+    },
+    {
+      "id": "24",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.55603659529058,
+          35.58882539531291
+        ]
+      },
+      "properties": {
+        "schoolName": "Hoover Middle School",
+        "originalSchoolName": "HOOVER MS"
+      }
+    },
+    {
+      "id": "25",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.54095381285589,
+          35.57762401996706
+        ]
+      },
+      "properties": {
+        "schoolName": "Western Village Academy",
+        "originalSchoolName": "WESTERN VILLAGE ACADEMY"
+      }
+    },
+    {
+      "id": "26",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.55759707112144,
+          35.552778819950085
+        ]
+      },
+      "properties": {
+        "schoolName": "Christ The King Catholic School",
+        "originalSchoolName": "CHRIST THE KING CATHOLIC SCHOOL"
+      }
+    },
+    {
+      "id": "27",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.55802105257945,
+          35.55510409002924
+        ]
+      },
+      "properties": {
+        "schoolName": "West Nichols Hills Elementary School",
+        "originalSchoolName": "WEST NICHOLS HILLS ES"
+      }
+    },
+    {
+      "id": "28",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.55356024850906,
+          35.5639942058113
+        ]
+      },
+      "properties": {
+        "schoolName": "Johnson Elementary School",
+        "originalSchoolName": "JOHNSON ES"
+      }
+    },
+    {
+      "id": "29",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7391561542851,
+          35.45101714308962
+        ]
+      },
+      "properties": {
+        "schoolName": "Mustang Trails Elementary School",
+        "originalSchoolName": "MUSTANG TRAILS ES"
+      }
+    },
+    {
+      "id": "30",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.51102515991118,
+          35.33488706008902
+        ]
+      },
+      "properties": {
+        "schoolName": "Unknown Near Santa Fe In Moore",
+        "originalSchoolName": "UNKNOWN NEAR SANTA FE IN MOORE"
+      }
+    },
+    {
+      "id": "31",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.558286357113,
+          35.35092918107915
+        ]
+      },
+      "properties": {
+        "schoolName": "Fisher Elementary School",
+        "originalSchoolName": "FISHER ES"
+      }
+    },
+    {
+      "id": "32",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6535143889021,
+          35.54959896173527
+        ]
+      },
+      "properties": {
+        "schoolName": "Northwest Christian School",
+        "originalSchoolName": "NORTHWEST CHRISTIAN SCHOOL"
+      }
+    },
+    {
+      "id": "33",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5383324149112,
+          35.55208815699844
+        ]
+      },
+      "properties": {
+        "schoolName": "Nichols Hills Elementary School",
+        "originalSchoolName": "NICHOLS HILLS ES"
+      }
+    },
+    {
+      "id": "34",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.52824793338792,
+          35.52453602882166
+        ]
+      },
+      "properties": {
+        "schoolName": "Bishop Mcguiness Catholic High School",
+        "originalSchoolName": "BISHOP MCGUINESS CATHOLIC HS"
+      }
+    },
+    {
+      "id": "35",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.55531232608264,
+          35.530792095901916
+        ]
+      },
+      "properties": {
+        "schoolName": "Belle Isle Enterprise School",
+        "originalSchoolName": "BELLE ISLE ENTERPRISE SCHOOL"
+      }
+    },
+    {
+      "id": "36",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.53983454103934,
+          35.5083658596611
+        ]
+      },
+      "properties": {
+        "schoolName": "Putnam Heights Elementary School",
+        "originalSchoolName": "PUTNAM HEIGHTS ES"
+      }
+    },
+    {
+      "id": "37",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.56230755103107,
+          35.49360901928486
+        ]
+      },
+      "properties": {
+        "schoolName": "Cleveland Elementary School",
+        "originalSchoolName": "CLEVELAND ES"
+      }
+    },
+    {
+      "id": "38",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5632886805245,
+          35.49857925598428
+        ]
+      },
+      "properties": {
+        "schoolName": "Northwest Classen High School",
+        "originalSchoolName": "NORTHWEST CLASSEN HS"
+      }
+    },
+    {
+      "id": "39",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.55377242368995,
+          35.49624915116753
+        ]
+      },
+      "properties": {
+        "schoolName": "Astec Charter Middle School",
+        "originalSchoolName": "ASTEC CHARTER MS"
+      }
+    },
+    {
+      "id": "40",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.56903797374471,
+          35.52479239808126
+        ]
+      },
+      "properties": {
+        "schoolName": "St. John's Episcopal School",
+        "originalSchoolName": "ST. JOHN'S EPISCOPAL SCHOOL"
+      }
+    },
+    {
+      "id": "41",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.65665066400014,
+          35.543060415196365
+        ]
+      },
+      "properties": {
+        "schoolName": "Kenneth Cooper Middle School",
+        "originalSchoolName": "KENNETH COOPER MS"
+      }
+    },
+    {
+      "id": "42",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.53014767095195,
+          35.61726916595077
+        ]
+      },
+      "properties": {
+        "schoolName": "Providence Hall Christian School",
+        "originalSchoolName": "PROVIDENCE HALL CHRISTIAN SCHOOL"
+      }
+    },
+    {
+      "id": "43",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5556867586744,
+          35.41254849533909
+        ]
+      },
+      "properties": {
+        "schoolName": "Coolidge Elementary School",
+        "originalSchoolName": "COOLIDGE ES"
+      }
+    },
+    {
+      "id": "44",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.52467892936323,
+          35.426132944832545
+        ]
+      },
+      "properties": {
+        "schoolName": "Capitol Hill High School",
+        "originalSchoolName": "CAPITOL HILL HS"
+      }
+    },
+    {
+      "id": "45",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5025116220563,
+          35.39662379485283
+        ]
+      },
+      "properties": {
+        "schoolName": "Hayes Elementary School",
+        "originalSchoolName": "HAYES ES"
+      }
+    },
+    {
+      "id": "46",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.51028885163186,
+          35.39792655575643
+        ]
+      },
+      "properties": {
+        "schoolName": "Webster Middle School",
+        "originalSchoolName": "WEBSTER MS"
+      }
+    },
+    {
+      "id": "47",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.51790655455173,
+          35.39871628307811
+        ]
+      },
+      "properties": {
+        "schoolName": "Parmelee Elementary School",
+        "originalSchoolName": "PARMELEE ES"
+      }
+    },
+    {
+      "id": "48",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.56247388991335,
+          35.40063196817185
+        ]
+      },
+      "properties": {
+        "schoolName": "Hillcrest Elementary School",
+        "originalSchoolName": "HILLCREST ES"
+      }
+    },
+    {
+      "id": "50",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4397036623601,
+          35.445704925635326
+        ]
+      },
+      "properties": {
+        "schoolName": "Del City High School",
+        "originalSchoolName": "DEL CITY HS"
+      }
+    },
+    {
+      "id": "51",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.42774606270342,
+          35.44185136646422
+        ]
+      },
+      "properties": {
+        "schoolName": "Kerr Middle School",
+        "originalSchoolName": "KERR MS"
+      }
+    },
+    {
+      "id": "52",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.43088511197023,
+          35.409350700539804
+        ]
+      },
+      "properties": {
+        "schoolName": "Parkview Elementary School",
+        "originalSchoolName": "PARKVIEW ES"
+      }
+    },
+    {
+      "id": "53",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.32014838010392,
+          35.40267936126993
+        ]
+      },
+      "properties": {
+        "schoolName": "Life Christian Academy",
+        "originalSchoolName": "LIFE CHRISTIAN ACADEMY"
+      }
+    },
+    {
+      "id": "54",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.60649397801845,
+          35.636926739598366
+        ]
+      },
+      "properties": {
+        "schoolName": "Deer Creek Elementary School",
+        "originalSchoolName": "DEER CREEK ES"
+      }
+    },
+    {
+      "id": "55",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.44283142999112,
+          35.50686618572901
+        ]
+      },
+      "properties": {
+        "schoolName": "Pleasant Hill Elementary School",
+        "originalSchoolName": "PLEASANT HILL ES"
+      }
+    },
+    {
+      "id": "56",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.73206600511179,
+          35.38324896675387
+        ]
+      },
+      "properties": {
+        "schoolName": "Mustang High School",
+        "originalSchoolName": "MUSTANG MHS"
+      }
+    },
+    {
+      "id": "57",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.75925762748851,
+          35.39483315780676
+        ]
+      },
+      "properties": {
+        "schoolName": "Mustang Education Center",
+        "originalSchoolName": "MUSTANG EDUCATION CTR"
+      }
+    },
+    {
+      "id": "59",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.47011430978358,
+          35.326197212318995
+        ]
+      },
+      "properties": {
+        "schoolName": "Apple Creek Elementary School",
+        "originalSchoolName": "APPLE CREEK ES"
+      }
+    },
+    {
+      "id": "60",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5711793965408,
+          35.5891207657523
+        ]
+      },
+      "properties": {
+        "schoolName": "Quail Creek Elementary School",
+        "originalSchoolName": "QUAIL CREEK ES"
+      }
+    },
+    {
+      "id": "61",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.58408874769725,
+          35.585736535293755
+        ]
+      },
+      "properties": {
+        "schoolName": "King's Gate Christian School",
+        "originalSchoolName": "KING'S GATE CHRISTIAN SCHOOL"
+      }
+    },
+    {
+      "id": "62",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.63395843141842,
+          35.564706693463016
+        ]
+      },
+      "properties": {
+        "schoolName": "Wiley Post Elementary School",
+        "originalSchoolName": "WILEY POST ES"
+      }
+    },
+    {
+      "id": "63",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.61867291971191,
+          35.55708185277575
+        ]
+      },
+      "properties": {
+        "schoolName": "Hefner Middle School",
+        "originalSchoolName": "HEFNER MS"
+      }
+    },
+    {
+      "id": "64",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.49264992018159,
+          35.579150465879934
+        ]
+      },
+      "properties": {
+        "schoolName": "Trinity School",
+        "originalSchoolName": "TRINITY SCHOOL"
+      }
+    },
+    {
+      "id": "65",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.55009466732666,
+          35.57356011096951
+        ]
+      },
+      "properties": {
+        "schoolName": "Crescent Academy",
+        "originalSchoolName": "CRESCENT ACADEMY"
+      }
+    },
+    {
+      "id": "66",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5578317312997,
+          35.57215847072712
+        ]
+      },
+      "properties": {
+        "schoolName": "Ridgeview Elementary School",
+        "originalSchoolName": "RIDGEVIEW ES"
+      }
+    },
+    {
+      "id": "67",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.55716020578305,
+          35.57917453363355
+        ]
+      },
+      "properties": {
+        "schoolName": "St. Eugene Catholic School",
+        "originalSchoolName": "ST. EUGENE CATHOLIC SCHOOL"
+      }
+    },
+    {
+      "id": "68",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.45061598477554,
+          35.6227036803316
+        ]
+      },
+      "properties": {
+        "schoolName": "Chisholm Elementary School",
+        "originalSchoolName": "CHISHOLM ES"
+      }
+    },
+    {
+      "id": "69",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.45669093730271,
+          35.54255846626398
+        ]
+      },
+      "properties": {
+        "schoolName": "Harvest Christian School",
+        "originalSchoolName": "HARVEST CHRISTIAN SCHOOL"
+      }
+    },
+    {
+      "id": "70",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.60723622108472,
+          35.537793151560166
+        ]
+      },
+      "properties": {
+        "schoolName": "Central Seventh-Day Adventist",
+        "originalSchoolName": "CENTRAL SEVENTH-DAY ADVENTIST"
+      }
+    },
+    {
+      "id": "71",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.62969770082923,
+          35.539715811568286
+        ]
+      },
+      "properties": {
+        "schoolName": "Tulakes Elementary School",
+        "originalSchoolName": "TULAKES ES"
+      }
+    },
+    {
+      "id": "72",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.65985948916699,
+          35.501195509298675
+        ]
+      },
+      "properties": {
+        "schoolName": "Lake Park Elementary School",
+        "originalSchoolName": "LAKE PARK ES"
+      }
+    },
+    {
+      "id": "73",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.65141413084251,
+          35.492753613048194
+        ]
+      },
+      "properties": {
+        "schoolName": "Putnam City Academy",
+        "originalSchoolName": "PUTNAM CITY ACADEMY"
+      }
+    },
+    {
+      "id": "74",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.64158715214725,
+          35.492584985770165
+        ]
+      },
+      "properties": {
+        "schoolName": "Western Oaks Elementary School",
+        "originalSchoolName": "WESTERN OAKS ES"
+      }
+    },
+    {
+      "id": "75",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.66083117422528,
+          35.425228848647265
+        ]
+      },
+      "properties": {
+        "schoolName": "Winds West Elementary School",
+        "originalSchoolName": "WINDS WEST ES"
+      }
+    },
+    {
+      "id": "76",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6143340349611,
+          35.40806971221263
+        ]
+      },
+      "properties": {
+        "schoolName": "Metro Tech Aviation Career Campus",
+        "originalSchoolName": "METRO TECH AVIATION CAREER CAMPUS"
+      }
+    },
+    {
+      "id": "77",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.57263537412311,
+          35.421646848732976
+        ]
+      },
+      "properties": {
+        "schoolName": "Roosevelt Middle School",
+        "originalSchoolName": "ROOSEVELT MS"
+      }
+    },
+    {
+      "id": "79",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.47804121668446,
+          35.45042074162333
+        ]
+      },
+      "properties": {
+        "schoolName": "Central Oak Elementary School",
+        "originalSchoolName": "CENTRAL OAK ES"
+      }
+    },
+    {
+      "id": "82",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.31666256769364,
+          35.36373455859345
+        ]
+      },
+      "properties": {
+        "schoolName": "Schwartz Elementary School",
+        "originalSchoolName": "SCHWARTZ ES"
+      }
+    },
+    {
+      "id": "83",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.47963284411284,
+          35.450418582794484
+        ]
+      },
+      "properties": {
+        "schoolName": "Crooked Oak Middle School",
+        "originalSchoolName": "CROOKED OAK MS"
+      }
+    },
+    {
+      "id": "84",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.47861544992874,
+          35.45173277618066
+        ]
+      },
+      "properties": {
+        "schoolName": "Crooked Oak High School",
+        "originalSchoolName": "CROOKED OAK HS"
+      }
+    },
+    {
+      "id": "85",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.50268430061072,
+          35.44047104030821
+        ]
+      },
+      "properties": {
+        "schoolName": "Wheeler Community Learning Center",
+        "originalSchoolName": "WHEELER COMMUNITY LEARNING CTR"
+      }
+    },
+    {
+      "id": "86",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.53794856496805,
+          35.434741403938155
+        ]
+      },
+      "properties": {
+        "schoolName": "Heronville Elementary School",
+        "originalSchoolName": "HERONVILLE ES"
+      }
+    },
+    {
+      "id": "87",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.53796029418044,
+          35.42251889864265
+        ]
+      },
+      "properties": {
+        "schoolName": "St. James Catholic School",
+        "originalSchoolName": "ST. JAMES CATHOLIC SCHOOL"
+      }
+    },
+    {
+      "id": "88",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.54315582574208,
+          35.42576768726518
+        ]
+      },
+      "properties": {
+        "schoolName": "Rancho Village Elementary School",
+        "originalSchoolName": "RANCHO VILLAGE ES"
+      }
+    },
+    {
+      "id": "89",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.46137575551731,
+          35.41536823656824
+        ]
+      },
+      "properties": {
+        "schoolName": "Metro Tech South Bryant Campus",
+        "originalSchoolName": "METRO TECH SOUTH BRYANT CAMPUS"
+      }
+    },
+    {
+      "id": "90",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.54132978796414,
+          35.38739201181646
+        ]
+      },
+      "properties": {
+        "schoolName": "Southern Hills Elementary School",
+        "originalSchoolName": "SOUTHERN HILLS ES"
+      }
+    },
+    {
+      "id": "91",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.39344856746156,
+          35.462345801850745
+        ]
+      },
+      "properties": {
+        "schoolName": "Monroney Middle School",
+        "originalSchoolName": "MONRONEY MS"
+      }
+    },
+    {
+      "id": "92",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.44915348755293,
+          35.436661000778166
+        ]
+      },
+      "properties": {
+        "schoolName": "Mid-Del Christian School",
+        "originalSchoolName": "MID-DEL CHRISTIAN SCHOOL"
+      }
+    },
+    {
+      "id": "93",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4512339749465,
+          35.42282928433151
+        ]
+      },
+      "properties": {
+        "schoolName": "Oakridge Elementary School",
+        "originalSchoolName": "OAKRIDGE ES"
+      }
+    },
+    {
+      "id": "94",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4449143368135,
+          35.41269462505072
+        ]
+      },
+      "properties": {
+        "schoolName": "Highland Park Elementary School",
+        "originalSchoolName": "HIGHLAND PARK ES"
+      }
+    },
+    {
+      "id": "95",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.50939712654238,
+          35.64210950809982
+        ]
+      },
+      "properties": {
+        "schoolName": "Edmond Santa Fe High School",
+        "originalSchoolName": "EDMOND SANTA FE HS"
+      }
+    },
+    {
+      "id": "96",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.58224126536385,
+          35.62216958500867
+        ]
+      },
+      "properties": {
+        "schoolName": "Francis Tuttle Portland Campus",
+        "originalSchoolName": "FRANCIS TUTTLE PORTLAND CAMPUS"
+      }
+    },
+    {
+      "id": "97",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.64297742508813,
+          35.600067228963866
+        ]
+      },
+      "properties": {
+        "schoolName": "Francis Tuttle Rockwell Campus",
+        "originalSchoolName": "FRANCIS TUTTLE ROCKWELL CAMPUS"
+      }
+    },
+    {
+      "id": "98",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6601037011056,
+          35.595594509776184
+        ]
+      },
+      "properties": {
+        "schoolName": "Will Rogers Elementary School",
+        "originalSchoolName": "WILL ROGERS ES"
+      }
+    },
+    {
+      "id": "99",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.64635025412377,
+          35.58142105715923
+        ]
+      },
+      "properties": {
+        "schoolName": "Ralph Downs Elementary School",
+        "originalSchoolName": "RALPH DOWNS ES"
+      }
+    },
+    {
+      "id": "100",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.63060739519568,
+          35.58916535911216
+        ]
+      },
+      "properties": {
+        "schoolName": "James L Dennis Elementary School",
+        "originalSchoolName": "JAMES L DENNIS ES"
+      }
+    },
+    {
+      "id": "101",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.63499764064255,
+          35.589167825979786
+        ]
+      },
+      "properties": {
+        "schoolName": "Putnam City North High School",
+        "originalSchoolName": "PUTNAM CITY NORTH HS"
+      }
+    },
+    {
+      "id": "102",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.56778932719367,
+          35.57568946289103
+        ]
+      },
+      "properties": {
+        "schoolName": "Christian Academy",
+        "originalSchoolName": "CHRISTIAN ACADEMY"
+      }
+    },
+    {
+      "id": "103",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.66049703466769,
+          35.57670229565204
+        ]
+      },
+      "properties": {
+        "schoolName": "Harvest Hills Elementary School",
+        "originalSchoolName": "HARVEST HILLS ES"
+      }
+    },
+    {
+      "id": "104",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.46203092051569,
+          35.61952179891216
+        ]
+      },
+      "properties": {
+        "schoolName": "Cimarron Middle School",
+        "originalSchoolName": "CIMARRON MS"
+      }
+    },
+    {
+      "id": "105",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.56476416395172,
+          35.63352982986642
+        ]
+      },
+      "properties": {
+        "schoolName": "Angie Debo Elementary School",
+        "originalSchoolName": "ANGIE DEBO ES"
+      }
+    },
+    {
+      "id": "106",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5603818466744,
+          35.5847172839993
+        ]
+      },
+      "properties": {
+        "schoolName": "Stonegate Elementary School",
+        "originalSchoolName": "STONEGATE ES"
+      }
+    },
+    {
+      "id": "107",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.52778519639591,
+          35.35321469512224
+        ]
+      },
+      "properties": {
+        "schoolName": "Brink Junior High",
+        "originalSchoolName": "BRINK JHS"
+      }
+    },
+    {
+      "id": "108",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.50261204797994,
+          35.35527816962776
+        ]
+      },
+      "properties": {
+        "schoolName": "Kelly Elementary School",
+        "originalSchoolName": "KELLY ES"
+      }
+    },
+    {
+      "id": "109",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.51145379646262,
+          35.347986733109735
+        ]
+      },
+      "properties": {
+        "schoolName": "St. John's Lutheran School",
+        "originalSchoolName": "ST. JOHN'S LUTHERAN SCHOOL"
+      }
+    },
+    {
+      "id": "110",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.50375025147027,
+          35.3406869497239
+        ]
+      },
+      "properties": {
+        "schoolName": "Southgate-Rippetoe Learning Ct",
+        "originalSchoolName": "SOUTHGATE-RIPPETOE LEARNING CT"
+      }
+    },
+    {
+      "id": "111",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.51375609985075,
+          35.34520469587336
+        ]
+      },
+      "properties": {
+        "schoolName": "Highland West Junior High",
+        "originalSchoolName": "HIGHLAND WEST JHS"
+      }
+    },
+    {
+      "id": "112",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.50584943954601,
+          35.48023969441503
+        ]
+      },
+      "properties": {
+        "schoolName": "Oklahoma School Of Science/Math",
+        "originalSchoolName": "OKLA SCHOOL OF SCIENCE/MATH"
+      }
+    },
+    {
+      "id": "113",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.52201565682157,
+          35.47465065832442
+        ]
+      },
+      "properties": {
+        "schoolName": "Emerson Alternative School Ed. (Middle School)",
+        "originalSchoolName": "EMERSON ALTERNATIVE ED. (MS)"
+      }
+    },
+    {
+      "id": "114",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.54103492254248,
+          35.491618980414664
+        ]
+      },
+      "properties": {
+        "schoolName": "Gatewood Elementary School",
+        "originalSchoolName": "GATEWOOD ES"
+      }
+    },
+    {
+      "id": "115",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.60620427458156,
+          35.521360536089986
+        ]
+      },
+      "properties": {
+        "schoolName": "Putnam City High School",
+        "originalSchoolName": "PUTNAM CITY HS"
+      }
+    },
+    {
+      "id": "116",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.63156756216198,
+          35.51559094025366
+        ]
+      },
+      "properties": {
+        "schoolName": "Bethany Middle School",
+        "originalSchoolName": "BETHANY MS"
+      }
+    },
+    {
+      "id": "117",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5756880945955,
+          35.50103780186588
+        ]
+      },
+      "properties": {
+        "schoolName": "Madison Elementary School",
+        "originalSchoolName": "MADISON ES"
+      }
+    },
+    {
+      "id": "118",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.57793601226305,
+          35.48648923055326
+        ]
+      },
+      "properties": {
+        "schoolName": "Linwood Elementary School",
+        "originalSchoolName": "LINWOOD ES"
+      }
+    },
+    {
+      "id": "119",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.628996178938,
+          35.48875165981337
+        ]
+      },
+      "properties": {
+        "schoolName": "Apollo Elementary School",
+        "originalSchoolName": "APOLLO ES"
+      }
+    },
+    {
+      "id": "120",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.66136374056832,
+          35.49145371050905
+        ]
+      },
+      "properties": {
+        "schoolName": "Putnam City West High School",
+        "originalSchoolName": "PUTNAM CITY WEST HS"
+      }
+    },
+    {
+      "id": "121",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.64562065580887,
+          35.47613458700498
+        ]
+      },
+      "properties": {
+        "schoolName": "Greenvale Elementary School",
+        "originalSchoolName": "GREENVALE ES"
+      }
+    },
+    {
+      "id": "122",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.64070469207554,
+          35.465552173961626
+        ]
+      },
+      "properties": {
+        "schoolName": "Francis Tuttle Reno Campus",
+        "originalSchoolName": "FRANCIS TUTTLE RENO CAMPUS"
+      }
+    },
+    {
+      "id": "123",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.59333649177401,
+          35.43888945832512
+        ]
+      },
+      "properties": {
+        "schoolName": "Pierce Elementary School",
+        "originalSchoolName": "PIERCE ES"
+      }
+    },
+    {
+      "id": "124",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.57163520812614,
+          35.44145364926808
+        ]
+      },
+      "properties": {
+        "schoolName": "Rockwood Elementary School",
+        "originalSchoolName": "ROCKWOOD ES"
+      }
+    },
+    {
+      "id": "125",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.57322756902224,
+          35.414803301036144
+        ]
+      },
+      "properties": {
+        "schoolName": "Arthur Elementary School",
+        "originalSchoolName": "ARTHUR ES"
+      }
+    },
+    {
+      "id": "126",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.50466098197975,
+          35.451063619137265
+        ]
+      },
+      "properties": {
+        "schoolName": "Shidler Elementary School",
+        "originalSchoolName": "SHIDLER ES"
+      }
+    },
+    {
+      "id": "127",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.48874531768425,
+          35.341039860278414
+        ]
+      },
+      "properties": {
+        "schoolName": "Central Elementary School",
+        "originalSchoolName": "CENTRAL ES"
+      }
+    },
+    {
+      "id": "128",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4708478271967,
+          35.30652499165788
+        ]
+      },
+      "properties": {
+        "schoolName": "Broadmoore Elementary School",
+        "originalSchoolName": "BROADMOORE ES"
+      }
+    },
+    {
+      "id": "129",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.53188314436267,
+          35.37236638291611
+        ]
+      },
+      "properties": {
+        "schoolName": "Sky Ranch Elementary School",
+        "originalSchoolName": "SKY RANCH ES"
+      }
+    },
+    {
+      "id": "130",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.54329578547683,
+          35.37306018882761
+        ]
+      },
+      "properties": {
+        "schoolName": "Moore West Junior High",
+        "originalSchoolName": "MOORE WEST JHS"
+      }
+    },
+    {
+      "id": "131",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.54148941371966,
+          35.36909876289096
+        ]
+      },
+      "properties": {
+        "schoolName": "Kingsgate Elementary School",
+        "originalSchoolName": "KINGSGATE ES"
+      }
+    },
+    {
+      "id": "132",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.50664638624185,
+          35.36714659058124
+        ]
+      },
+      "properties": {
+        "schoolName": "Houchin Elementary School",
+        "originalSchoolName": "HOUCHIN ES"
+      }
+    },
+    {
+      "id": "133",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4264016988906,
+          35.37578506152997
+        ]
+      },
+      "properties": {
+        "schoolName": "Sooner Elementary School",
+        "originalSchoolName": "SOONER ES"
+      }
+    },
+    {
+      "id": "134",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.56345306286893,
+          35.34072151432453
+        ]
+      },
+      "properties": {
+        "schoolName": "Earlywine Elementary School",
+        "originalSchoolName": "EARLYWINE ES"
+      }
+    },
+    {
+      "id": "135",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.54531409745056,
+          35.35564142135611
+        ]
+      },
+      "properties": {
+        "schoolName": "Red Oak Elementary School",
+        "originalSchoolName": "RED OAK ES"
+      }
+    },
+    {
+      "id": "136",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.61092795294445,
+          35.51203634629745
+        ]
+      },
+      "properties": {
+        "schoolName": "Old Arbor Grove Elementary School",
+        "originalSchoolName": "OLD ARBOR GROVE ES"
+      }
+    },
+    {
+      "id": "137",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5325532283486,
+          35.483851934976414
+        ]
+      },
+      "properties": {
+        "schoolName": "Eugene Field Elementary School",
+        "originalSchoolName": "EUGENE FIELD ES"
+      }
+    },
+    {
+      "id": "138",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.52181128716794,
+          35.49170299591045
+        ]
+      },
+      "properties": {
+        "schoolName": "Wilson Elementary School",
+        "originalSchoolName": "WILSON ES"
+      }
+    },
+    {
+      "id": "139",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.55338205312482,
+          35.48438553934628
+        ]
+      },
+      "properties": {
+        "schoolName": "Hawthorne Elementary School",
+        "originalSchoolName": "HAWTHORNE ES"
+      }
+    },
+    {
+      "id": "140",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.55572574940805,
+          35.46769922990637
+        ]
+      },
+      "properties": {
+        "schoolName": "Mark Twain Elementary School",
+        "originalSchoolName": "MARK TWAIN ES"
+      }
+    },
+    {
+      "id": "141",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.474318230727,
+          35.54188746065613
+        ]
+      },
+      "properties": {
+        "schoolName": "Millwood High School",
+        "originalSchoolName": "MILLWOOD HS"
+      }
+    },
+    {
+      "id": "142",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.49186393398693,
+          35.52901762964813
+        ]
+      },
+      "properties": {
+        "schoolName": "St. John Christian Heritage",
+        "originalSchoolName": "ST. JOHN CHRISTIAN HERITAGE"
+      }
+    },
+    {
+      "id": "143",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.48883554894684,
+          35.52103827827209
+        ]
+      },
+      "properties": {
+        "schoolName": "Martin Luther King Elementary School",
+        "originalSchoolName": "MARTIN LUTHER KING ES"
+      }
+    },
+    {
+      "id": "145",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.588899044737,
+          35.594134966165804
+        ]
+      },
+      "properties": {
+        "schoolName": "John Marhall Middle School/High School",
+        "originalSchoolName": "JOHN MARHALL MS/HS"
+      }
+    },
+    {
+      "id": "146",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.56972031205859,
+          35.387947189242766
+        ]
+      },
+      "properties": {
+        "schoolName": "Pathways Middle College High School",
+        "originalSchoolName": "PATHWAYS MIDDLE COLLEGE HIGH SCHOOL"
+      }
+    },
+    {
+      "id": "148",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.48070456046753,
+          35.641686804989114
+        ]
+      },
+      "properties": {
+        "schoolName": "Clyde Howell Elementary School",
+        "originalSchoolName": "CLYDE HOWELL ES"
+      }
+    },
+    {
+      "id": "149",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.55102732281597,
+          35.650354347454844
+        ]
+      },
+      "properties": {
+        "schoolName": "West Field Elementary School",
+        "originalSchoolName": "WEST FIELD ES"
+      }
+    },
+    {
+      "id": "150",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.58219283590861,
+          35.34786237997518
+        ]
+      },
+      "properties": {
+        "schoolName": "Antioch Christian Academy",
+        "originalSchoolName": "ANTIOCH CHRISTIAN ACADEMY"
+      }
+    },
+    {
+      "id": "151",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.50134823174314,
+          35.42740551894673
+        ]
+      },
+      "properties": {
+        "schoolName": "Cesar Chavez Elementary School",
+        "originalSchoolName": "CESAR CHAVEZ ES"
+      }
+    },
+    {
+      "id": "152",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.493573904123,
+          35.48550524422102
+        ]
+      },
+      "properties": {
+        "schoolName": "Corpus Christi Catholic School",
+        "originalSchoolName": "CORPUS CHRISTI CATHOLIC SCHOOL"
+      }
+    },
+    {
+      "id": "153",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.45000255441764,
+          35.48679978925691
+        ]
+      },
+      "properties": {
+        "schoolName": "North Care Abf Alternative School School",
+        "originalSchoolName": "NORTH CARE ABF ALTERNATIVE SCHOOL"
+      }
+    },
+    {
+      "id": "155",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.58202548151003,
+          35.618865609615895
+        ]
+      },
+      "properties": {
+        "schoolName": "Crossings Christian School",
+        "originalSchoolName": "CROSSINGS CHRISTIAN SCHOOL"
+      }
+    },
+    {
+      "id": "156",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.67145718688309,
+          35.5520386639758
+        ]
+      },
+      "properties": {
+        "schoolName": "Messiah Lutheran School",
+        "originalSchoolName": "MESSIAH LUTHERAN SCHOOL"
+      }
+    },
+    {
+      "id": "157",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.58240758061844,
+          35.532137485362526
+        ]
+      },
+      "properties": {
+        "schoolName": "Messiah Lutheran School",
+        "originalSchoolName": "MESSIAH LUTHERAN SCHOOL"
+      }
+    },
+    {
+      "id": "158",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.63836700554737,
+          35.48406589989431
+        ]
+      },
+      "properties": {
+        "schoolName": "New Life Christian Academy",
+        "originalSchoolName": "NEW LIFE CHRISTIAN ACADEMY"
+      }
+    },
+    {
+      "id": "159",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.37895773379147,
+          35.49505880845156
+        ]
+      },
+      "properties": {
+        "schoolName": "Spencer Road Christian School",
+        "originalSchoolName": "SPENCER ROAD CHRISTIAN SCHOOL"
+      }
+    },
+    {
+      "id": "160",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6355569084476,
+          35.50156167071494
+        ]
+      },
+      "properties": {
+        "schoolName": "Snu School For Children",
+        "originalSchoolName": "SNU SCHOOL FOR CHILDREN"
+      }
+    },
+    {
+      "id": "161",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.65729884025222,
+          35.42256716171523
+        ]
+      },
+      "properties": {
+        "schoolName": "Western Heights High School",
+        "originalSchoolName": "WESTERN HEIGHTS HS"
+      }
+    },
+    {
+      "id": "165",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.660802872202,
+          35.42123357193059
+        ]
+      },
+      "properties": {
+        "schoolName": "Western Heights Academy",
+        "originalSchoolName": "WESTERN HEIGHTS ACADEMY"
+      }
+    },
+    {
+      "id": "166",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.75808889585508,
+          35.498845503236026
+        ]
+      },
+      "properties": {
+        "schoolName": "Yukon Middle School",
+        "originalSchoolName": "YUKON MS"
+      }
+    },
+    {
+      "id": "167",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7579141649019,
+          35.50313226327139
+        ]
+      },
+      "properties": {
+        "schoolName": "Yukon Alternative School High School",
+        "originalSchoolName": "YUKON ALTERNATIVE HS"
+      }
+    },
+    {
+      "id": "168",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.75798818080904,
+          35.50452865391321
+        ]
+      },
+      "properties": {
+        "schoolName": "Central Elementary School",
+        "originalSchoolName": "CENTRAL ES"
+      }
+    },
+    {
+      "id": "169",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.51171514239888,
+          35.33464831932147
+        ]
+      },
+      "properties": {
+        "schoolName": "Hurst Academy",
+        "originalSchoolName": "HURST ACADEMY"
+      }
+    },
+    {
+      "id": "170",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.53129719680376,
+          35.61406745271627
+        ]
+      },
+      "properties": {
+        "schoolName": "Hurst Academy",
+        "originalSchoolName": "HURST ACADEMY"
+      }
+    },
+    {
+      "id": "171",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.67482064825717,
+          35.56886550922434
+        ]
+      },
+      "properties": {
+        "schoolName": "Harvest Hills Christian School",
+        "originalSchoolName": "HARVEST HILLS CHRISTIAN SCHOOL"
+      }
+    },
+    {
+      "id": "173",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.54823401800161,
+          35.48625595454298
+        ]
+      },
+      "properties": {
+        "schoolName": "Preach Unto Them Jesus Academy",
+        "originalSchoolName": "PREACH UNTO THEM JESUS ACADEMY"
+      }
+    },
+    {
+      "id": "174",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.75554730426163,
+          35.65487310068855
+        ]
+      },
+      "properties": {
+        "schoolName": "Piedmont High School",
+        "originalSchoolName": "PIEDMONT HS"
+      }
+    },
+    {
+      "id": "175",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.74809457098208,
+          35.64795325405632
+        ]
+      },
+      "properties": {
+        "schoolName": "Piedmont Middle School",
+        "originalSchoolName": "PIEDMONT MS"
+      }
+    },
+    {
+      "id": "176",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.56593051713682,
+          35.32723413997421
+        ]
+      },
+      "properties": {
+        "schoolName": "Wayland Bonds Elementary School",
+        "originalSchoolName": "WAYLAND BONDS ES"
+      }
+    },
+    {
+      "id": "177",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.38032189315078,
+          35.50113416008905
+        ]
+      },
+      "properties": {
+        "schoolName": "Star Spencer High School",
+        "originalSchoolName": "STAR SPENCER HS"
+      }
+    },
+    {
+      "id": "178",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.39940984947918,
+          35.45345751674992
+        ]
+      },
+      "properties": {
+        "schoolName": "Midwest City High School",
+        "originalSchoolName": "MIDWEST CITY HS"
+      }
+    },
+    {
+      "id": "179",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.57775225947861,
+          35.42653574023834
+        ]
+      },
+      "properties": {
+        "schoolName": "Adams Elementary School",
+        "originalSchoolName": "ADAMS ES"
+      }
+    },
+    {
+      "id": "180",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.34131661382955,
+          35.40767625973169
+        ]
+      },
+      "properties": {
+        "schoolName": "Barnes Elementary School",
+        "originalSchoolName": "BARNES ES"
+      }
+    },
+    {
+      "id": "181",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.63157990981486,
+          35.51749619421503
+        ]
+      },
+      "properties": {
+        "schoolName": "Bethany High School",
+        "originalSchoolName": "BETHANY HS"
+      }
+    },
+    {
+      "id": "182",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.53048153109009,
+          35.50266747804565
+        ]
+      },
+      "properties": {
+        "schoolName": "Bishop John Carroll School",
+        "originalSchoolName": "BISHOP JOHN CARROLL SCHOOL"
+      }
+    },
+    {
+      "id": "183",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.46138550422978,
+          35.41200606457893
+        ]
+      },
+      "properties": {
+        "schoolName": "Bodine Elementary School",
+        "originalSchoolName": "BODINE ES"
+      }
+    },
+    {
+      "id": "184",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.53462152466892,
+          35.5679832403697
+        ]
+      },
+      "properties": {
+        "schoolName": "Britton Elementary School",
+        "originalSchoolName": "BRITTON ES"
+      }
+    },
+    {
+      "id": "185",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.45708603484411,
+          35.37313389143968
+        ]
+      },
+      "properties": {
+        "schoolName": "Bryant Elementary School",
+        "originalSchoolName": "BRYANT ES"
+      }
+    },
+    {
+      "id": "186",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.59349090952435,
+          35.487167503195586
+        ]
+      },
+      "properties": {
+        "schoolName": "Buchanan Elementary School",
+        "originalSchoolName": "BUCHANAN ES"
+      }
+    },
+    {
+      "id": "187",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.51712932336773,
+          35.43778558630339
+        ]
+      },
+      "properties": {
+        "schoolName": "Capitol Hill Elementary School",
+        "originalSchoolName": "CAPITOL HILL ES"
+      }
+    },
+    {
+      "id": "188",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.35569659510331,
+          35.439273006955574
+        ]
+      },
+      "properties": {
+        "schoolName": "Carl Albert Middle School",
+        "originalSchoolName": "CARL ALBERT MS"
+      }
+    },
+    {
+      "id": "189",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.54694479948931,
+          35.56929589142183
+        ]
+      },
+      "properties": {
+        "schoolName": "Casady School",
+        "originalSchoolName": "CASADY SCHOOL"
+      }
+    },
+    {
+      "id": "190",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.61619774149759,
+          35.5120372620442
+        ]
+      },
+      "properties": {
+        "schoolName": "Central Elementary School",
+        "originalSchoolName": "CENTRAL ES"
+      }
+    },
+    {
+      "id": "191",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.54239266729576,
+          35.625154502428714
+        ]
+      },
+      "properties": {
+        "schoolName": "Summit Middle School",
+        "originalSchoolName": "SUMMIT MS"
+      }
+    },
+    {
+      "id": "192",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5334929778375,
+          35.48806038503492
+        ]
+      },
+      "properties": {
+        "schoolName": "Classen Middle School Of Advanced Studies",
+        "originalSchoolName": "CLASSEN MS OF ADVANCED STUDIES"
+      }
+    },
+    {
+      "id": "193",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.54721140915001,
+          35.440459522272725
+        ]
+      },
+      "properties": {
+        "schoolName": "Columbus Enterprise School",
+        "originalSchoolName": "COLUMBUS ENTERPRISE SCHOOL"
+      }
+    },
+    {
+      "id": "194",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.58950114378379,
+          35.529965701115394
+        ]
+      },
+      "properties": {
+        "schoolName": "Coronado Heights Elementary School",
+        "originalSchoolName": "CORONADO HEIGHTS ES"
+      }
+    },
+    {
+      "id": "195",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.65259741657535,
+          35.47224382500259
+        ]
+      },
+      "properties": {
+        "schoolName": "Council Grove Elementary School",
+        "originalSchoolName": "COUNCIL GROVE ES"
+      }
+    },
+    {
+      "id": "196",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.47389833565262,
+          35.47631502179611
+        ]
+      },
+      "properties": {
+        "schoolName": "Douglass High School",
+        "originalSchoolName": "DOUGLASS HS"
+      }
+    },
+    {
+      "id": "197",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.52819690682247,
+          35.493763776661524
+        ]
+      },
+      "properties": {
+        "schoolName": "Dove Science Academy (OKC)",
+        "originalSchoolName": "DOVE SCIENCE ACADEMY (OKC)"
+      }
+    },
+    {
+      "id": "199",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.39041952952297,
+          35.44329746006916
+        ]
+      },
+      "properties": {
+        "schoolName": "Midwest City Elementary School",
+        "originalSchoolName": "MIDWEST CITY ES"
+      }
+    },
+    {
+      "id": "200",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.52039829873885,
+          35.50167963879258
+        ]
+      },
+      "properties": {
+        "schoolName": "Edgemere Elementary School",
+        "originalSchoolName": "EDGEMERE ES"
+      }
+    },
+    {
+      "id": "201",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.46711514266609,
+          35.47955032808814
+        ]
+      },
+      "properties": {
+        "schoolName": "Edwards Elementary School",
+        "originalSchoolName": "EDWARDS ES"
+      }
+    },
+    {
+      "id": "202",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.49141239087135,
+          35.57466594984749
+        ]
+      },
+      "properties": {
+        "schoolName": "Eisenhower Elementary School",
+        "originalSchoolName": "EISENHOWER ES"
+      }
+    },
+    {
+      "id": "203",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.47840535734287,
+          35.48410533713181
+        ]
+      },
+      "properties": {
+        "schoolName": "F. D. Moon Academy/Mass Media",
+        "originalSchoolName": "F. D. MOON ACADEMY/MASS MEDIA"
+      }
+    },
+    {
+      "id": "204",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.55700795845843,
+          35.37853171782513
+        ]
+      },
+      "properties": {
+        "schoolName": "Fairview Elementary School",
+        "originalSchoolName": "FAIRVIEW ES"
+      }
+    },
+    {
+      "id": "205",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.53808512704869,
+          35.41299478931825
+        ]
+      },
+      "properties": {
+        "schoolName": "Fillmore Elementary School",
+        "originalSchoolName": "FILLMORE ES"
+      }
+    },
+    {
+      "id": "206",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.35103847538412,
+          35.51558511797182
+        ]
+      },
+      "properties": {
+        "schoolName": "Green Pastures Elementary School",
+        "originalSchoolName": "GREEN PASTURES ES"
+      }
+    },
+    {
+      "id": "207",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.526586141769,
+          35.50388519785873
+        ]
+      },
+      "properties": {
+        "schoolName": "Harding Charter Preparatory High School",
+        "originalSchoolName": "HARDING CHARTER PREPARATORY HS"
+      }
+    },
+    {
+      "id": "208",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.52812442419298,
+          35.50388254731751
+        ]
+      },
+      "properties": {
+        "schoolName": "Harding Fine Arts Academy",
+        "originalSchoolName": "HARDING FINE ARTS ACADEMY"
+      }
+    },
+    {
+      "id": "209",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.54189470585183,
+          35.590934061472325
+        ]
+      },
+      "properties": {
+        "schoolName": "Heritage Hall School",
+        "originalSchoolName": "HERITAGE HALL SCHOOL"
+      }
+    },
+    {
+      "id": "210",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.60661006355167,
+          35.48699519120741
+        ]
+      },
+      "properties": {
+        "schoolName": "Hilldale Elementary School",
+        "originalSchoolName": "HILLDALE ES"
+      }
+    },
+    {
+      "id": "211",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.53094698749679,
+          35.5182361169736
+        ]
+      },
+      "properties": {
+        "schoolName": "Horace Mann Elementary School",
+        "originalSchoolName": "HORACE MANN ES"
+      }
+    },
+    {
+      "id": "212",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.57295261093861,
+          35.5377561564472
+        ]
+      },
+      "properties": {
+        "schoolName": "Independence Charter Middle School",
+        "originalSchoolName": "INDEPENDENCE CHARTER MS"
+      }
+    },
+    {
+      "id": "213",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.55794646677352,
+          35.43848235198338
+        ]
+      },
+      "properties": {
+        "schoolName": "Jackson Middle School",
+        "originalSchoolName": "JACKSON MS"
+      }
+    },
+    {
+      "id": "214",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.40074267300552,
+          35.4424860992324
+        ]
+      },
+      "properties": {
+        "schoolName": "Jarman Junior High",
+        "originalSchoolName": "JARMAN JHS"
+      }
+    },
+    {
+      "id": "215",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.53754625604314,
+          35.39718367761661
+        ]
+      },
+      "properties": {
+        "schoolName": "Jefferson Middle School",
+        "originalSchoolName": "JEFFERSON MS"
+      }
+    },
+    {
+      "id": "216",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.57218645406527,
+          35.39994218766341
+        ]
+      },
+      "properties": {
+        "schoolName": "John Glenn Elementary School",
+        "originalSchoolName": "JOHN GLENN ES"
+      }
+    },
+    {
+      "id": "217",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.537292878865,
+          35.5620891780384
+        ]
+      },
+      "properties": {
+        "schoolName": "Oklahoma Centennial High School",
+        "originalSchoolName": "OKLAHOMA CENTENNIAL HS"
+      }
+    },
+    {
+      "id": "218",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.59107444544541,
+          35.501429103253834
+        ]
+      },
+      "properties": {
+        "schoolName": "Kaiser Elementary School",
+        "originalSchoolName": "KAISER ES"
+      }
+    },
+    {
+      "id": "219",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.57360782499245,
+          35.532689602055896
+        ]
+      },
+      "properties": {
+        "schoolName": "D D Kirkland Elementary School",
+        "originalSchoolName": "D D KIRKLAND ES"
+      }
+    },
+    {
+      "id": "220",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.52024240849124,
+          35.434441899771635
+        ]
+      },
+      "properties": {
+        "schoolName": "Lee Elementary School",
+        "originalSchoolName": "LEE ES"
+      }
+    },
+    {
+      "id": "221",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.48429818397713,
+          35.50862370132364
+        ]
+      },
+      "properties": {
+        "schoolName": "The About Face Academy",
+        "originalSchoolName": "THE ABOUT FACE ACADEMY"
+      }
+    },
+    {
+      "id": "222",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.61222153831488,
+          35.484638966654785
+        ]
+      },
+      "properties": {
+        "schoolName": "Mayfield Middle School",
+        "originalSchoolName": "MAYFIELD MS"
+      }
+    },
+    {
+      "id": "223",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.55764061418665,
+          35.51900318679178
+        ]
+      },
+      "properties": {
+        "schoolName": "Monroe Elementary School",
+        "originalSchoolName": "MONROE ES"
+      }
+    },
+    {
+      "id": "224",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.52697962827332,
+          35.4378317780736
+        ]
+      },
+      "properties": {
+        "schoolName": "Mount Saint Mary High School",
+        "originalSchoolName": "MOUNT SAINT MARY HIGH SCHOOL"
+      }
+    },
+    {
+      "id": "225",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.72787225832764,
+          35.38524325640704
+        ]
+      },
+      "properties": {
+        "schoolName": "Mustang High School",
+        "originalSchoolName": "MUSTANG HS"
+      }
+    },
+    {
+      "id": "226",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.49217624931364,
+          35.502271563853164
+        ]
+      },
+      "properties": {
+        "schoolName": "North East Academy Health/Science/Engineering",
+        "originalSchoolName": "NE ACAD HEALTH/SCI/ENGINEERING"
+      }
+    },
+    {
+      "id": "227",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.51492182685848,
+          35.55667245303604
+        ]
+      },
+      "properties": {
+        "schoolName": "North Highland Math/Science School",
+        "originalSchoolName": "NORTH HIGHLAND MATH/SCI SCHOOL"
+      }
+    },
+    {
+      "id": "228",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.66533237539458,
+          35.55742078271989
+        ]
+      },
+      "properties": {
+        "schoolName": "Northridge Elementary School",
+        "originalSchoolName": "NORTHRIDGE ES"
+      }
+    },
+    {
+      "id": "229",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.30597270915081,
+          35.51517024150215
+        ]
+      },
+      "properties": {
+        "schoolName": "Parker Elementary School",
+        "originalSchoolName": "PARKER ES"
+      }
+    },
+    {
+      "id": "230",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.54016484334005,
+          35.40007310329504
+        ]
+      },
+      "properties": {
+        "schoolName": "Prairie Queen Elementary School",
+        "originalSchoolName": "PRAIRIE QUEEN ES"
+      }
+    },
+    {
+      "id": "232",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.61215736419615,
+          35.53600692524243
+        ]
+      },
+      "properties": {
+        "schoolName": "Rollingwood Elementary School",
+        "originalSchoolName": "ROLLINGWOOD ES"
+      }
+    },
+    {
+      "id": "233",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.54417062168262,
+          35.4886806154113
+        ]
+      },
+      "properties": {
+        "schoolName": "Rosary School",
+        "originalSchoolName": "ROSARY SCHOOL"
+      }
+    },
+    {
+      "id": "234",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.525498977088,
+          35.43781010387505
+        ]
+      },
+      "properties": {
+        "schoolName": "Sacred Heart Catholic School",
+        "originalSchoolName": "SACRED HEART CATHOLIC SCHOOL"
+      }
+    },
+    {
+      "id": "235",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.50467757082188,
+          35.42686446068963
+        ]
+      },
+      "properties": {
+        "schoolName": "Santa Fe South High School",
+        "originalSchoolName": "SANTA FE SOUTH HS"
+      }
+    },
+    {
+      "id": "236",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.55497266124038,
+          35.50678351732725
+        ]
+      },
+      "properties": {
+        "schoolName": "Sequoyah Elementary School",
+        "originalSchoolName": "SEQUOYAH ES"
+      }
+    },
+    {
+      "id": "237",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7211989385411,
+          35.49950932178501
+        ]
+      },
+      "properties": {
+        "schoolName": "Lakeview Elementary School",
+        "originalSchoolName": "LAKEVIEW ES"
+      }
+    },
+    {
+      "id": "238",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.36935071594209,
+          35.45065035769518
+        ]
+      },
+      "properties": {
+        "schoolName": "Soldier Creek Elementary School",
+        "originalSchoolName": "SOLDIER CREEK ES"
+      }
+    },
+    {
+      "id": "239",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.528224007985,
+          35.51892887217442
+        ]
+      },
+      "properties": {
+        "schoolName": "Solomon Schechter Academy",
+        "originalSchoolName": "SOLOMON SCHECHTER ACADEMY"
+      }
+    },
+    {
+      "id": "240",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.51029760789845,
+          35.41188442771499
+        ]
+      },
+      "properties": {
+        "schoolName": "Southeast High School",
+        "originalSchoolName": "SOUTHEAST HS"
+      }
+    },
+    {
+      "id": "241",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.37262132653464,
+          35.52152640317104
+        ]
+      },
+      "properties": {
+        "schoolName": "Spencer Elementary School",
+        "originalSchoolName": "SPENCER ES"
+      }
+    },
+    {
+      "id": "242",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.560140285729,
+          35.429654943199886
+        ]
+      },
+      "properties": {
+        "schoolName": "Stand Watie Elementary School",
+        "originalSchoolName": "STAND WATIE ES"
+      }
+    },
+    {
+      "id": "243",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.56675977514229,
+          35.49497133430236
+        ]
+      },
+      "properties": {
+        "schoolName": "Taft Middle School",
+        "originalSchoolName": "TAFT MS"
+      }
+    },
+    {
+      "id": "244",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.41757830454941,
+          35.41978852623812
+        ]
+      },
+      "properties": {
+        "schoolName": "Tinker Elementary School",
+        "originalSchoolName": "TINKER ES"
+      }
+    },
+    {
+      "id": "245",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.435401162743,
+          35.42573452018958
+        ]
+      },
+      "properties": {
+        "schoolName": "Townsend Elementary School",
+        "originalSchoolName": "TOWNSEND ES"
+      }
+    },
+    {
+      "id": "246",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.54575404556824,
+          35.415350656486936
+        ]
+      },
+      "properties": {
+        "schoolName": "U. S. Grant High School",
+        "originalSchoolName": "U. S. GRANT HS"
+      }
+    },
+    {
+      "id": "247",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.56217841162064,
+          35.42415541872431
+        ]
+      },
+      "properties": {
+        "schoolName": "Van Buren Elementary School",
+        "originalSchoolName": "VAN BUREN ES"
+      }
+    },
+    {
+      "id": "248",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.53424580358072,
+          35.655838373390495
+        ]
+      },
+      "properties": {
+        "schoolName": "Washington Irving Elementary School",
+        "originalSchoolName": "WASHINGTON IRVING ES"
+      }
+    },
+    {
+      "id": "249",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.66165496729482,
+          35.422624188931
+        ]
+      },
+      "properties": {
+        "schoolName": "Western Heights Middle School",
+        "originalSchoolName": "WESTERN HEIGHTS MS"
+      }
+    },
+    {
+      "id": "250",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.64000209391403,
+          35.4923984517788
+        ]
+      },
+      "properties": {
+        "schoolName": "Western Oaks Middle School",
+        "originalSchoolName": "WESTERN OAKS MS"
+      }
+    },
+    {
+      "id": "251",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5236217658578,
+          35.5160034377198
+        ]
+      },
+      "properties": {
+        "schoolName": "Westminster School",
+        "originalSchoolName": "WESTMINSTER SCHOOL"
+      }
+    },
+    {
+      "id": "252",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.53444094700106,
+          35.34328801508936
+        ]
+      },
+      "properties": {
+        "schoolName": "Westmoore High School",
+        "originalSchoolName": "WESTMOORE HS"
+      }
+    },
+    {
+      "id": "253",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.54626913348093,
+          35.454104551260706
+        ]
+      },
+      "properties": {
+        "schoolName": "Westwood Elementary School",
+        "originalSchoolName": "WESTWOOD ES"
+      }
+    },
+    {
+      "id": "254",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.38493554242493,
+          35.47983896588184
+        ]
+      },
+      "properties": {
+        "schoolName": "Willowbrook Elementary School",
+        "originalSchoolName": "WILLOWBROOK ES"
+      }
+    },
+    {
+      "id": "255",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.61396579068122,
+          35.49421626921482
+        ]
+      },
+      "properties": {
+        "schoolName": "Windsor Hills Baptist School",
+        "originalSchoolName": "WINDSOR HILLS BAPTIST SCH"
+      }
+    },
+    {
+      "id": "256",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6112466470471,
+          35.49889419215569
+        ]
+      },
+      "properties": {
+        "schoolName": "Windsor Hills Elementary School",
+        "originalSchoolName": "WINDSOR HILLS ES"
+      }
+    },
+    {
+      "id": "257",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.61336772346718,
+          35.52134701630568
+        ]
+      },
+      "properties": {
+        "schoolName": "St. Charles Borromeo School",
+        "originalSchoolName": "ST. CHARLES BORROMEO SCHOOL"
+      }
+    },
+    {
+      "id": "258",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.48104094150129,
+          35.51133959121977
+        ]
+      },
+      "properties": {
+        "schoolName": "Metro Tech Springlake Campus",
+        "originalSchoolName": "METRO TECH SPRINGLAKE CAMPUS"
+      }
+    },
+    {
+      "id": "259",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.50654547952647,
+          35.52097213590443
+        ]
+      },
+      "properties": {
+        "schoolName": "Metro Tech Adult & Continuing Education Campus",
+        "originalSchoolName": "METRO TECH ADULT & CONT EDUCATION CAMPUS"
+      }
+    },
+    {
+      "id": "260",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.53757878193824,
+          35.47043778848834
+        ]
+      },
+      "properties": {
+        "schoolName": "Pathways (Willard Formerly)  Alternative School",
+        "originalSchoolName": "PATHWAYS (WILLARD FORMERLY)  ALTERNATIVE"
+      }
+    },
+    {
+      "id": "261",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5658014322887,
+          35.39824469599378
+        ]
+      },
+      "properties": {
+        "schoolName": "Heartland Cottage Home School",
+        "originalSchoolName": "HEARTLAND COTTAGE HOME SCHOOL"
+      }
+    },
+    {
+      "id": "266",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.52202621369145,
+          35.465901505284194
+        ]
+      },
+      "properties": {
+        "schoolName": "John Rex Elementary School",
+        "originalSchoolName": "JOHN REX ES"
+      }
+    },
+    {
+      "id": "267",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.36055900136668,
+          35.48646201147545
+        ]
+      },
+      "properties": {
+        "schoolName": "Telstar Elementary School",
+        "originalSchoolName": "TELSTAR ES"
+      }
+    },
+    {
+      "id": "268",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.51180421275592,
+          35.418175756880316
+        ]
+      },
+      "properties": {
+        "schoolName": "Santa Fe South Middle School",
+        "originalSchoolName": "SANTA FE SOUTH MS"
+      }
+    },
+    {
+      "id": "269",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.37694799832772,
+          35.510346010273
+        ]
+      },
+      "properties": {
+        "schoolName": "Rogers Middle School",
+        "originalSchoolName": "ROGERS MS"
+      }
+    },
+    {
+      "id": "270",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.49056747984574,
+          35.505233524823275
+        ]
+      },
+      "properties": {
+        "schoolName": "Harper Academy Charter School",
+        "originalSchoolName": "HARPER ACADEMY CS"
+      }
+    },
+    {
+      "id": "272",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7617418596314,
+          35.61313304665525
+        ]
+      },
+      "properties": {
+        "schoolName": "Northwood Elementary School",
+        "originalSchoolName": "NORTHWOOD ES"
+      }
+    },
+    {
+      "id": "273",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6362573441983,
+          35.62722871703136
+        ]
+      },
+      "properties": {
+        "schoolName": "Spring Creek Elementary School",
+        "originalSchoolName": "SPRING CREEK ES"
+      }
+    },
+    {
+      "id": "274",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.57897321472213,
+          35.66671755902273
+        ]
+      },
+      "properties": {
+        "schoolName": "Grove Valley Elementary School",
+        "originalSchoolName": "GROVE VALLEY ES"
+      }
+    },
+    {
+      "id": "275",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5473307380971,
+          35.677495705374724
+        ]
+      },
+      "properties": {
+        "schoolName": "Frontier Elementary School",
+        "originalSchoolName": "FRONTIER ES"
+      }
+    },
+    {
+      "id": "276",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.54855487072966,
+          35.701902615303624
+        ]
+      },
+      "properties": {
+        "schoolName": "Prairie Vale Elementary School",
+        "originalSchoolName": "PRAIRIE VALE ES"
+      }
+    },
+    {
+      "id": "277",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.56072296154461,
+          35.713051980937166
+        ]
+      },
+      "properties": {
+        "schoolName": "Deer Creek Middle School",
+        "originalSchoolName": "DEER CREEK MS"
+      }
+    },
+    {
+      "id": "279",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.62375767624968,
+          35.68572200944321
+        ]
+      },
+      "properties": {
+        "schoolName": "Deer Creek High School",
+        "originalSchoolName": "DEER CREEK HS"
+      }
+    },
+    {
+      "id": "280",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.62209863005134,
+          35.686669334549805
+        ]
+      },
+      "properties": {
+        "schoolName": "Deer Creek Independent School",
+        "originalSchoolName": "DEER CREEK IS"
+      }
+    },
+    {
+      "id": "281",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.61033297164957,
+          35.69493190835121
+        ]
+      },
+      "properties": {
+        "schoolName": "Rose Union Elementary School",
+        "originalSchoolName": "ROSE UNION ES"
+      }
+    },
+    {
+      "id": "282",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.69600907924715,
+          35.60838782680483
+        ]
+      },
+      "properties": {
+        "schoolName": "Stone Ridge Elementary School",
+        "originalSchoolName": "STONE RIDGE ES"
+      }
+    },
+    {
+      "id": "283",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6315690413288,
+          35.51631654175519
+        ]
+      },
+      "properties": {
+        "schoolName": "Bethany Elementary School",
+        "originalSchoolName": "BETHANY ES"
+      }
+    },
+    {
+      "id": "284",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.73026683016698,
+          35.48924673667155
+        ]
+      },
+      "properties": {
+        "schoolName": "Yukon High School",
+        "originalSchoolName": "YUKON HS"
+      }
+    },
+    {
+      "id": "285",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.73473570145148,
+          35.49244222914501
+        ]
+      },
+      "properties": {
+        "schoolName": "Independence Elementary School",
+        "originalSchoolName": "INDEPENDENCE ES"
+      }
+    },
+    {
+      "id": "286",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.74586664543568,
+          35.49433129745789
+        ]
+      },
+      "properties": {
+        "schoolName": "Myers Elementary School",
+        "originalSchoolName": "MYERS ES"
+      }
+    },
+    {
+      "id": "287",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.59451696429298,
+          35.51905450804219
+        ]
+      },
+      "properties": {
+        "schoolName": "Arbor Grove Elementary School",
+        "originalSchoolName": "ARBOR GROVE ES"
+      }
+    },
+    {
+      "id": "288",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.61331243189372,
+          35.51203463693281
+        ]
+      },
+      "properties": {
+        "schoolName": "James L Capps Middle School",
+        "originalSchoolName": "JAMES L CAPPS MS"
+      }
+    },
+    {
+      "id": "305",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.47515707651816,
+          35.538863192267456
+        ]
+      },
+      "properties": {
+        "schoolName": "Millwood Elementary School",
+        "originalSchoolName": "MILLWOOD ES"
+      }
+    },
+    {
+      "id": "306",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.42275334623821,
+          35.581294674580235
+        ]
+      },
+      "properties": {
+        "schoolName": "Oakdale School",
+        "originalSchoolName": "OAKDALE SCHOOL"
+      }
+    },
+    {
+      "id": "307",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.71269525204683,
+          35.45159679973881
+        ]
+      },
+      "properties": {
+        "schoolName": "Mustang Creek Elementary School",
+        "originalSchoolName": "MUSTANG CREEK ES"
+      }
+    },
+    {
+      "id": "308",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.74417229235281,
+          35.44812793551561
+        ]
+      },
+      "properties": {
+        "schoolName": "Canadian Valley Tech Center",
+        "originalSchoolName": "CANADIAN VALLEY TECH CENTER"
+      }
+    },
+    {
+      "id": "309",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.70489606459086,
+          35.429010413615636
+        ]
+      },
+      "properties": {
+        "schoolName": "Canyon Ridge Independent School",
+        "originalSchoolName": "CANYON RIDGE IS"
+      }
+    },
+    {
+      "id": "310",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.65246040916344,
+          35.44830687672389
+        ]
+      },
+      "properties": {
+        "schoolName": "Bridgestone Independent School",
+        "originalSchoolName": "BRIDGESTONE IS"
+      }
+    },
+    {
+      "id": "311",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.67368521791744,
+          35.40729298415744
+        ]
+      },
+      "properties": {
+        "schoolName": "Prairie View Elementary School",
+        "originalSchoolName": "PRAIRIE VIEW ES"
+      }
+    },
+    {
+      "id": "312",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4756527201504,
+          35.628389971389055
+        ]
+      },
+      "properties": {
+        "schoolName": "Orvis Risner Elementary School",
+        "originalSchoolName": "ORVIS RISNER ES"
+      }
+    },
+    {
+      "id": "313",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.46879628807773,
+          35.63674976248102
+        ]
+      },
+      "properties": {
+        "schoolName": "Edmond Memorial High School",
+        "originalSchoolName": "EDMOND MEMORIAL HS"
+      }
+    },
+    {
+      "id": "314",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.46445238317557,
+          35.64734954179579
+        ]
+      },
+      "properties": {
+        "schoolName": "Will Rogers Elementary School",
+        "originalSchoolName": "WILL ROGERS ES"
+      }
+    },
+    {
+      "id": "315",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.47260224407576,
+          35.643159061155345
+        ]
+      },
+      "properties": {
+        "schoolName": "Central Middle School",
+        "originalSchoolName": "CENTRAL MS"
+      }
+    },
+    {
+      "id": "316",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.47733657693195,
+          35.64829431737383
+        ]
+      },
+      "properties": {
+        "schoolName": "Clegern Elementary School",
+        "originalSchoolName": "CLEGERN ES"
+      }
+    },
+    {
+      "id": "317",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4884895114292,
+          35.64715835565697
+        ]
+      },
+      "properties": {
+        "schoolName": "Sunset Elementary School",
+        "originalSchoolName": "SUNSET ES"
+      }
+    },
+    {
+      "id": "318",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.44101199359591,
+          35.698415031541835
+        ]
+      },
+      "properties": {
+        "schoolName": "Centennial Elementary School",
+        "originalSchoolName": "CENTENNIAL ES"
+      }
+    },
+    {
+      "id": "319",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4651216729008,
+          35.6687879478492
+        ]
+      },
+      "properties": {
+        "schoolName": "Sequoyah Middle School",
+        "originalSchoolName": "SEQUOYAH MS"
+      }
+    },
+    {
+      "id": "320",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.48516110161489,
+          35.67070100893069
+        ]
+      },
+      "properties": {
+        "schoolName": "Edmond North High School",
+        "originalSchoolName": "EDMOND NORTH HS"
+      }
+    },
+    {
+      "id": "321",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.48521426935586,
+          35.673463966195555
+        ]
+      },
+      "properties": {
+        "schoolName": "John Ross Elementary School",
+        "originalSchoolName": "JOHN ROSS ES"
+      }
+    },
+    {
+      "id": "322",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.49855103792002,
+          35.68376748314352
+        ]
+      },
+      "properties": {
+        "schoolName": "Cheyenne Middle School",
+        "originalSchoolName": "CHEYENNE MS"
+      }
+    },
+    {
+      "id": "323",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.49478768704051,
+          35.70496542198129
+        ]
+      },
+      "properties": {
+        "schoolName": "Cross Timbers Elementary School",
+        "originalSchoolName": "CROSS TIMBERS ES"
+      }
+    },
+    {
+      "id": "324",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.49085649800318,
+          35.65746072462126
+        ]
+      },
+      "properties": {
+        "schoolName": "Ida Freeman Elementary School",
+        "originalSchoolName": "IDA FREEMAN ES"
+      }
+    },
+    {
+      "id": "325",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.47891242396886,
+          35.655646816466685
+        ]
+      },
+      "properties": {
+        "schoolName": "Russell Dougherty Elementary School",
+        "originalSchoolName": "RUSSELL DOUGHERTY ES"
+      }
+    },
+    {
+      "id": "326",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.46651525093858,
+          35.661917810083196
+        ]
+      },
+      "properties": {
+        "schoolName": "Northern Hills Elementary School",
+        "originalSchoolName": "NORTHERN HILLS ES"
+      }
+    },
+    {
+      "id": "327",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.19239109490206,
+          35.66062702073725
+        ]
+      },
+      "properties": {
+        "schoolName": "Luther High School",
+        "originalSchoolName": "LUTHER HS"
+      }
+    },
+    {
+      "id": "328",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.19151597180253,
+          35.654983920462506
+        ]
+      },
+      "properties": {
+        "schoolName": "Luther Middle School",
+        "originalSchoolName": "LUTHER MS"
+      }
+    },
+    {
+      "id": "329",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.19152108804931,
+          35.654102514957984
+        ]
+      },
+      "properties": {
+        "schoolName": "Luther Elementary School",
+        "originalSchoolName": "LUTHER ES"
+      }
+    },
+    {
+      "id": "330",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2993081766895,
+          35.56066941408032
+        ]
+      },
+      "properties": {
+        "schoolName": "Jones Elementary School",
+        "originalSchoolName": "JONES ES"
+      }
+    },
+    {
+      "id": "331",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.29018343771949,
+          35.560204932225844
+        ]
+      },
+      "properties": {
+        "schoolName": "Jones High School",
+        "originalSchoolName": "JONES HS"
+      }
+    },
+    {
+      "id": "332",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.24607748380953,
+          35.551726822083104
+        ]
+      },
+      "properties": {
+        "schoolName": "Jones Middle School",
+        "originalSchoolName": "JONES MS"
+      }
+    },
+    {
+      "id": "334",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2712774990991,
+          35.50019091011302
+        ]
+      },
+      "properties": {
+        "schoolName": "Choctaw Middle School",
+        "originalSchoolName": "CHOCTAW MS"
+      }
+    },
+    {
+      "id": "335",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.27229986589575,
+          35.49941842653848
+        ]
+      },
+      "properties": {
+        "schoolName": "Choctaw Elementary School",
+        "originalSchoolName": "CHOCTAW ES"
+      }
+    },
+    {
+      "id": "336",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.29620490303408,
+          35.4800415404975
+        ]
+      },
+      "properties": {
+        "schoolName": "Westfall Elementary School",
+        "originalSchoolName": "WESTFALL ES"
+      }
+    },
+    {
+      "id": "337",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.27958165998932,
+          35.475312645118834
+        ]
+      },
+      "properties": {
+        "schoolName": "Choctaw High School",
+        "originalSchoolName": "CHOCTAW HS"
+      }
+    },
+    {
+      "id": "338",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3290131739659,
+          35.48106164988518
+        ]
+      },
+      "properties": {
+        "schoolName": "Nicoma Park Middle School",
+        "originalSchoolName": "NICOMA PARK MS"
+      }
+    },
+    {
+      "id": "339",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.32595584740798,
+          35.47984807774809
+        ]
+      },
+      "properties": {
+        "schoolName": "Nicoma Park Elementary School",
+        "originalSchoolName": "NICOMA PARK ES"
+      }
+    },
+    {
+      "id": "340",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.32597080898063,
+          35.48160935602012
+        ]
+      },
+      "properties": {
+        "schoolName": "Nicoma Park Independent School",
+        "originalSchoolName": "NICOMA PARK IS"
+      }
+    },
+    {
+      "id": "341",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.40684214932651,
+          35.49435136307714
+        ]
+      },
+      "properties": {
+        "schoolName": "Crutch School",
+        "originalSchoolName": "CRUTCH SCHOOL"
+      }
+    },
+    {
+      "id": "342",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.41458467777062,
+          35.47261875846364
+        ]
+      },
+      "properties": {
+        "schoolName": "Cleveland Bailey Elementary School",
+        "originalSchoolName": "CLEVELAND BAILEY ES"
+      }
+    },
+    {
+      "id": "343",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3984907536065,
+          35.47141401528925
+        ]
+      },
+      "properties": {
+        "schoolName": "Ridgecrest Elementary School",
+        "originalSchoolName": "RIDGECREST ES"
+      }
+    },
+    {
+      "id": "344",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.38247228748365,
+          35.45946251988624
+        ]
+      },
+      "properties": {
+        "schoolName": "Steed Elementary School",
+        "originalSchoolName": "STEED ES"
+      }
+    },
+    {
+      "id": "345",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.43122410549464,
+          35.45834183992852
+        ]
+      },
+      "properties": {
+        "schoolName": "Del Crest Middle School",
+        "originalSchoolName": "DEL CREST MS"
+      }
+    },
+    {
+      "id": "346",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4489203049362,
+          35.44151580944021
+        ]
+      },
+      "properties": {
+        "schoolName": "Epperly Heights Elementary School",
+        "originalSchoolName": "EPPERLY HEIGHTS ES"
+      }
+    },
+    {
+      "id": "347",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.43801340490597,
+          35.44035602628776
+        ]
+      },
+      "properties": {
+        "schoolName": "Del City Elementary School",
+        "originalSchoolName": "DEL CITY ES"
+      }
+    },
+    {
+      "id": "348",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.35539664889791,
+          35.44347869008091
+        ]
+      },
+      "properties": {
+        "schoolName": "Carl Albert High School",
+        "originalSchoolName": "CARL ALBERT HS"
+      }
+    },
+    {
+      "id": "349",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2490864770707,
+          35.44690197163932
+        ]
+      },
+      "properties": {
+        "schoolName": "James Griffith Independent School",
+        "originalSchoolName": "JAMES GRIFFITH IS"
+      }
+    },
+    {
+      "id": "350",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2490865065441,
+          35.44862053540386
+        ]
+      },
+      "properties": {
+        "schoolName": "Indian Meridian Elementary School",
+        "originalSchoolName": "INDIAN MERIDIAN ES"
+      }
+    },
+    {
+      "id": "351",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.85003840446367,
+          35.49434439102045
+        ]
+      },
+      "properties": {
+        "schoolName": "Banner School",
+        "originalSchoolName": "BANNER SCHOOL"
+      }
+    },
+    {
+      "id": "352",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.75886566407814,
+          35.39027500616767
+        ]
+      },
+      "properties": {
+        "schoolName": "Lakehoma Elementary School",
+        "originalSchoolName": "LAKEHOMA ES"
+      }
+    },
+    {
+      "id": "353",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.74048921944437,
+          35.385857795757126
+        ]
+      },
+      "properties": {
+        "schoolName": "Centennial Elementary School",
+        "originalSchoolName": "CENTENNIAL ES"
+      }
+    },
+    {
+      "id": "354",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.72292493504136,
+          35.3893716266178
+        ]
+      },
+      "properties": {
+        "schoolName": "Mustang Elementary School",
+        "originalSchoolName": "MUSTANG ES"
+      }
+    },
+    {
+      "id": "355",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.48985698094165,
+          35.34246789641901
+        ]
+      },
+      "properties": {
+        "schoolName": "Central Junior High",
+        "originalSchoolName": "CENTRAL JH"
+      }
+    },
+    {
+      "id": "356",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4734683418316,
+          35.33987264179834
+        ]
+      },
+      "properties": {
+        "schoolName": "Moore High School",
+        "originalSchoolName": "MOORE HS"
+      }
+    },
+    {
+      "id": "357",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4689090618686,
+          35.350394816698824
+        ]
+      },
+      "properties": {
+        "schoolName": "Winding Creek Elementary School",
+        "originalSchoolName": "WINDING CREEK ES"
+      }
+    },
+    {
+      "id": "358",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.49125920384888,
+          35.355970243546565
+        ]
+      },
+      "properties": {
+        "schoolName": "Northmoore Elementary School",
+        "originalSchoolName": "NORTHMOORE ES"
+      }
+    },
+    {
+      "id": "359",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.51315284661808,
+          35.30627790304801
+        ]
+      },
+      "properties": {
+        "schoolName": "Oakridge Elementary School",
+        "originalSchoolName": "OAKRIDGE ES"
+      }
+    },
+    {
+      "id": "360",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.51662156855461,
+          35.31070978349895
+        ]
+      },
+      "properties": {
+        "schoolName": "Southmoore High School",
+        "originalSchoolName": "SOUTHMOORE HS"
+      }
+    },
+    {
+      "id": "361",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.46916650832125,
+          35.3324727754043
+        ]
+      },
+      "properties": {
+        "schoolName": "Highland East Junior High",
+        "originalSchoolName": "HIGHLAND EAST JH"
+      }
+    },
+    {
+      "id": "362",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.46139307459833,
+          35.32190958215045
+        ]
+      },
+      "properties": {
+        "schoolName": "Heritage Trails Elementary School",
+        "originalSchoolName": "HERITAGE TRAILS ES"
+      }
+    },
+    {
+      "id": "363",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.36998622470165,
+          35.277059139395874
+        ]
+      },
+      "properties": {
+        "schoolName": "Robin Hill School",
+        "originalSchoolName": "ROBIN HILL SCHOOL"
+      }
+    },
+    {
+      "id": "364",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.58480185975327,
+          35.34177314412918
+        ]
+      },
+      "properties": {
+        "schoolName": "South Lake Elementary School",
+        "originalSchoolName": "SOUTH LAKE ES"
+      }
+    },
+    {
+      "id": "365",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.50438916647596,
+          35.26007053845432
+        ]
+      },
+      "properties": {
+        "schoolName": "Roosevelt Elementary School",
+        "originalSchoolName": "ROOSEVELT ES"
+      }
+    },
+    {
+      "id": "366",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.10273455656676,
+          35.42565377269006
+        ]
+      },
+      "properties": {
+        "schoolName": "Mcloud High School",
+        "originalSchoolName": "MCLOUD HS"
+      }
+    },
+    {
+      "id": "367",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.10090050462642,
+          35.42663907239486
+        ]
+      },
+      "properties": {
+        "schoolName": "Mcloud Junior High",
+        "originalSchoolName": "MCLOUD JH"
+      }
+    },
+    {
+      "id": "368",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.94255337912668,
+          35.39224498848873
+        ]
+      },
+      "properties": {
+        "schoolName": "Union City School",
+        "originalSchoolName": "UNION CITY SCHOOL"
+      }
+    },
+    {
+      "id": "369",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.54239855257586,
+          35.62651972097905
+        ]
+      },
+      "properties": {
+        "schoolName": "Charles Haskell Elementary School",
+        "originalSchoolName": "CHARLES HASKELL ES"
+      }
+    },
+    {
+      "id": "370",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.43977727864979,
+          35.43714764741115
+        ]
+      },
+      "properties": {
+        "schoolName": "Christian Heritage Academy",
+        "originalSchoolName": "CHRISTIAN HERITAGE ACADEMY"
+      }
+    },
+    {
+      "id": "371",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.17033147321662,
+          35.47310882940771
+        ]
+      },
+      "properties": {
+        "schoolName": "Clara Reynolds Elementary School",
+        "originalSchoolName": "CLARA REYNOLDS ES"
+      }
+    },
+    {
+      "id": "372",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.17241156701925,
+          35.48122151650168
+        ]
+      },
+      "properties": {
+        "schoolName": "Virginia Smith Elementary School",
+        "originalSchoolName": "VIRGINIA SMITH ES"
+      }
+    },
+    {
+      "id": "373",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.17503090791719,
+          35.48264478624312
+        ]
+      },
+      "properties": {
+        "schoolName": "Harrah Junior High",
+        "originalSchoolName": "HARRAH JH"
+      }
+    },
+    {
+      "id": "374",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.16965639423812,
+          35.486141592482454
+        ]
+      },
+      "properties": {
+        "schoolName": "Harrah High School",
+        "originalSchoolName": "HARRAH HS"
+      }
+    },
+    {
+      "id": "375",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.16596235771695,
+          35.48919601123024
+        ]
+      },
+      "properties": {
+        "schoolName": "Harrah Middle School",
+        "originalSchoolName": "HARRAH MS"
+      }
+    },
+    {
+      "id": "376",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.1612125024041,
+          35.479514829985014
+        ]
+      },
+      "properties": {
+        "schoolName": "Russell Babb Elementary School",
+        "originalSchoolName": "RUSSELL BABB ES"
+      }
+    },
+    {
+      "id": "377",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.09336693167921,
+          35.434084564504204
+        ]
+      },
+      "properties": {
+        "schoolName": "Mcloud Independent School",
+        "originalSchoolName": "MCLOUD IS"
+      }
+    },
+    {
+      "id": "378",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.09161267247214,
+          35.434083708683126
+        ]
+      },
+      "properties": {
+        "schoolName": "Mcloud Elementary School",
+        "originalSchoolName": "MCLOUD ES"
+      }
+    },
+    {
+      "id": "379",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.28406555079,
+          35.25890006540308
+        ]
+      },
+      "properties": {
+        "schoolName": "Lakeview Elementary School",
+        "originalSchoolName": "LAKEVIEW ES"
+      }
+    },
+    {
+      "id": "380",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.19883642083522,
+          35.23767144873481
+        ]
+      },
+      "properties": {
+        "schoolName": "Little Axe High School",
+        "originalSchoolName": "LITTLE AXE HS"
+      }
+    },
+    {
+      "id": "382",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.19598380075827,
+          35.24187356971005
+        ]
+      },
+      "properties": {
+        "schoolName": "Little Axe Elementary School",
+        "originalSchoolName": "LITTLE AXE ES"
+      }
+    },
+    {
+      "id": "383",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.1954789165903,
+          35.235642737964305
+        ]
+      },
+      "properties": {
+        "schoolName": "Little Axe Middle School",
+        "originalSchoolName": "LITTLE AXE MS"
+      }
+    }
+  ]
+}

@@ -5,6 +5,7 @@
 */
 
 var async = require('async');
+var geometryHelpers = require('./geometryHelpers');
 var reproject = require('./reproject');
 var WKT = require('terraformer-wkt-parser');
 
@@ -102,10 +103,15 @@ function capitalizeFirstLetter(str) {
 }
 
 function schoolToGeoJson(school) {
-  return geoJson = {
+  var geojson = reproject.reprojectGeometry(WKT.parse(school.shape));
+  
+  return {
     id: school.object_id,
     type: "Feature",
-    geometry: reproject.reprojectGeometry(WKT.parse(school.shape)),
+    geometry: {
+      type: "Point",
+      coordinates: geometryHelpers.bboxToPoint(geojson.bbox)
+    },
     properties: {
       schoolName: school.school_name,
       originalSchoolName: school.original_school_name

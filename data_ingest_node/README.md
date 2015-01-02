@@ -21,6 +21,8 @@ Currently the two supported data sets are:
 * Schools - ingestFileType of `school`
 * School District Boundaries - ingestFileType of `schoolDistrict`
 
+School data will output point features and school district data will output polygon/multipolygon features.
+
 Currently the two supported output types are:
 * `geojson`
 * `topojson`
@@ -32,45 +34,26 @@ To generate a data set:
 
 If you want to dump the output to a file, `node index.js <ift> <oft> <ifpth> > out.geojson`
 
-## Data set format examples
+## Data set format
 
 #### Schools
+Feature collection with each school being represented as a geojson/topojson feature (point). The `properties` object on each school feature will be in the following format:
 ```json
-{
-  "type": "FeatureCollection",
-  "features":[
-    {
-      "id": <string>,
-      "type": "Feature",
-      "geometry": {/* school geometry */},
-      "properties": {
-        "schoolName": <string>,
-        "originalSchoolName": <string>
-      }
-    },
-    ...
-  ]
+"properties": {
+  "schoolName": <string>, // cleaned school name
+  "originalSchoolName": <string> // original school name from dataset
 }
 ```
 
 #### School Districts
+Feature collection with each school being represented as a geojson/topojson feature (polygon or multipolygon). The `properties` object on each school district feature will be in the following format:
 ```json
-{
-  "type": "FeatureCollection",
-  "features":[
-    {
-      "id": <number>,
-      "type": "Feature",
-      "geometry": {/* school geometry */},
-      "properties": {
-        "schoolDistrictName": <string>,
-        "schoolDistrictCode": <string>
-      }
-    },
-    ...
-  ]
+"properties": {
+  "schoolDistrictCode": <string>, // school district code
+  "schoolDistrictName": <string> // school district name
 }
 ```
+
 
 ## Copyright and license
 
