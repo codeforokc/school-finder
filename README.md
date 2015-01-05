@@ -2,6 +2,24 @@
 
 Geolocation-based web app for locating schools and school districts near you.
 
+
+### Phase 1
+* Frontend
+  * [ ] Single page site
+  * [ ] Landing page
+  * [ ] Reverse geocode address into lat lon location
+  * [ ] Show school district for a given lat lon location
+  * [ ] Show closest schools to a given lat lon location (restricted by school district?)
+* Data/backend
+  * [ ] Static JSON dataset for school districts and schools suitable for identifying school districts and schools via distance calculations
+  * [ ] Tools for generating dataset(s)
+* Deployment
+  * [ ] Hosting of site and data (s3?)
+  * [ ] Automated data update/ingest (?)
+
+### Phase 2
+TBD
+
 ## Technical Details
 
 ### Data Upload/Translate Process
