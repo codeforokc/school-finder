@@ -8,6 +8,7 @@
   <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.js'></script>
   <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.css' rel='stylesheet' />
   <script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'></script>
+  <script src='//api.tiles.mapbox.com/mapbox.js/plugins/turf/v1.3.0/turf.min.js'></script>
   <style>
     body {
       margin: 0;
@@ -77,6 +78,31 @@
       'School Polygons': topo_schools.addTo(map),
       'District Polygons': topo_district
     }).addTo(map);
+    var nearest_layer = L.layerGroup().addTo(map);
+    map.on('mousemove', function (event) {
+      var mouse = turf.featurecollection([turf.point([event.latlng.lng, event.latlng.lat])]),
+        within;
+      if (topo_district._map) {
+        within = turf.within(mouse, topo_district.toGeoJSON());
+      } else if (topo_schools._map) {
+        within = turf.within(mouse, topo_schools.toGeoJSON());
+      }
+      nearest_layer.clearLayers();
+      if(within.features.length > 0){
+        console.log("WITHIN POLYGON");
+        L.geoJson(within, {
+          style: function (feature) {
+            var color = "#FF00FF";
+            return {
+              color: color,
+              weight: 1,
+              opacity: 1,
+              fillOpacity: 1,
+              fillColor: color};
+          }
+        }).addTo(nearest_layer);
+      }
+    })
   </script>
 </body>
 
