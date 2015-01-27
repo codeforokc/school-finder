@@ -69,9 +69,14 @@
       }
     });
 
-    omnivore.topojson('data_ingest_node/data/schoolDistricts.topojson', null, district_layer).addTo(map).bringToBack();
+    var topo_district = omnivore.topojson('data_ingest_node/data/schoolDistricts.topojson', null, district_layer);
 
-    omnivore.topojson('data_ingest_node/data/schools.topojson', null, school_layer).addTo(map).bringToFront();
+    var topo_schools = omnivore.topojson('data_ingest_node/data/schools.topojson', null, school_layer);
+
+    L.control.layers({
+      'School Polygons': topo_schools.addTo(map),
+      'District Polygons': topo_district
+    }).addTo(map);
   </script>
 </body>
 
