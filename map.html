@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset=utf-8 />
+  <title>A simple map</title>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.css' rel='stylesheet' />
+  <script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'></script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    #map {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <div id='map'></div>
+  <script>
+    L.mapbox.accessToken = 'pk.eyJ1IjoianZyb3Vzc2VhdSIsImEiOiJYYUNlcVRZIn0.lp0867Jn5ynlj72kMwICSA';
+    var map = L.mapbox.map('map', 'jvrousseau.l059j5gf')
+      .setView([35.505, -97.512], 11);
+
+    var school_layer = L.geoJson(null, {
+      // http://leafletjs.com/reference.html#geojson-style
+      onEachFeature: function(feature, layer) {
+        if (feature.properties.schoolName.toUpperCase().indexOf('ELEMENTARY') > -1) {
+          color = '#edf8e9';
+        } else if (feature.properties.schoolName.toUpperCase().indexOf('JUNIOR') > -1 && feature.properties.schoolName.toUpperCase().indexOf('MIDDLE') > -1) {
+          color = '#bae4b3';
+        } else if (feature.properties.schoolName.toUpperCase().indexOf('HIGH') > -1) {
+          color = '#74c476';
+        } else {
+          color = '#238b45';
+        }
+        feature.properties.style = {
+          color: color,
+          weight: 3,
+          opacity: 0.95,
+          fillOpacity: 0.80,
+          fillColor: color
+        };
+        layer.bindPopup(feature.properties.schoolName);
+        layer.setStyle(feature.properties.style);
+      }
+    });
+
+    var district_layer = L.geoJson(null, {
+      style: function (feature) {
+        var color = '#'+(0x1000000+(Math.random())*0xffffff).toString(16).substr(1,6);
+        return {
+          color: color,
+          weight: 1,
+          opacity: 0.95,
+          fillOpacity: 0.75,
+          fillColor: color
+        }
+      },
+      onEachFeature: function(feature, layer) {
+        layer.bindPopup(feature.properties.schoolDistrictName);
+      }
+    });
+
+    omnivore.topojson('data_ingest_node/data/schoolDistricts.topojson', null, district_layer).addTo(map);
+
+    omnivore.topojson('data_ingest_node/data/schools.topojson', null, school_layer).addTo(map);
+  </script>
+</body>
+
+</html>
