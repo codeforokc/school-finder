@@ -4,18 +4,7 @@ Geolocation-based web app for locating schools and school districts near you.
 
 
 ### Phase 1
-* Frontend
-  * [ ] Single page site
-  * [ ] Landing page
-  * [ ] Reverse geocode address into lat lon location
-  * [ ] Show school district for a given lat lon location
-  * [ ] Show closest schools to a given lat lon location (restricted by school district?)
-* Data/backend
-  * [ ] Static JSON dataset for school districts and schools suitable for identifying school districts and schools via distance calculations
-  * [ ] Tools for generating dataset(s)
-* Deployment
-  * [ ] Hosting of site and data (s3?)
-  * [ ] Automated data update/ingest (?)
+See issues for things that need to be done.
 
 ### Phase 2
 TBD
@@ -42,6 +31,10 @@ TBD
 ## Contributing
 
 If you would like to contribute code, just fork the repository and work on a new branch. You can submit a pull request to our repository and a member of Code for OKC will approve and merge it.
+
+To work on a specific feature: 
+* if it is a service - create a new file for your service in the services folder and include your service code in it. Also include some sort of test code, whether it is full blown unit tests or just example integration code (ie a simple page using the service). Also include some documentation with your service in the form of comments. Make a PR.
+* if it affects the main app logic - update the app itself. Make a PR
 
 ## Copyright and license
 
