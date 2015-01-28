@@ -6,7 +6,7 @@ gulp.task('default', function() {
 
 });
 
-gulp.task('serve', serve(['app']));
+gulp.task('serve', serve(['tests', 'app']));
 
 gulp.task('test', function() {
   return gulp.src('tests/**/*_spec.js', {read: false})

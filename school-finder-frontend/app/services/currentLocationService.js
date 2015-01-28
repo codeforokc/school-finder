@@ -6,12 +6,12 @@
   function CLS() {/*noop*/}
 
   function onError(callback, err) {
-    return callback(err);
+    return setTimeout(callback.bind(null, err), 0);
   }
 
   function onSuccess(callback, position) {
     var coordinates = position.coords;
-    return callback(null, coordinates);
+    return setTimeout(callback.bind(null, null, coordinates), 1000);
   }
 
   /*
@@ -24,7 +24,7 @@
    */
    CLS.prototype.getCurrentLocation = function(geolocation, options, callback) {
      if (!geolocation) {
-       return callback(new Error("Geolocation not available"));
+       return setTimeout(callback.bind(null, new Error("Geolocation not available")), 0);
      }
      geolocation.getCurrentPosition(onSuccess.bind(null, callback),
                                    onError.bind(null, callback),

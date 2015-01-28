@@ -6,8 +6,14 @@
 <body ng-app="testApp" ng-strict-di="">
 
   <div ng-controller="LocationController">
-    <button ng-click="updateLocation()">Get Location</button>
-    <p>My location is {{ location.latitude }} {{ location.longitude }}</p>
+    <span async-button-disable
+          default-text="Get Location"
+          working-text="Getting Location"
+          watch-value="updatingLocation"
+          call-function="updateLocation()"></span>
+    <p ng-cloak ng-hide="location === undefined">
+       My location is {{ location.latitude }} {{ location.longitude }}
+    </p>
   </div>
 
   <script src="../../app/scripts/angular.js"></script>
@@ -23,17 +29,51 @@
   "$scope",
   "currentLocationService",
   function($scope, cls) {
+    $scope.updatingLocation = false;
+    $scope.location = undefined;
     $scope.updateLocation = function() {
+      if ($scope.updatingLocation) {
+        return;
+      }
+      $scope.updatingLocation = true;
+      $scope.location = undefined;
       cls.getCurrentLocation(navigator.geolocation, {timeout: 5000}, function(err, coordinates){
+        $scope.updatingLocation = false;
         if (err) {
-          return console.log(err);
+          console.log(err);
+          $scope.location = undefined;
         } else {
+          console.log("Got coordinates");
           $scope.location = coordinates;
-          $scope.$apply(); // trigger angular digest
         }
+        $scope.$apply(); // trigger angular digest
       });
     }
   }]);
+
+  sfApp.directive("asyncButtonDisable", function(){
+    return {
+      link: function(scope, el, attrs) {
+        var button = document.createElement("button");
+        button.innerHTML = attrs.defaultText;
+        button.disabled = false;
+        button.onclick = function(){
+          scope.$apply(attrs.callFunction);
+        };
+        el[0].appendChild(button);
+        scope.$watch(attrs.watchValue, function(newValue, oldValue){
+          if (newValue) {
+            button.innerHTML = attrs.workingText;
+            button.disabled = true;
+          } else {
+            button.innerHTML = attrs.defaultText;
+            button.disabled = false;
+          }
+        });
+      }
+    };
+  });
+
   </script>
 </body>
 </html>
