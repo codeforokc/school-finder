@@ -7,7 +7,7 @@ var SCHOOL_FINDER = (function(){
     var sfApp = angular.module('sfApp', []);
 
     // register services
-    sfApp.service("currentLocationService", SCHOOL_FINDER_CLS);
+    sfApp.service("currentLocationService", SCHOOL_FINDER_CLS.CurrentLocationService);
 
 
     console.debug("Finished initting app");

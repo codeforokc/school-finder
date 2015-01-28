@@ -1,12 +1,14 @@
 var gulp = require('gulp');
 var serve = require('gulp-serve');
-
-gulp.task('serve', serve(['app', 'node_modules']));
+var mocha = require('gulp-mocha');
 
 gulp.task('default', function() {
 
 });
 
-gulp.task('test', function() {
+gulp.task('serve', serve(['app']));
 
+gulp.task('test', function() {
+  return gulp.src('tests/**/*_spec.js', {read: false})
+    .pipe(mocha({reporter: 'nyan'}));
 });

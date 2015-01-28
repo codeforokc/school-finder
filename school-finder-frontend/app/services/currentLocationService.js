@@ -1,4 +1,4 @@
-var SCHOOL_FINDER_CLS = (function(){
+(function(exports){
 
   /*
    * This is an angular service definition
@@ -23,10 +23,13 @@ var SCHOOL_FINDER_CLS = (function(){
    *
    */
    CLS.prototype.getCurrentLocation = function(geolocation, options, callback) {
-    geolocation.getCurrentPosition(onSuccess.bind(null, callback),
+     if (!geolocation) {
+       return callback(new Error("Geolocation not available"));
+     }
+     geolocation.getCurrentPosition(onSuccess.bind(null, callback),
                                    onError.bind(null, callback),
                                    options);
   }
 
-  return CLS;
-}());
+  exports.CurrentLocationService = CLS;
+}(typeof exports === 'undefined' ? this['SCHOOL_FINDER_CLS']={}: exports));
