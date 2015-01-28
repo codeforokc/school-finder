@@ -1,33 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>School Finder</title>
-    <!-- Currently using CDN until we decide how we want to handle this -->
-    <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.js'></script>
-    <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.css' rel='stylesheet'/>
-    <script src="../node_modules/angular/angular.js"></script>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-        }
+  <title>School Finder</title>
+  <link rel="stylesheet" href="css/angular-csp.css" />
+  <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.css' rel='stylesheet'/>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
 
-        #map {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+    #map {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
 </head>
-<body>
-<div id='map'></div>
-<script>
-    // Currently using a personal access token, so feel free to update to an account created for Code for OKC
-    L.mapbox.accessToken = 'pk.eyJ1IjoibWJvY2t1cyIsImEiOiJGSVhxeUJzIn0.dFVS1mpYRCuR8fn_l0FWew';
-    // instantiate the map to show okc
-    var map = L.mapbox.map('map', 'examples.map-i86nkdio')
-            .setView([35.4826479, -97.4791974], 10);
-</script>
+<body ng-app="sfApp" ng-strict-di="">
+
+  <div id='map'></div>
+
+  <script src="scripts/angular.js"></script>
+  <script src="services/currentLocationService.js"></script>
+  <script src="app.js"></script>
+  <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.js'></script>
+  <script>
+  // Currently using a personal access token, so feel free to update to an account created for Code for OKC
+  L.mapbox.accessToken = 'pk.eyJ1IjoibWJvY2t1cyIsImEiOiJGSVhxeUJzIn0.dFVS1mpYRCuR8fn_l0FWew';
+  // instantiate the map to show okc
+  var map = L.mapbox.map('map', 'examples.map-i86nkdio')
+  .setView([35.4826479, -97.4791974], 10);
+  </script>
 </body>
 </html>

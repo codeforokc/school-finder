@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>School Finder</title>
+</head>
+<body ng-app="testApp" ng-strict-di="">
+
+  <div ng-controller="LocationController">
+    <button ng-click="updateLocation()">Get Location</button>
+    <p>My location is {{ location.latitude }} {{ location.longitude }}</p>
+  </div>
+
+  <script src="../../app/scripts/angular.js"></script>
+  <script src="../../app/services/currentLocationService.js"></script>
+  <script>
+  // create module
+  var sfApp = angular.module('testApp', []);
+
+  // register services
+  sfApp.service("currentLocationService", SCHOOL_FINDER_CLS);
+
+  sfApp.controller("LocationController", [
+  "$scope",
+  "currentLocationService",
+  function($scope, cls) {
+    $scope.updateLocation = function() {
+      cls.getCurrentLocation(navigator.geolocation, {timeout: 5000}, function(err, coordinates){
+        if (err) {
+          return console.log(err);
+        } else {
+          $scope.location = coordinates;
+          $scope.$apply(); // trigger angular digest
+        }
+      });
+    }
+  }]);
+  </script>
+</body>
+</html>
