@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>School Finder</title>
+</head>
+<body ng-app="testApp" ng-strict-di="">
+
+  <div ng-controller="LocationController">
+    <span async-button-disable
+          default-text="Get Location"
+          working-text="Getting Location"
+          watch-value="updatingLocation"
+          call-function="updateLocation()"></span>
+    <p ng-cloak ng-hide="location === undefined">
+       My location is {{ location.latitude }} {{ location.longitude }}
+    </p>
+    <p ng-cloak ng-hide="locationError === undefined">
+     {{ locationError }}
+    </p>
+  </div>
+
+  <script src="../../node_modules/angular/angular.js"></script>
+  <script src="../../app/services/currentLocationService.js"></script>
+  <script>
+  // create module
+  var sfApp = angular.module('testApp', []);
+
+  // register services
+  sfApp.service("currentLocationService", SCHOOL_FINDER_CLS.CurrentLocationService);
+
+  sfApp.controller("LocationController", [
+  "$scope",
+  "currentLocationService",
+  function($scope, cls) {
+    $scope.updatingLocation = false;
+    $scope.location = undefined;
+    $scope.locationError = undefined;
+    $scope.updateLocation = function() {
+      if ($scope.updatingLocation) {
+        return;
+      }
+      $scope.updatingLocation = true;
+      $scope.location = undefined;
+      $scope.locationError = undefined;
+      cls.getCurrentLocation(navigator.geolocation, {timeout: 5000}, function(err, coordinates){
+        $scope.updatingLocation = false;
+        if (err) {
+          console.log(err);
+          $scope.location = undefined;
+          $scope.locationError = err;
+        } else {
+          console.log("Got coordinates");
+          $scope.location = coordinates;
+        }
+        $scope.$apply(); // trigger angular digest
+      });
+    }
+  }]);
+
+  sfApp.directive("asyncButtonDisable", function(){
+    return {
+      link: function(scope, el, attrs) {
+        var button = document.createElement("button");
+        button.innerHTML = attrs.defaultText;
+        button.disabled = false;
+        button.onclick = function(){
+          scope.$apply(attrs.callFunction);
+        };
+        el[0].appendChild(button);
+        scope.$watch(attrs.watchValue, function(newValue, oldValue){
+          if (newValue) {
+            button.innerHTML = attrs.workingText;
+            button.disabled = true;
+          } else {
+            button.innerHTML = attrs.defaultText;
+            button.disabled = false;
+          }
+        });
+      }
+    };
+  });
+
+  </script>
+</body>
+</html>

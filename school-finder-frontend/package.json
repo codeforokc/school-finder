@@ -1,0 +1,20 @@
+{
+  "name": "school-finder-frontend",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "author": "Code for OKC",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "gulp": "^3.8.10",
+    "gulp-mocha": "^2.0.0",
+    "mocha": "^2.1.0"
+  },
+  "dependencies": {
+    "angular": "^1.3.11",
+    "bootstrap": "^3.3.2"
+  }
+}
