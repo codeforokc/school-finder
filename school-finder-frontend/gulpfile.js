@@ -1,14 +1,16 @@
+'use strict';
+
 var gulp = require('gulp');
-var serve = require('gulp-serve');
-var mocha = require('gulp-mocha');
 
-gulp.task('default', function() {
+gulp.paths = {
+  src: 'src',
+  dist: 'dist',
+  tmp: '.tmp',
+  e2e: 'e2e'
+};
 
-});
+require('require-dir')('./gulp');
 
-gulp.task('serve', serve(['tests', 'app']));
-
-gulp.task('test', function() {
-  return gulp.src('tests/**/*_spec.js', {read: false})
-    .pipe(mocha({reporter: 'nyan'}));
+gulp.task('default', ['clean'], function () {
+    gulp.start('build');
 });

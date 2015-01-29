@@ -1,0 +1,30 @@
+<div class="container">
+
+    <div ng-include="'components/navbar/navbar.html'"></div>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #map {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+    <div id='map'></div>
+    <script>
+        // Currently using a personal access token, so feel free to update to an account created for Code for OKC
+        L.mapbox.accessToken = 'pk.eyJ1IjoibWJvY2t1cyIsImEiOiJGSVhxeUJzIn0.dFVS1mpYRCuR8fn_l0FWew';
+        // instantiate the map to show okc
+        var map = L.mapbox.map('map', 'examples.map-i86nkdio')
+                .setView([35.4826479, -97.4791974], 10);
+    </script>
+    <div class="footer">
+        <p>With ♥ from <a href="http://codeforokc.org/">Code for OKC</a></p>
+    </div>
+
+</div>
