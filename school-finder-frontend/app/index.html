@@ -3,35 +3,30 @@
 <head>
   <title>School Finder</title>
   <link rel="stylesheet" href="../node_modules/angular/angular-csp.css" />
-  <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.css' rel='stylesheet'/>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-    }
-
-    #map {
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      width: 100%;
-    }
-  </style>
+  <link rel="stylesheet" href="../node_modules/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="css/app.css" />
 </head>
 <body ng-app="sfApp" ng-strict-di="">
 
-  <div id='map'></div>
+  <div ng-controller="sfController">
+    <div id="menu">
+      <button async-button-disable
+              default-text="Center map on current location"
+              working-text="Getting Location..."
+              watch-value="updatingCurrentLocation"
+              call-function="updateCurrentLocation()" />
+    </div>
+    <div id="map"
+         data-leaflet=""
+         center="mapCenter"
+         tiles="mapboxTiles"
+         markers="markers"></div>
+  </div>
 
   <script src="../node_modules/angular/angular.js"></script>
+  <script src="../node_modules/leaflet/dist/leaflet.js"></script>
+  <script src="../node_modules/angular-leaflet-directive/dist/angular-leaflet-directive.js"></script>
   <script src="services/currentLocationService.js"></script>
   <script src="app.js"></script>
-  <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.js'></script>
-  <script>
-  // Currently using a personal access token, so feel free to update to an account created for Code for OKC
-  L.mapbox.accessToken = 'pk.eyJ1IjoibWJvY2t1cyIsImEiOiJGSVhxeUJzIn0.dFVS1mpYRCuR8fn_l0FWew';
-  // instantiate the map to show okc
-  var map = L.mapbox.map('map', 'examples.map-i86nkdio')
-  .setView([35.4826479, -97.4791974], 10);
-  </script>
 </body>
 </html>
