@@ -14,9 +14,12 @@
     <p ng-cloak ng-hide="location === undefined">
        My location is {{ location.latitude }} {{ location.longitude }}
     </p>
+    <p ng-cloak ng-hide="locationError === undefined">
+     {{ locationError }}
+    </p>
   </div>
 
-  <script src="../../app/scripts/angular.js"></script>
+  <script src="../../node_modules/angular/angular.js"></script>
   <script src="../../app/services/currentLocationService.js"></script>
   <script>
   // create module
@@ -31,17 +34,20 @@
   function($scope, cls) {
     $scope.updatingLocation = false;
     $scope.location = undefined;
+    $scope.locationError = undefined;
     $scope.updateLocation = function() {
       if ($scope.updatingLocation) {
         return;
       }
       $scope.updatingLocation = true;
       $scope.location = undefined;
+      $scope.locationError = undefined;
       cls.getCurrentLocation(navigator.geolocation, {timeout: 5000}, function(err, coordinates){
         $scope.updatingLocation = false;
         if (err) {
           console.log(err);
           $scope.location = undefined;
+          $scope.locationError = err;
         } else {
           console.log("Got coordinates");
           $scope.location = coordinates;
