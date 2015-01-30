@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset=utf-8 />
+  <title>School Stuffs</title>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.css' rel='stylesheet' />
+  <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'></script>
+  <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/turf/v1.3.0/turf.min.js'></script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    #map {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <div id='map'></div>
+  <script>
+    L.mapbox.accessToken = 'pk.eyJ1IjoianZyb3Vzc2VhdSIsImEiOiJYYUNlcVRZIn0.lp0867Jn5ynlj72kMwICSA';
+    var map = L.mapbox.map('map', 'jvrousseau.l059j5gf')
+      .setView([35.505, -97.512], 11);
+    var school_layer = L.geoJson(null, {
+      // http://leafletjs.com/reference.html#geojson-style
+      onEachFeature: function(feature, layer) {
+        if (feature.properties.schoolName.toUpperCase().indexOf('ELEMENTARY') > -1) {
+          color = '#edf8e9';
+        } else if (feature.properties.schoolName.toUpperCase().indexOf('JUNIOR') > -1 && feature.properties.schoolName.toUpperCase().indexOf('MIDDLE') > -1) {
+          color = '#bae4b3';
+        } else if (feature.properties.schoolName.toUpperCase().indexOf('HIGH') > -1) {
+          color = '#74c476';
+        } else {
+          color = '#238b45';
+        }
+        feature.properties.style = {
+          color: color,
+          weight: 3,
+          opacity: 0.95,
+          fillOpacity: 0.80,
+          fillColor: color
+        };
+        layer.bindPopup(feature.properties.schoolName);
+        layer.setStyle(feature.properties.style);
+      }
+    });
+
+// Note I added .addTo(map) to topo_district.addTo(map) to activate the district maps.CC
+    var topo_schools = omnivore.topojson('http://www.dwulab.com/school-finder/schools.topojson', null, school_layer);
+    L.control.layers({
+      'School Polygons': topo_schools.addTo(map),
+    }).addTo(map);
+var popup = L.popup();
+
+function onMapClick(e) {
+    popup
+        .setLatLng(e.latlng)
+        .setContent("You clicked the map at " + e.latlng.toString())
+        .openOn(map);
+        
+                var px=e.latlng.lng;
+        var py=e.latlng.lat;
+var jsonData;
+
+function reqListener () {
+    jsonData = JSON.parse(this.responseText);
+     testarray=(Object.keys(jsonData.features).map(function(k) {
+var  x=(jsonData.features[k].geometry.bbox[0]+jsonData.features[k].geometry.bbox[2])/2;
+var  y=(jsonData.features[k].geometry.bbox[1]+jsonData.features[k].geometry.bbox[3])/2;
+return Math.sqrt((x-px)*(x-px)+(y-py)*(y-py))}));
+var minval = Math.min.apply(null, testarray); 
+var key = testarray.indexOf(minval);
+
+
+console.log(testarray);
+console.log(minval);
+console.log(key);
+console.log(jsonData.features[key].properties.originalSchoolName);
+alert(jsonData.features[key].properties.originalSchoolName);
+}
+
+var oReq = new XMLHttpRequest();
+oReq.onload = reqListener;
+oReq.open("get", "http://www.dwulab.com/school-finder/schoolsg.json", true);
+oReq.send();
+}
+
+map.on('click', onMapClick);
+  </script>
+</body>
+
+</html>
