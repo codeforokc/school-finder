@@ -1,55 +1,56 @@
 (function () {
-  var sfApp = angular.module('sfApp', ["leaflet-directive"]);
+  var sfApp = angular.module('sfApp', ['leaflet-directive', 'ui.router']);
 
-  sfApp.controller('mapmain', ['$scope', function ($scope) {
-    $scope.locationfound = false;
+  sfApp.config(function ($stateProvider, $urlRouterProvider) {
 
-    angular.extend($scope, {
-      defaults: {
-        maxZoom: 18
-      },
-      center: {
-        lat: 35.478,
-        lng: -97.519,
-        zoom: 12
-      },
-      tiles: {
-        name: 'Mapbox Tiles',
-        url: 'http://{s}.tiles.mapbox.com/v4/{mapid}/{z}/{x}/{y}.png?access_token={apikey}',
-        type: 'xyz',
-        options: {
-          apikey: 'pk.eyJ1IjoibWxvZmZsYW5kIiwiYSI6Ik5leC11NlUifQ.h2UgWXhT5l7zjts894SySw',
-          mapid: 'mloffland.l3746b9b'
-        }
-      }
-    });
+    $urlRouterProvider.otherwise('/');
 
-    $scope.$on("leafletDirectiveMap.locationfound", function (event) {
-      var eventScopeCenter = event.currentScope.center;
-      $scope.locationfound = true;
-      angular.extend($scope, {
-        markers: {
-          ml: {
-            lat: eventScopeCenter.lat,
-            lng: eventScopeCenter.lng,
-            focus: true,
-            message: "You are here (approximately)",
-            draggable: false
+    $stateProvider
+      .state('root', {
+        url: '/',
+        views: {
+          'nav': {
+            templateUrl: 'nav.html'
+          },
+          'content': {
+            templateUrl: 'default.html'
+          },
+          'footer': {
+            templateUrl: 'footer.html'
           }
         }
+      })
 
-      });
-    });
-
-    $scope.setPosition = function () {
-      angular.extend($scope, {
-        center: {
-          zoom: 15,
-          autoDiscover: true
+      .state('root.map', {
+        url: 'map',
+        views: {
+          'content@': {
+            templateUrl: 'map/map.html',
+            controller: 'MapController'
+          }
         }
-      });
-    };
+      })
 
-  }]);
+      .state('root.terms', {
+        url: 'terms',
+        views: {
+          'content@': {
+            templateUrl: 'terms/terms.html',
+            controller: 'TermsController'
+          }
+        }
+      })
+
+      .state('root.about', {
+        url: 'about',
+        views: {
+          'content@': {
+            templateUrl: 'about/about.html',
+            controller: 'AboutController'
+          }
+        }
+      })
+
+  });
 
 }());

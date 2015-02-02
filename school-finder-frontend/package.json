@@ -9,6 +9,7 @@
   "license": "MIT",
   "devDependencies": {
     "angular-leaflet-directive": "^0.7.11",
+    "angular-ui-router": "^0.2.13",
     "chai": "^1.10.0",
     "gulp": "^3.8.10",
     "gulp-mocha": "^2.0.0",

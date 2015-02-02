@@ -1,0 +1,5 @@
+	<form>
+		<button ng-click="setPosition();" ng-disabled="locationfound">Show my position on the map</button>
+	</form>
+	{{error}}
+	<leaflet id="map" defaults="defaults" center="center" markers="markers" tiles="tiles"></leaflet>
