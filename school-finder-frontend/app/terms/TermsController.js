@@ -2,10 +2,10 @@
   var sfApp = angular.module('sfApp');
 
   var TermsCtrl = function($scope){
-    // about
+    // terms
   };
 
   TermsCtrl.$inject = ['$scope'];
-  sfApp.controller('AboutController', AboutCtrl);
+  sfApp.controller('TermsController', TermsCtrl);
 
 }());
