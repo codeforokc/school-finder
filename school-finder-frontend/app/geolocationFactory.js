@@ -2,7 +2,7 @@
   var sfApp = angular.module('sfApp');
 
   var geolocationFactory = function($rootScope, $window, $q){
-
+    // https://github.com/ninjatronic/ngGeolocation
     function supported() {
       return 'geolocation' in $window.navigator;
     }
