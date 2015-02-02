@@ -1,21 +1,56 @@
-var SCHOOL_FINDER = (function(){
+(function () {
+  var sfApp = angular.module('sfApp', ['leaflet-directive', 'ui.router']);
 
-  function init() {
-    console.debug("Started initting app");
+  sfApp.config(function ($stateProvider, $urlRouterProvider) {
 
-    // create module
-    var sfApp = angular.module('sfApp', []);
+    $urlRouterProvider.otherwise('/');
 
-    // register services
-    sfApp.service("currentLocationService", SCHOOL_FINDER_CLS.CurrentLocationService);
+    $stateProvider
+      .state('root', {
+        url: '/',
+        views: {
+          'nav': {
+            templateUrl: 'nav.html'
+          },
+          'content': {
+            templateUrl: 'default.html'
+          },
+          'footer': {
+            templateUrl: 'footer.html'
+          }
+        }
+      })
 
+      .state('root.map', {
+        url: 'map',
+        views: {
+          'content@': {
+            templateUrl: 'map/map.html',
+            controller: 'MapController'
+          }
+        }
+      })
 
-    console.debug("Finished initting app");
-  }
+      .state('root.terms', {
+        url: 'terms',
+        views: {
+          'content@': {
+            templateUrl: 'terms/terms.html',
+            controller: 'TermsController'
+          }
+        }
+      })
 
-  return {
-    init: init
-  };
+      .state('root.about', {
+        url: 'about',
+        views: {
+          'content@': {
+            templateUrl: 'about/about.html',
+            controller: 'AboutController'
+          }
+        }
+      })
+
+  });
+
 }());
-
-SCHOOL_FINDER.init();
