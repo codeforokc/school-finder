@@ -4,37 +4,23 @@
   <title>School Finder</title>
   <link rel="stylesheet" href="../node_modules/angular/angular-csp.css" />
   <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.css' rel='stylesheet'/>
-  <style>
-	  body {
-		  margin: 0;
-		  padding: 0;
-		  text-align: center;
-	  }
-	  .nav, .content, .footer{
-		  padding: 10px;
-	  }
-	  #map {
-		  height:400px;
-		  width:95%;
-		  margin: 0 auto;
-		  margin-top:10px;
-	  }
-  </style>
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="css/app.css"/>
 </head>
 <body>
-
 	<nav ui-view="nav" class="nav"></nav>
 	<div ui-view="content" class="content"></div>
 	<footer ui-view="footer" class="footer"></footer>
-  <script src="../node_modules/angular/angular.js"></script>
-  <script src="../node_modules/angular-ui-router/release/angular-ui-router.js"></script>
-  <script src="../node_modules/leaflet/dist/leaflet.js"></script>
-  <script src="../node_modules/angular-leaflet-directive/dist/angular-leaflet-directive.js"></script>
-  <script src="app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="../node_modules/angular/angular.js"></script>
+    <script src="../node_modules/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="../node_modules/leaflet/dist/leaflet.js"></script>
+    <script src="../node_modules/angular-leaflet-directive/dist/angular-leaflet-directive.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
 	<script src="geolocationFactory.js"></script>
 	<script src="map/MapController.js"></script>
 	<script src="about/AboutController.js"></script>
 	<script src="terms/TermsController.js"></script>
-
 </body>
 </html>

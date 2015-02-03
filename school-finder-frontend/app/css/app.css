@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.content, .footer{
+    padding: 10px;
+}
+
+#map {
+    height:400px;
+    width:95%;
+    margin: 0 auto;
+    margin-top:10px;
+}
