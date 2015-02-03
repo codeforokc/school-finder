@@ -14,12 +14,12 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li ng-class="{ active: isActive('')}"><a href="#">Home</a></li>
-                <li ng-class="{ active: isActive('map')}"><a href="#/map">Map</a></li>
+                <li ui-sref-active-eq="active"><a ui-sref="root" href="#">Home</a></li>
+                <li ui-sref-active="active"><a ui-sref="root.map" href="#/map">Map</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li ng-class="{ active: isActive('about')}"><a href="#/about">About</a></li>
-                <li ng-class="{ active: isActive('terms')}"><a href="#/terms">Terms</a></li>
+                <li ui-sref-active="active"><a ui-sref="root.about" href="#/about">About</a></li>
+                <li ui-sref-active="active"><a ui-sref="root.terms" href="#/terms">Terms</a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
