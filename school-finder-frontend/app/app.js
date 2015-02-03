@@ -10,7 +10,8 @@
         url: '/',
         views: {
           'nav': {
-            templateUrl: 'nav.html'
+            templateUrl: 'components/nav/nav.html',
+            controller: 'NavController'
           },
           'content': {
             templateUrl: 'default.html'
