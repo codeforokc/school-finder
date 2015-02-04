@@ -32,7 +32,6 @@ describe('School Finder: geolocationFactory', function () {
     });
   });
 
-
   describe('Call to getCurrentPosition(options)', function () {
     it('should return a fulfilled promise', function() {
       return geolocationFactory.getCurrentPosition(options).should.be.fulfilled;
@@ -41,7 +40,6 @@ describe('School Finder: geolocationFactory', function () {
       return expect(geolocationFactory.getCurrentPosition(options)).to.eventually.have.property("coords")
     });
   });
-
 
   describe('If the Geolocation API is not available on said browser', function () {
     beforeEach(function(){
@@ -56,7 +54,6 @@ describe('School Finder: geolocationFactory', function () {
       return geolocationFactory.getCurrentPosition().should.be.rejected;
     });
   });
-
 
   describe('If it takes too long for the Geolocation API to figure out the position', function () {
     beforeEach(function(){
