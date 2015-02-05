@@ -2,8 +2,6 @@
   var sfApp = angular.module('sfApp');
 
   var MapCtrl = function($scope, geolocationFactory){
-    $scope.onmap = true;
-    $scope.locationfound = false;
     $scope.coords = null;
     angular.extend($scope, {
       defaults: {
