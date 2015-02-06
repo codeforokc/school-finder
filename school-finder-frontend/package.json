@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "",
   "scripts": {
-    "test": "gulp test"
+    "test": "karma start"
   },
   "author": "Code for OKC",
   "license": "MIT",
@@ -22,10 +22,9 @@
     "karma-ie-launcher": "^0.1.5",
     "karma-mocha": "^0.1.10",
     "karma-nyan-reporter": "0.0.50",
+    "karma-phantomjs-launcher": "^0.1.4",
     "leaflet": "^0.7.3",
-    "mocha": "^2.1.0",
-    "phantomjs": "^1.9.15",
-    "sinon": "^1.12.2"
+    "mocha": "^2.1.0"
   },
   "dependencies": {
     "angular": "^1.3.11",
