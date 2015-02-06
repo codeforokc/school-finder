@@ -30,7 +30,6 @@ module.exports = function(config) {
 
     client: {
       mocha: {
-        reporter: 'html',
         timeout: 8000,
         slow: 500
       }
@@ -55,8 +54,7 @@ module.exports = function(config) {
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-    //browsers: ['Chrome', 'Firefox', 'IE'],
-    browsers: ['Chrome'],
+    browsers: ['PhantomJS'],
 
 
     // Continuous Integration mode
