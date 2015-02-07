@@ -21,15 +21,12 @@ describe('School Finder: geolocationFactory', function () {
         geolocation: {
           getCurrentPosition: function (success, fail) {
             // not mocking options since we're controlling the results
-            if (dosuccess) {
-              setTimeout(function () {
-                success({position: {coords: {latitude: 35.478, longitude: -97.519}, timestamp: 819898200}});
-              }, 0);
-            } else {
-              setTimeout(function () {
-                fail(failRet);
-              }, 0);
-            }
+            setTimeout(function () {
+              dosuccess ?
+                success({position: {coords: {latitude: 35.478, longitude: -97.519}, timestamp: 819898200}})
+                :
+                fail(failRet)
+            }, 0);
           },
           schoolfindermock: true
         }
