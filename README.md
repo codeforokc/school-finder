@@ -2,6 +2,11 @@
 
 Geolocation-based web app for locating schools and school districts near you.
 
+This project consists of several modules.  Please see the README for
+each module to find out how to work with that part of the project.
+
+* [User facing frontend](https://github.com/codeforokc/school-finder/tree/master/school-finder-frontend)
+* [Backend data ingest](https://github.com/codeforokc/school-finder/tree/master/data_ingest_node)
 
 ### Phase 1
 See issues for things that need to be done.
