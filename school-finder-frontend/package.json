@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "",
   "scripts": {
-    "test": "karma start"
+    "test": "./node_modules/karma/bin/karma start"
   },
   "author": "Code for OKC",
   "license": "MIT",
@@ -14,6 +14,7 @@
     "chai": "^1.10.0",
     "gulp": "^3.8.10",
     "gulp-mocha": "^2.0.0",
+    "gulp-serve": "^0.3.0",
     "karma": "^0.12.31",
     "karma-chai": "^0.1.0",
     "karma-chai-plugins": "^0.2.4",
