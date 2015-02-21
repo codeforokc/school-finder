@@ -21,12 +21,15 @@
           apikey: 'pk.eyJ1IjoibWxvZmZsYW5kIiwiYSI6Ik5leC11NlUifQ.h2UgWXhT5l7zjts894SySw',
           mapid: 'mloffland.l3746b9b'
         }
-      }
+      },
+      markers: {}
     });
 
     $scope.setPosition = function () {
 
       $scope.error = "Finding position";
+
+      $scope.markers.youarehere = undefined;
 
       var options = {
         enableHighAccuracy: false,
