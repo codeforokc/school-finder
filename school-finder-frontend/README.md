@@ -24,7 +24,7 @@ npm is used to keep track of dependencies.
 
 **As of right now you don't need to do any building, though in the future this will probably change**
 
-* Install node/npm
+* Install [node/npm](http://nodejs.org/download/)
 * Install global dependencies
   - `npm install -g gulp`
   - `npm install -g gulp-cli`
