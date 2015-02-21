@@ -26,6 +26,8 @@
 
     $scope.setPosition = function () {
 
+      $scope.error = "Finding position";
+
       var options = {
         enableHighAccuracy: false,
         timeout: 3000,
@@ -33,34 +35,34 @@
       };
 
       geolocationFactory.getCurrentPosition(options)
-        .then(
+        .then(function(position){
           // success
-          function(position){
-            var coords = position.coords;
-            $scope.coords = coords;
-            // we have the coords in a scope variable so we can do what we want with them...  Just centering and zooming in for now.
-            angular.extend($scope, {
-              center: {
+          var coords = position.coords;
+          $scope.error = undefined;
+          $scope.coords = coords;
+          // we have the coords in a scope variable so we can do what we want with them...  Just centering and zooming in for now.
+          angular.extend($scope, {
+            center: {
+              lat: coords.latitude,
+              lng: coords.longitude,
+              zoom: 17
+            },
+            markers: {
+              youarehere: {
                 lat: coords.latitude,
                 lng: coords.longitude,
-                zoom: 17
-              },
-              markers: {
-                youarehere: {
-                  lat: coords.latitude,
-                  lng: coords.longitude,
-                  focus: true,
-                  message: "You are here",
-                  draggable: false
-                }
+                focus: true,
+                message: "You are here",
+                draggable: false
               }
-            });
+            }
+          });
+
         },
-        // error
         function(data){
+          // error
           $scope.error = "Error: " + data.error.message;
-        }
-      );
+        });
     };
   };
 
