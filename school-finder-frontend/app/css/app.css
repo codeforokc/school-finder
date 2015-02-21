@@ -14,3 +14,8 @@ body {
     margin: 0 auto;
     margin-top:10px;
 }
+
+.terms{
+	text-align: left;
+	list-style: none;
+}
