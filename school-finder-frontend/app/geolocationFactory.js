@@ -1,7 +1,7 @@
 (function () {
   var sfApp = angular.module('sfApp');
 
-  var geolocationFactory = function ($rootScope, $window, $q) {
+  var geolocationFactory = function ($window, $q) {
     // https://github.com/ninjatronic/ngGeolocation
     function supported() {
       return 'geolocation' in $window.navigator;
@@ -13,16 +13,10 @@
         if (supported()) {
           $window.navigator.geolocation.getCurrentPosition(
             function (position) {
-              $rootScope.$apply(function () {
-                retVal.position.coords = position.coords;
-                retVal.position.timestamp = position.timestamp;
-                deferred.resolve(position);
-              });
+              deferred.resolve(position);
             },
             function (error) {
-              $rootScope.$apply(function () {
-                deferred.reject({error: error});
-              });
+              deferred.reject({error: error});
             }, options);
         } else {
           deferred.reject({
@@ -40,7 +34,7 @@
     return retVal;
   };
 
-  geolocationFactory.$inject = ['$rootScope', '$window', '$q'];
+  geolocationFactory.$inject = ['$window', '$q'];
   sfApp.factory('geolocationFactory', geolocationFactory);
 
 }());
