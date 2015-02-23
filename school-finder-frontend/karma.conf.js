@@ -11,6 +11,7 @@ module.exports = function(config) {
     files: [
       'node_modules/angular/angular.js',
       'node_modules/angular-mocks/angular-mocks.js',
+      'https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js',
       'node_modules/angular-ui-router/release/angular-ui-router.js',
       'node_modules/leaflet/dist/leaflet.js',
       'node_modules/angular-leaflet-directive/dist/angular-leaflet-directive.js',
