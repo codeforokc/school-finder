@@ -25,10 +25,10 @@ Currently the two supported output types are:
 
 To generate a data set:
 * Install the required dependencies - `npm install`
-* Download the original CSV file from data.okc.gov
+* Download the semicolon delimented file from data.okc.gov, either for [school](http://data.okc.gov/applications/datadownload/forms/DownloadDetails.aspx?DataSetID=17) or [school disrict](http://data.okc.gov/applications/datadownload/forms/DownloadDetails.aspx?DataSetID=3).
 * Run the app (will dump output to STDOUT) - `node index.js <ingestFileType> <outputFileType> <ingestFilePath>`
 
-If you want to dump the output to a file, `node index.js <ift> <oft> <ifpth> > out.geojson`
+If you want to dump the output to a file, `node index.js [school|schoolDistrict] [geojson|topojson] <ifpth> > out.geojson`
 
 ## Data set format examples
 
