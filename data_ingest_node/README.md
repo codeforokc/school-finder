@@ -6,7 +6,7 @@ There are pre derived data sets in the data folder (these may be stale though). 
 
 ## Technical Details
 
-This is a node application that is designed be run against data sets provided by data.okc.gov. Node 0.10.x is required to run this app. It specifically takes in the CSV products provided by the city and returns a geojson FeatureCollection or topojson with the derived data.
+This is a node application that is designed be run against data sets provided by data.okc.gov. Node 0.10.x is required to run this app. It specifically takes in the semicolon delimited data files provided by the city and returns a geojson FeatureCollection or topojson with the derived data.
 
 ## App structure
 
