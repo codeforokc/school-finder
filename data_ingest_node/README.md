@@ -17,9 +17,7 @@ This is a node application that is designed be run against data sets provided by
 
 ## Generating a data set
 
-Currently the two supported data sets are:
-* Schools - ingestFileType of `school`
-* School District Boundaries - ingestFileType of `schoolDistrict`
+Currently the two supported data sets are Schools and School District Boundaries (with their ingestFileType being `school` and `schoolDistrict` respectfully). There is a link to their specific page for [school](http://data.okc.gov/applications/datadownload/forms/DownloadDetails.aspx?DataSetID=17) and [school disrict](http://data.okc.gov/applications/datadownload/forms/DownloadDetails.aspx?DataSetID=3), or a direct link to the semicolon file for [school](http://data.okc.gov/DataFiles/FilesForDownload/Schools.txt) and [school district](http://data.okc.gov/DataFiles/FilesForDownload/SchoolDistrictBoundaries.txt).
 
 Currently the two supported output types are:
 * `geojson`
