@@ -1,5 +1,7 @@
 # OKC School Finder
 
+[![Join the chat at https://gitter.im/codeforokc/school-finder](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/codeforokc/school-finder?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Geolocation-based web app for locating schools and school districts near you.
 
 This project consists of several modules.  Please see the README for
