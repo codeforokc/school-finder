@@ -13,7 +13,6 @@
     "angular-ui-router": "^0.2.13",
     "chai": "^1.10.0",
     "gulp": "^3.8.10",
-    "gulp-mocha": "^2.0.0",
     "gulp-serve": "^0.3.0",
     "karma": "^0.12.31",
     "karma-chai": "^0.1.0",
