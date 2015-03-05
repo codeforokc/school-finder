@@ -1,35 +1,48 @@
 # School Finder Frontend
 
-Frontend for the school finder app.
+ Frontend for the school finder app.
 
 ## Structure
 
-This is an angular js application. The app is located in the app folder.
+ This is an [AngularJS](https://angularjs.org/) application. The app is located in the app folder.
 
-Gulp is used as a task runner.
+## Folders
 
-(?) is used for tests.
+ - app - holds the final application code
+    - css - where stylesheets are located
+    - scripts - where external scripts are located
+ - tests - where tests are located
 
-npm is used to keep track of dependencies.
+## Dependencies
+ NPM is used to keep track of dependencies.
 
-#### Folders
+## Styling
+ We're using [Bootstrap](http://getbootstrap.com/) to style the frontend.
 
-- app - holds the final application code
-  - services = where services are located
-  - css - where stylesheets are located
-  - scripts - where external scripts are located
-- tests - where tests are located
+## Initializing the Environment
 
-## Building the app
+ - CD to school-finder-frontend
+ - Run `npm install` via the command line
 
-**As of right now you don't need to do any building, though in the future this will probably change**
+## Launching the App
 
-* Install [node/npm](http://nodejs.org/download/)
-* Install global dependencies
-  - `npm install -g gulp`
-  - `npm install -g gulp-cli`
-* Install npm dependencies - `npm install`
-* Run tests - `gulp test` -- or -- `npm test`
-* Build the app - TBD
+ - CD to school-finder-frontend
+ - Run `gulp serve` via the command line
+ - Navigate to http://localhost:3000 (or the appropriate port number that Gulp used to launch the server)
 
-##
+
+## Testing
+
+ [Karma](http://karma-runner.github.io/0.12/index.html), [Mocha](http://mochajs.org/), and [Chai](http://chaijs.com/)
+
+ The Karma configuration file is located in school-finder-fronted folder.
+
+#### Key Karma Configurations
+
+ - [reporters](https://github.com/codeforokc/school-finder/blob/master/school-finder-frontend/karma.conf.js#L30): We're currently using "Nyan" via the command line.
+ - [browsers](https://github.com/codeforokc/school-finder/blob/master/school-finder-frontend/karma.conf.js#L58): We're currently using PhantomJS (a headless browser). This allows us to run the tests against a browser without actually launching a browser.
+
+#### Running the tests
+
+ - CD to school-finder-frontend
+ - Run `npm test` at the command line
