@@ -8,6 +8,10 @@ var async = require('async');
 var reproject = require('./reproject');
 var WKT = require('terraformer-wkt-parser');
 
+var defaultSchoolType = 'Other';
+var schoolTypes = ['Elementary School','Middle School','Junior High','High School','Independent School','Charter School'];
+schoolTypes.push(defaultSchoolType);
+
 var preReplacePatterns = {
   "\\bES\\b": "Elementary School",
   "\\bMS\\b": "Middle School",
@@ -27,12 +31,12 @@ var preReplacePatterns = {
   "\\bOKLA\\b": "Oklahoma",
   "PERF\.": "Performing",
   "\\bMHS\\b": "High School", // Mustang MHS is Mustang High School
-  "\\bCTR\\b": "Center",
+  "\\bCTR\\b": "Center"
 };
 // special cases
 var postReplacePatterns = {
   "\\bokc\\b": "OKC",
-  "Emerson Alternative School Ed\. (Middle School)": "Emerson Alternative Education (Middle School)",
+  "Emerson Alternative School Ed\. (Middle School)": "Emerson Alternative Education (Middle School)"
 };
 var schoolNameColumnIndex = 1;
 
@@ -46,6 +50,7 @@ function parseData(stringData) {
   var schoolObjArray = rows.slice(1, rows.length - 1).reduce(rowAggregator, []);
   return featureCollection = {
     type: "FeatureCollection",
+    schoolTypeList: schoolTypes,
     features: schoolObjArray.map(schoolToGeoJson)
   };
 }
@@ -66,6 +71,7 @@ function createRowAggregator(rows) {
       if (index == schoolNameColumnIndex) {
         obj["school_name"] = cleanSchoolName(val);
         obj["original_school_name"] = val;
+        obj["school_type"] = getSchoolType(obj["school_name"]);
       } else {
         obj[columnHeader] = val;
       }
@@ -78,6 +84,18 @@ function createRowAggregator(rows) {
   };
 };
 
+function getSchoolType(schoolName){
+  var retType = null;
+  schoolTypes.forEach(function(schoolType){
+    if(schoolName.indexOf(schoolType) > -1){
+      retType = schoolType;
+    }
+  });
+  if(!retType){
+    retType = defaultSchoolType;
+  }
+  return retType;
+}
 function cleanSchoolName(schoolName) {
   var replacePatternKeys = Object.keys(preReplacePatterns);
   var i, pattern;
@@ -108,7 +126,8 @@ function schoolToGeoJson(school) {
     geometry: reproject.reprojectGeometry(WKT.parse(school.shape)),
     properties: {
       schoolName: school.school_name,
-      originalSchoolName: school.original_school_name
+      originalSchoolName: school.original_school_name,
+      schoolType: school.school_type
     }
   };
 }
