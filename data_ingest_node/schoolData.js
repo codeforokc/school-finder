@@ -9,7 +9,7 @@ var reproject = require('./reproject');
 var WKT = require('terraformer-wkt-parser');
 
 var defaultSchoolType = 'Other';
-var schoolTypes = ['Elementary School','Middle School','Junior High','High School','Independent School','Charter School'];
+var schoolTypes = ['High School','Middle School','Junior High','Elementary School','Independent School','Charter School'];
 schoolTypes.push(defaultSchoolType);
 
 var preReplacePatterns = {
@@ -50,7 +50,7 @@ function parseData(stringData) {
   var schoolObjArray = rows.slice(1, rows.length - 1).reduce(rowAggregator, []);
   return featureCollection = {
     type: "FeatureCollection",
-    schoolTypeList: schoolTypes,
+    schoolTypeList: schoolTypes, // pass the schoolTypeList as a property so we can use the same list on the frontend
     features: schoolObjArray.map(schoolToGeoJson)
   };
 }
@@ -71,7 +71,7 @@ function createRowAggregator(rows) {
       if (index == schoolNameColumnIndex) {
         obj["school_name"] = cleanSchoolName(val);
         obj["original_school_name"] = val;
-        obj["school_type"] = getSchoolType(obj["school_name"]);
+        obj["school_type"] = getSchoolType(obj["school_name"]); // add school_type to properties so we can use it to filter on frontend
       } else {
         obj[columnHeader] = val;
       }
@@ -82,8 +82,8 @@ function createRowAggregator(rows) {
 
     return acc;
   };
-};
-
+}
+// determine school type based on cleanSchoolName
 function getSchoolType(schoolName){
   var retType = null;
   schoolTypes.forEach(function(schoolType){
