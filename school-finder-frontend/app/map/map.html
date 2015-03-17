@@ -1,5 +1,25 @@
-	<form>
-		<button ng-click="setPosition();" ng-disabled="locationfound" class="btn btn-primary">Show my position on the map</button>
-	</form>
-	{{error}}
-	<leaflet id="map" defaults="defaults" center="center" markers="markers" tiles="tiles"></leaflet>
+<form>
+	<button ng-click="setPosition();" ng-disabled="locationfound" class="btn btn-primary">Show my position on the map</button>
+</form>
+{{error}}
+<leaflet id="map" defaults="defaults" center="center" markers="markers" tiles="tiles"></leaflet>
+
+
+<form>
+	<button ng-click="setPosition();" ng-disabled="locationfound" class="btn btn-primary">Show my position on the map
+	</button>
+	<select class="form-control" style="width:auto;display:inline-block;" ng-model="option"
+	        ng-options="o for o in schoolTypeList" ng-change="toggleSchoolTypes(option)">
+		<option value="">All School Types</option>
+	</select>
+
+</form>
+<div ng-show="error || finding" ng-class="{'alert': finding || error, 'alert-info': finding, 'alert-danger': error}" role="alert">
+	<span ng-show="error" class="sr-only">Error:</span>
+	{{error}}{{finding}}
+</div>
+
+<div class="map-wrapper">
+	<leaflet id="map" legend="legend" defaults="defaults" center="center" markers="markers" tiles="tiles" geojson="geojson"></leaflet>
+</div>
+<div id="legendSmall" class="legend">Here</div>
