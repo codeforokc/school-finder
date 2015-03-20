@@ -6,7 +6,7 @@
     $scope.schoolDataMaster = null;
     $scope.schoolTypeList = null;
     $scope.styleObject = {};
-
+    $scope.mapCache = {};
     var baseColors = ['#ff4040', '#ffd700', '#00ffff', '#0000ee', '#ff1493', '#68228b', '#cd950c', '#8b7355', '#458b74', '#006400', '#b4eeb4', '#ffb5c5', '#7fffd4', '#525252', '#000'];
 
     function eachSchool(feature, layer) {
@@ -93,23 +93,31 @@
     $scope.toggleSchoolTypes = function (schooltype) {
       var sdCopy = {};
 
-      if (schooltype) {
+      !schooltype ? schooltype = 'All' : schooltype;
+
+      if($scope.mapCache[schooltype]){ //cached
+        $scope.geojson = $scope.mapCache[schooltype];
+      }else{ // not cached
+        if (schooltype && schooltype !== 'All') {
           // get a specific school type
           sdCopy.features = $scope.schoolDataMaster.features.filter(function (feature) {
-          return feature.properties.schoolType.toLowerCase() == schooltype.toLowerCase();
+            return feature.properties.schoolType.toLowerCase() == schooltype.toLowerCase();
+          });
+        } else {
+          // get all school types
+          sdCopy.features = $scope.schoolDataMaster.features.slice(0);
+        }
+
+        angular.extend($scope, {
+          geojson: {
+            data: sdCopy,
+            style: style,
+            onEachFeature: eachSchool
+          }
         });
-      } else {
-        // get all school types
-        sdCopy.features = $scope.schoolDataMaster.features.slice(0);
+        $scope.mapCache[schooltype] = $scope.geojson; // add to cache
       }
 
-      angular.extend($scope, {
-        geojson: {
-          data: sdCopy,
-          style: style,
-          onEachFeature: eachSchool
-        }
-      });
     };
 
     $scope.setPosition = function () {
