@@ -1,0 +1,459 @@
+{
+  "type": "Topology",
+  "objects": {
+    "collection": {
+      "type": "GeometryCollection",
+      "geometries": [
+        {
+          "id": "1",
+          "type": "Point",
+          "properties": {
+            "station_num": "30",
+            "address": "4343 S LAKE HEFNER DR"
+          },
+          "coordinates": [
+            2564,
+            6721
+          ]
+        },
+        {
+          "id": "2",
+          "type": "Point",
+          "properties": {
+            "station_num": "37",
+            "address": "16820 N PENNSYLVANIA AVE"
+          },
+          "coordinates": [
+            3525,
+            9999
+          ]
+        },
+        {
+          "id": "3",
+          "type": "Point",
+          "properties": {
+            "station_num": "3",
+            "address": "11601 N MACARTHUR BLVD"
+          },
+          "coordinates": [
+            2118,
+            8199
+          ]
+        },
+        {
+          "id": "4",
+          "type": "Point",
+          "properties": {
+            "station_num": "15",
+            "address": "2817 NW 122ND ST"
+          },
+          "coordinates": [
+            3207,
+            8443
+          ]
+        },
+        {
+          "id": "5",
+          "type": "Point",
+          "properties": {
+            "station_num": "33",
+            "address": "11630 SW 15TH ST"
+          },
+          "coordinates": [
+            0,
+            3663
+          ]
+        },
+        {
+          "id": "6",
+          "type": "Point",
+          "properties": {
+            "station_num": "20",
+            "address": "7929 SW 29TH ST"
+          },
+          "coordinates": [
+            1483,
+            3204
+          ]
+        },
+        {
+          "id": "7",
+          "type": "Point",
+          "properties": {
+            "station_num": "36",
+            "address": "17700 SE 104TH ST"
+          },
+          "coordinates": [
+            9999,
+            798
+          ]
+        },
+        {
+          "id": "8",
+          "type": "Point",
+          "properties": {
+            "station_num": "35",
+            "address": "13017 S MAY AVE"
+          },
+          "coordinates": [
+            3199,
+            0
+          ]
+        },
+        {
+          "id": "9",
+          "type": "Point",
+          "properties": {
+            "station_num": "28",
+            "address": "7101 S ANDERSON RD"
+          },
+          "coordinates": [
+            8030,
+            1896
+          ]
+        },
+        {
+          "id": "10",
+          "type": "Point",
+          "properties": {
+            "station_num": "13",
+            "address": "7000 SE 74TH ST"
+          },
+          "coordinates": [
+            6329,
+            1757
+          ]
+        },
+        {
+          "id": "11",
+          "type": "Point",
+          "properties": {
+            "station_num": "31",
+            "address": "618 N ROCKWELL AVE"
+          },
+          "coordinates": [
+            1822,
+            4458
+          ]
+        },
+        {
+          "id": "12",
+          "type": "Point",
+          "properties": {
+            "station_num": "9",
+            "address": "1415 SW 89TH ST"
+          },
+          "coordinates": [
+            3650,
+            1295
+          ]
+        },
+        {
+          "id": "13",
+          "type": "Point",
+          "properties": {
+            "station_num": "18",
+            "address": "4116 N PROSPECT AVE"
+          },
+          "coordinates": [
+            4778,
+            5730
+          ]
+        },
+        {
+          "id": "14",
+          "type": "Point",
+          "properties": {
+            "station_num": "12",
+            "address": "2121 N MARTIN LUTHER KING AVE"
+          },
+          "coordinates": [
+            4930,
+            5012
+          ]
+        },
+        {
+          "id": "15",
+          "type": "Point",
+          "properties": {
+            "station_num": "5",
+            "address": "24 NW 22ND ST"
+          },
+          "coordinates": [
+            4215,
+            5055
+          ]
+        },
+        {
+          "id": "16",
+          "type": "Point",
+          "properties": {
+            "station_num": "10",
+            "address": "2039 NW 16TH ST"
+          },
+          "coordinates": [
+            3557,
+            4870
+          ]
+        },
+        {
+          "id": "17",
+          "type": "Point",
+          "properties": {
+            "station_num": "14",
+            "address": "3129 NW 23RD ST"
+          },
+          "coordinates": [
+            3092,
+            5107
+          ]
+        },
+        {
+          "id": "18",
+          "type": "Point",
+          "properties": {
+            "station_num": "24",
+            "address": "1500 N MERIDIAN AVE"
+          },
+          "coordinates": [
+            2515,
+            4815
+          ]
+        },
+        {
+          "id": "19",
+          "type": "Point",
+          "properties": {
+            "station_num": "1",
+            "address": "820 NW 5TH ST"
+          },
+          "coordinates": [
+            3968,
+            4431
+          ]
+        },
+        {
+          "id": "20",
+          "type": "Point",
+          "properties": {
+            "station_num": "23",
+            "address": "2812 S EASTERN AVE"
+          },
+          "coordinates": [
+            4940,
+            3235
+          ]
+        },
+        {
+          "id": "21",
+          "type": "Point",
+          "properties": {
+            "station_num": "16",
+            "address": "405 SE 66TH ST"
+          },
+          "coordinates": [
+            4416,
+            2010
+          ]
+        },
+        {
+          "id": "22",
+          "type": "Point",
+          "properties": {
+            "station_num": "21",
+            "address": "3240 SW 29TH ST"
+          },
+          "coordinates": [
+            3032,
+            3178
+          ]
+        },
+        {
+          "id": "23",
+          "type": "Point",
+          "properties": {
+            "station_num": "7",
+            "address": "218 SW 23RD ST"
+          },
+          "coordinates": [
+            4147,
+            3389
+          ]
+        },
+        {
+          "id": "24",
+          "type": "Point",
+          "properties": {
+            "station_num": "6",
+            "address": "21 N LINCOLN BLVD"
+          },
+          "coordinates": [
+            4431,
+            4253
+          ]
+        },
+        {
+          "id": "25",
+          "type": "Point",
+          "properties": {
+            "station_num": "17",
+            "address": "2716 NW 50TH ST"
+          },
+          "coordinates": [
+            3263,
+            6037
+          ]
+        },
+        {
+          "id": "26",
+          "type": "Point",
+          "properties": {
+            "station_num": "34",
+            "address": "8617 N COUNCIL RD"
+          },
+          "coordinates": [
+            1423,
+            7269
+          ]
+        },
+        {
+          "id": "27",
+          "type": "Point",
+          "properties": {
+            "station_num": "8",
+            "address": "1934 EXCHANGE AVE"
+          },
+          "coordinates": [
+            3515,
+            3760
+          ]
+        },
+        {
+          "id": "28",
+          "type": "Point",
+          "properties": {
+            "station_num": "19",
+            "address": "940 SW 44TH ST"
+          },
+          "coordinates": [
+            3852,
+            2708
+          ]
+        },
+        {
+          "id": "29",
+          "type": "Point",
+          "properties": {
+            "station_num": "32",
+            "address": "12233 N MUSTANG RD"
+          },
+          "coordinates": [
+            38,
+            8421
+          ]
+        },
+        {
+          "id": "30",
+          "type": "Point",
+          "properties": {
+            "station_num": "11",
+            "address": "900 NW 50TH ST"
+          },
+          "coordinates": [
+            3937,
+            6043
+          ]
+        },
+        {
+          "id": "31",
+          "type": "Point",
+          "properties": {
+            "station_num": "27",
+            "address": "6400 N WESTMINSTER RD"
+          },
+          "coordinates": [
+            7696,
+            6535
+          ]
+        },
+        {
+          "id": "32",
+          "type": "Point",
+          "properties": {
+            "station_num": "4",
+            "address": "14200 HOGBACK RD"
+          },
+          "coordinates": [
+            9345,
+            9093
+          ]
+        },
+        {
+          "id": "33",
+          "type": "Point",
+          "properties": {
+            "station_num": "2",
+            "address": "2917 E BRITTON RD"
+          },
+          "coordinates": [
+            5231,
+            7488
+          ]
+        },
+        {
+          "id": "34",
+          "type": "Point",
+          "properties": {
+            "station_num": "22",
+            "address": "333 NW 92ND ST"
+          },
+          "coordinates": [
+            4094,
+            7453
+          ]
+        },
+        {
+          "id": "35",
+          "type": "Point",
+          "properties": {
+            "station_num": "25",
+            "address": "2701 SW 59TH ST"
+          },
+          "coordinates": [
+            3280,
+            2248
+          ]
+        },
+        {
+          "id": "36",
+          "type": "Point",
+          "properties": {
+            "station_num": "26",
+            "address": "7025 SW 119TH ST"
+          },
+          "coordinates": [
+            1841,
+            352
+          ]
+        }
+      ]
+    }
+  },
+  "arcs": [],
+  "transform": {
+    "scale": [
+      0.000051213679055331116,
+      0.00003043194904245325
+    ],
+    "translate": [
+      -97.72952935505396,
+      35.33808228833531
+    ]
+  },
+  "bbox": [
+    -97.72952935505396,
+    35.33808228833531,
+    -97.2174437781797,
+    35.6423713468108
+  ]
+}

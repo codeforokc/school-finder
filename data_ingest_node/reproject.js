@@ -15,9 +15,16 @@ module.exports = exports = {
 
 function reprojectGeometry(geometry) {
   var type = geometry.type;
-  var reprojectFn = (type == "Polygon")
-                      ? reprojectPolygonFeature
-                      : reprojectMultiPolygonFeature;
+  var reprojectFn;
+  if (type == "Polygon") {
+    reprojectFn = reprojectPolygonFeature;
+  } else if (type == "MultiPolygon") {
+    reprojectFn = reprojectMultiPolygonFeature;
+  } else if (type == "Point") {
+    reprojectFn = reprojectPoint;
+  } else {
+    console.error("No valid reprojection function");
+  }
   geometry.coordinates = reprojectFn(geometry.coordinates);
   return geometry;
 }
@@ -31,7 +38,9 @@ function reprojectPolygonFeature(polygonCoordArray) {
 }
 
 function reprojectPoints(pointsArray) {
-  return pointsArray.map(function(point) {
-    return proj4(nad83OklahomaNorthProj, 'EPSG:4326', point);
-  });
+  return pointsArray.map(reprojectPoint);
+}
+
+function reprojectPoint(point) {
+  return proj4(nad83OklahomaNorthProj, 'EPSG:4326', point);
 }

@@ -8,11 +8,15 @@ var async = require('async');
 var fs = require('fs');
 var schools = require('./schoolData');
 var schoolDistricts = require('./schoolDistrictData');
+var policeStations = require('./policeData');
+var fireStations = require('./fireStationData');
 var topojson = require('topojson');
 
 var parseTypeFns = {
   school: schools.parseData,
-  schoolDistrict: schoolDistricts.parseData
+  schoolDistrict: schoolDistricts.parseData,
+  policeStation: policeStations.parseData,
+  fireStation: fireStations.parseData
 };
 var outputTransformFns = {
   geojson: noop,

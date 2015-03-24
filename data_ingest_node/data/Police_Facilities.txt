@@ -1,0 +1,7 @@
+OBJECTID;Shape;X;Y;Facility;Address;POINT_X;POINT_Y
+1;;2109979.47;171032.71;Police Headquarters Building;701 Colcord Dr;2109979.46;171032.72
+2;;2090303.77;216561.42;Hefner Briefing Station;3924 NW 122nd St;2090303.77;216561.42
+3;;2114190.77;137474.21;Santa Fe Briefing Station;9000 S Santa Fe Ave;2114190.76;137474.21
+4;;2121832.47;187068.32;Springlake Briefing Station;4116 N Prospect Ave;2121832.46;187068.31
+5;;2093767.17;182698.21;Will Rogers Briefing Station;3112 N Grand Blvd;2093767.17;182698.22
+6;;2115145.77;170568.92;Bricktown Briefing Station;219 E Main St;2115145.76;170568.92

@@ -1,0 +1,131 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.52489750023774,
+          35.46889248535541
+        ],
+        "bbox": [
+          -97.52489750023774,
+          35.46889248535541,
+          -97.52489750023774,
+          35.46889248535541
+        ]
+      },
+      "properties": {
+        "facility": "Police Headquarters Building",
+        "address": "701 Colcord Dr"
+      }
+    },
+    {
+      "id": "2",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.59032452221045,
+          35.59421222648154
+        ],
+        "bbox": [
+          -97.59032452221045,
+          35.59421222648154,
+          -97.59032452221045,
+          35.59421222648154
+        ]
+      },
+      "properties": {
+        "facility": "Hefner Briefing Station",
+        "address": "3924 NW 122nd St"
+      }
+    },
+    {
+      "id": "3",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.51132298170442,
+          35.37664598209112
+        ],
+        "bbox": [
+          -97.51132298170442,
+          35.37664598209112,
+          -97.51132298170442,
+          35.37664598209112
+        ]
+      },
+      "properties": {
+        "facility": "Santa Fe Briefing Station",
+        "address": "9000 S Santa Fe Ave"
+      }
+    },
+    {
+      "id": "4",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.48480888769633,
+          35.51277821405863
+        ],
+        "bbox": [
+          -97.48480888769633,
+          35.51277821405863,
+          -97.48480888769633,
+          35.51277821405863
+        ]
+      },
+      "properties": {
+        "facility": "Springlake Briefing Station",
+        "address": "4116 N Prospect Ave"
+      }
+    },
+    {
+      "id": "5",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.57916953187777,
+          35.50114461858085
+        ],
+        "bbox": [
+          -97.57916953187777,
+          35.50114461858085,
+          -97.57916953187777,
+          35.50114461858085
+        ]
+      },
+      "properties": {
+        "facility": "Will Rogers Briefing Station",
+        "address": "3112 N Grand Blvd"
+      }
+    },
+    {
+      "id": "6",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.507556729485,
+          35.467547677870826
+        ],
+        "bbox": [
+          -97.507556729485,
+          35.467547677870826,
+          -97.507556729485,
+          35.467547677870826
+        ]
+      },
+      "properties": {
+        "facility": "Bricktown Briefing Station",
+        "address": "219 E Main St"
+      }
+    }
+  ]
+}

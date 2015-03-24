@@ -1,0 +1,99 @@
+{
+  "type": "Topology",
+  "objects": {
+    "collection": {
+      "type": "GeometryCollection",
+      "geometries": [
+        {
+          "id": "1",
+          "type": "Point",
+          "properties": {
+            "facility": "Police Headquarters Building",
+            "address": "701 Colcord Dr"
+          },
+          "coordinates": [
+            6200,
+            4240
+          ]
+        },
+        {
+          "id": "2",
+          "type": "Point",
+          "properties": {
+            "facility": "Hefner Briefing Station",
+            "address": "3924 NW 122nd St"
+          },
+          "coordinates": [
+            0,
+            9999
+          ]
+        },
+        {
+          "id": "3",
+          "type": "Point",
+          "properties": {
+            "facility": "Santa Fe Briefing Station",
+            "address": "9000 S Santa Fe Ave"
+          },
+          "coordinates": [
+            7486,
+            0
+          ]
+        },
+        {
+          "id": "4",
+          "type": "Point",
+          "properties": {
+            "facility": "Springlake Briefing Station",
+            "address": "4116 N Prospect Ave"
+          },
+          "coordinates": [
+            9999,
+            6256
+          ]
+        },
+        {
+          "id": "5",
+          "type": "Point",
+          "properties": {
+            "facility": "Will Rogers Briefing Station",
+            "address": "3112 N Grand Blvd"
+          },
+          "coordinates": [
+            1057,
+            5722
+          ]
+        },
+        {
+          "id": "6",
+          "type": "Point",
+          "properties": {
+            "facility": "Bricktown Briefing Station",
+            "address": "219 E Main St"
+          },
+          "coordinates": [
+            7843,
+            4178
+          ]
+        }
+      ]
+    }
+  },
+  "arcs": [],
+  "transform": {
+    "scale": [
+      0.000010552618713283322,
+      0.00002175880031907378
+    ],
+    "translate": [
+      -97.59032452221045,
+      35.37664598209112
+    ]
+  },
+  "bbox": [
+    -97.59032452221045,
+    35.37664598209112,
+    -97.48480888769633,
+    35.59421222648154
+  ]
+}
