@@ -125,11 +125,7 @@
       $scope.finding = "Finding position";
       $scope.markers.youarehere = undefined;
 
-      var options = {
-        enableHighAccuracy: false,
-        timeout: 3000,
-        maximumAge: 0
-      };
+      var options = { timeout: 8000 };
 
       geolocationFactory.getCurrentPosition(options)
         .then(function (position) {
