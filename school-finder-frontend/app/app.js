@@ -1,3 +1,11 @@
+/**
+* © 2015 CodeForOKC. All rights reserved.
+* Author: Mike Loffland <mloffland@outlook.com>
+* Author: Karl Kirch <karlkrch@gmail.com>
+*
+* Main app controller
+*/
+
 (function () {
   var sfApp = angular.module('sfApp', ['leaflet-directive', 'ui.router']);
 
@@ -13,7 +21,8 @@
             templateUrl: 'components/nav/nav.html'
           },
           'content': {
-            templateUrl: 'default.html'
+            templateUrl: 'default.html',
+            controller: 'DefaultController'
           },
           'footer': {
             templateUrl: 'footer.html'

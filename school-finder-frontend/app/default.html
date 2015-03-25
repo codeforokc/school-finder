@@ -1,1 +1,17 @@
-<div>default content (default.html)</div>
+<div id="landing">
+  <form class="search">
+    <h3>Search for</h3>
+    <select class="form-control" style="width:auto;display:inline-block;" ng-model="dataType" ng-options="o.display for o in dataTypeList"></select>
+
+    <hr />
+
+    <div class="error" ng-show="validation && !searchQuery">{{validation}}</div>
+
+    <input type="text" placeholder="Your Address" ng-model="searchQuery" />
+    <button ng-click="addressSearch()" class="btn btn-primary">Search</button>
+
+    <div>--- Or ---<div>
+
+    <button ng-click="locationSearch()" class="btn btn-primary">Near My Current Location</button>
+  </form>
+</div>

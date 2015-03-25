@@ -1,8 +1,16 @@
+/**
+* © 2015 CodeForOKC. All rights reserved.
+* Author: Mike Loffland <mloffland@outlook.com>
+*
+* Factory to determine the user's current location
+* Based off of https://github.com/ninjatronic/ngGeolocation
+*/
+
 (function () {
   var sfApp = angular.module('sfApp');
 
   var geolocationFactory = function ($window, $q) {
-    // https://github.com/ninjatronic/ngGeolocation
+    //
     function supported() {
       return 'geolocation' in $window.navigator;
     }

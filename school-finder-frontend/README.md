@@ -2,6 +2,9 @@
 
  Frontend for the school finder app.
 
+## Contributing
+ See the [School Finder Contributor Guide](CONTRIBUTOR_GUIDE.md).
+
 ## Structure
 
  This is an [AngularJS](https://angularjs.org/) application. The app is located in the app folder.

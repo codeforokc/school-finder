@@ -1,7 +1,18 @@
+/**
+* © 2015 CodeForOKC. All rights reserved.
+* Author: Mike Loffland <mloffland@outlook.com>
+*
+* Controller for handling map page in app
+* Handles loading up geo data and display
+*/
+
 (function () {
   var sfApp = angular.module('sfApp');
 
   var MapCtrl = function ($scope, $http, geolocationFactory) {
+
+    // TODO(karl): Should we have different controllers per data type?
+
     $scope.coords = null;
     $scope.schoolDataMaster = null;
     $scope.schoolTypeList = null;
