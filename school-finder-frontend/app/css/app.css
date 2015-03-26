@@ -95,3 +95,94 @@ div.map-wrapper{
     text-align: left;
     list-style: none;
 }
+
+
+.dumpdata {
+    width: 90%;
+    margin: 0 auto;
+    margin-top:14px;
+}
+.lblactive, .lblactive:hover {
+    background: #4cae4c;
+    color: white;
+}
+
+div.search-wrap {
+    width: 98%;
+    margin: 0 auto;
+    padding:18px;
+}
+
+@media screen and ( min-width: 800px ){
+    div.search-wrap, div.sdtypes {
+        width: 747px;
+    }
+}
+
+.geoLocate {
+    padding-top:8px;
+    text-align: left;
+    margin-left:11px;
+}
+
+.geoLocate a {
+    padding-left:4px;
+}
+
+.sf-data-types input[type=checkbox] {
+    display: none;
+}
+.sflabel {
+    margin: 2px;
+}
+ /*mapbox autosuggest directive*/
+div.mapbbox-ac {
+    width:100%;
+    margin-top:10px;
+    position:relative;
+}
+div.mapbbox-ac input {
+    width:100%;
+
+}
+div.mapbbox-ac ul,
+div.mapbbox-ac ul li {
+    list-style: none;
+    margin: 0;
+    padding:0;
+    text-align: left;
+
+    margin: 2px 0 0;
+}
+
+
+div.mapbbox-ac ul li:last-of-type {
+    padding-bottom:6px;
+}
+
+div.mapbbox-ac ul {
+    position:absolute;
+    z-index: 1000;
+    width: 100%;
+    border-left: 1px solid #f5f5f5;
+    border-right: 1px solid #f5f5f5;
+    border-bottom: 1px solid #f5f5f5;
+    border-radius: 4px;
+    /*width: calc(100% - 16px);*/
+    background-color: white;
+
+
+
+}
+
+div.mapbbox-ac ul li {
+    padding-left: 12px;
+    padding-top:6px;
+    padding-bottom:6px;
+}
+
+div.mapbbox-ac ul li:hover {
+    cursor: pointer;
+    cursor: hand;
+    background-color:#e6e6e6;
+}
