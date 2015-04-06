@@ -1,5 +1,5 @@
 <div id="landing">
-	<form class="search">
+
 		<h3>Search for . . .</h3>
 		<!--<select class="form-control" style="width:auto;display:inline-block;" ng-model="dataType" ng-options="o.display for o in dataTypeList"></select>-->
 
@@ -14,9 +14,8 @@
 					<input type='checkbox' ng-click='onDataSelect(dtype.id)' autocomplete='off'>{{dtype.display}}
 				</label>
 			</div>
-			<!-- TODO(mike): Need an actual SEARCH button in addition to autocompletion. Need to iron out mechanism to determinge what coords to use if we allow users to submit a search without selecting and address or using geolocation.  -->
 
-			<mapbox-auto-suggest model="addressSelection" options="mapboxoptions"></mapbox-auto-suggest>
+			<mapbox-forward-geocoding selected-location="addressSelection" query-results="results" options="{autoSuggest: true}" api-token="myapitoken"></mapbox-forward-geocoding>
 
 			<div class="geoLocate">&middot;<a id="link-2" href="" ng-click="useCurrentPosition($event)">Use My Current
 				Location</a></div>
@@ -55,5 +54,4 @@
 		<!--<div>--- Or ---<div>-->
 
 		<!--<button ng-click="locationSearch()" class="btn btn-primary">Near My Current Location</button>-->
-	</form>
 </div>

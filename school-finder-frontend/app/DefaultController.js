@@ -21,12 +21,13 @@
     $scope.dataType = $scope.dataTypeList[0];
     $scope.searchQuery = "";
 
+    $scope.myapitoken = 'pk.eyJ1IjoibWxvZmZsYW5kIiwiYSI6Ik5leC11NlUifQ.h2UgWXhT5l7zjts894SySw';
+
     $scope.mapboxoptions = {
       defaultPlaceHolderText: 'Search Address, City or Zip',
       excludeEntriesWithNoPlaceName: true,
-      characterThreshold: 3,
-      includeThisKeyword: 'oklahoma',
-      apitoken: 'pk.eyJ1IjoibWxvZmZsYW5kIiwiYSI6Ik5leC11NlUifQ.h2UgWXhT5l7zjts894SySw'
+      minLength: 3,
+      includeThisKeyword: 'oklahoma'
     };
 
     // watch the addressSelection model
@@ -35,6 +36,15 @@
       if(angular.isDefined($scope.addressSelection)){
         console.log('Selected address/city/zip info');
         console.log($scope.addressSelection);
+      }
+    });
+
+    // watch the results model
+    $scope.$watchCollection('results',function(){
+      // just spit it out to the console for now
+      if(angular.isDefined($scope.results)){
+        console.log('Submitted query results');
+        console.log($scope.results);
       }
     });
 

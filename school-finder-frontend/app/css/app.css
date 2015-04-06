@@ -121,13 +121,8 @@ div.search-wrap {
 
 .geoLocate {
     padding-top:8px;
-    text-align: left;
-    margin-left:11px;
 }
 
-.geoLocate a {
-    padding-left:4px;
-}
 
 .sf-data-types input[type=checkbox] {
     display: none;
@@ -135,18 +130,21 @@ div.search-wrap {
 .sflabel {
     margin: 2px;
 }
- /*mapbox autosuggest directive*/
-div.mapbbox-ac {
-    width:100%;
-    margin-top:10px;
+ /*mapbox forward geo directive*/
+form.mapbbox-fgd{
+    margin:0 auto;
+    margin-top:16px;
+    width:400px;
     position:relative;
 }
-div.mapbbox-ac input {
-    width:100%;
+form.mapbbox-fgd input[type="text"] {
+    float: left;
+    width:320px;
 
 }
-div.mapbbox-ac ul,
-div.mapbbox-ac ul li {
+
+form.mapbbox-fgd ul,
+form.mapbbox-fgd ul li {
     list-style: none;
     margin: 0;
     padding:0;
@@ -156,11 +154,11 @@ div.mapbbox-ac ul li {
 }
 
 
-div.mapbbox-ac ul li:last-of-type {
+form.mapbbox-fgd ul li:last-of-type {
     padding-bottom:6px;
 }
 
-div.mapbbox-ac ul {
+form.mapbbox-fgd ul {
     position:absolute;
     z-index: 1000;
     width: 100%;
@@ -168,20 +166,16 @@ div.mapbbox-ac ul {
     border-right: 1px solid #f5f5f5;
     border-bottom: 1px solid #f5f5f5;
     border-radius: 4px;
-    /*width: calc(100% - 16px);*/
     background-color: white;
-
-
-
 }
 
-div.mapbbox-ac ul li {
+form.mapbbox-fgd ul li {
     padding-left: 12px;
     padding-top:6px;
     padding-bottom:6px;
 }
 
-div.mapbbox-ac ul li:hover {
+form.mapbbox-fgd ul li:hover {
     cursor: pointer;
     cursor: hand;
     background-color:#e6e6e6;
