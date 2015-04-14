@@ -7,7 +7,7 @@
 */
 
 (function () {
-  var sfApp = angular.module('sfApp', ['leaflet-directive', 'ui.router']);
+  var sfApp = angular.module('sfApp', ['leaflet-directive', 'ui.router','mapbox-forward-geo']);
 
   sfApp.config(function ($stateProvider, $urlRouterProvider) {
 
