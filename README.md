@@ -43,4 +43,4 @@ To work on a specific feature:
 
 ## Copyright and license
 
-Copyright 2014 Code for OKC. Licensed under the MIT License.
+Copyright 2015 Code for OKC. Licensed under the MIT License.
