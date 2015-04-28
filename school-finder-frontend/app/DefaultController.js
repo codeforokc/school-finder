@@ -17,9 +17,7 @@
     $scope.selectedDataTypes.push($scope.defaultDataType);
     console.log('Selected DataTypes');
     console.log($scope.selectedDataTypes);
-    $scope.validation;
     $scope.dataType = $scope.dataTypeList[0];
-    $scope.searchQuery = "";
 
     $scope.myapitoken = 'pk.eyJ1IjoibWxvZmZsYW5kIiwiYSI6Ik5leC11NlUifQ.h2UgWXhT5l7zjts894SySw';
 
@@ -79,22 +77,6 @@
           // error
           $scope.error = "Error: " + data.error.message;
         });
-    };
-
-    $scope.addressSearch = function() {
-      // TODO(karl): Is this better as an angular directive?
-       if (!$scope.searchQuery) {
-        $scope.validation = "Address required";
-      } else {
-        $scope.validation = undefined;
-        // TODO(karl): Change route to map with data type and address
-        window.alert("Searching " + JSON.stringify($scope.dataType) + " near " + $scope.searchQuery);
-      }
-    };
-
-    $scope.locationSearch = function() {
-      // TODO(karl): Change route to map with data type and current location option
-      window.alert("Searching " + JSON.stringify($scope.dataType) + " near my current location");
     };
 
   };
