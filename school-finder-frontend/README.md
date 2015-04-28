@@ -29,10 +29,7 @@
 
 ## Launching the App
 
- - CD to school-finder-frontend
- - Run `gulp serve` via the command line
- - Navigate to http://localhost:3000 (or the appropriate port number that Gulp used to launch the server)
-
+ - Run app/index.html through your IDE of choice.
 
 ## Testing
 
