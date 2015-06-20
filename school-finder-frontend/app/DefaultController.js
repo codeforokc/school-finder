@@ -24,7 +24,8 @@
       defaultPlaceHolderText: 'Search Address, City or Zip',
       excludeEntriesWithNoPlaceName: true,
       minLength: 3,
-      includeThisKeyword: 'oklahoma'
+      includeThisKeyword: 'oklahoma',
+      autoSuggest: true
     };
 
     // watch the addressSelection model
