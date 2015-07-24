@@ -1,30 +1,51 @@
 <div id="landing">
 
-		<h3>Search for . . .</h3>
+	<h3>OKC Metro Search</h3>
 
-		<div class="search-wrap well">
-			<div class="btn-group sf-data-types" ng-repeat="dtype in dataTypeList">
-				<label class="btn btn-default sflabel ng-class:{lblactive:selectedDataTypes.indexOf(dtype.id) > -1}">
-					<input type='checkbox' ng-click='onDataSelect(dtype.id)' autocomplete='off'>{{dtype.display}}
-				</label>
+	<div class="search-wrap">
+		<form class="mapbbox-fgd" name="mapboxFGD" ng-submit="search('nonauto')">
+			<div class="input-group">
+				<input class="form-control" name="searchText" type="text" ng-focus="flagminerror=false"
+				       placeholder="{{selectedLoc || placeHolderText}}" id="mbac-searchInput" ng-minlength="minLength"
+				       ng-model="searchText" ng-keyup="!autoSuggest || search()" autocomplete="off"/>
+		<span class="input-group-btn">
+      <button class="btn btn-default" type="submit" id="mbfgd-searchbtn">
+	      <span class="glyphicon glyphicon-search"></span>
+      </button>
+      <button type="button" class="btn dropdown-toggle" ng-class="usingCurrentPosition ? 'btn-info' : 'btn-default'" data-toggle="dropdown" auto-close="outsideClick">
+	      <span class="glyphicon glyphicon-cog"></span>
+      </button>
+      <ul class="dropdown-menu dropdown-menu-right mapbbox-fgdfilter" role="menu" ng-click="$event.stopPropagation()">
+	      <li ng-repeat="dtype in dataTypeList" ng-click="onDataSelect(dtype.id)"
+	          ng-class="isSelected(dtype.id) ? 'fyesdselect' : 'fno'">
+		      {{dtype.display}}
+	      </li>
+	      <li ng-class="usingCurrentPosition ? 'fyesuser' : 'fno'" ng-click="useCurrentPosition($event)" class="cdivider">
+		      Use My Current Location
+	      </li>
+      </ul>
+    </span>
 			</div>
-
-			<mapbox-forward-geocoding selected-location="addressSelection" query-results="results" options="{autoSuggest: true}" api-token="myapitoken"></mapbox-forward-geocoding>
-
-			<div class="geoLocate">&middot;<a id="link-2" href="" ng-click="useCurrentPosition($event)">Use My Current
-				Location</a></div>
-
-
-			<div ng-show="error || finding"
-			     ng-class="{'alert': finding || error, 'alert-info': finding, 'alert-danger': error}" role="alert">
-				<span ng-show="error" class="sr-only">Error:</span>
-				{{error}}{{finding}}
+			<ul id="mbfgd-suggestions" ng-show="suggestions.length > 0">
+				<li ng-repeat="suggestion in suggestions" ng-if="autoSuggest" ng-click="useSelectedLocation($index)">
+					{{suggestion[displayProperty] ? suggestion[displayProperty] : emptyPropertyText}}
+				</li>
+			</ul>
+			<div>
+				&nbsp;<span ng-show="flagminerror">{{minLengthErrorText}}</span>
 			</div>
-		</div>
+		</form>
+	</div>
 
+	<div ng-show="error || finding"
+	     ng-class="{'alert': finding || error, 'alert-info': finding, 'alert-danger': error}" role="alert">
+		<span ng-show="error" class="sr-only">Error:</span>
+		{{error}}{{finding}}
+	</div>
 
-		<div class="well" style="margin:0 auto;margin-top:15px;width:60%;background-color: rgba(208, 208, 107, 0.15);">
-			Just spitting captured data to console.log for now
-		</div>
+	<div class="well" style="margin:0 auto;margin-top:15px;width:39%;background-color: rgba(208, 208, 107, 0.15);">
+		Just spitting captured data to console.log for now
+	</div>
 
 </div>
+

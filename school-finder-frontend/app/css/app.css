@@ -50,6 +50,12 @@ div.map-wrapper{
     color: #555;
 }
 
+@media screen and (min-width: 630px){
+    form.mapbbox-fgd {
+        width:70% !important;
+    }
+}
+
 @media screen and (max-width: 767px){
     .legend {
         display: none;
@@ -136,6 +142,7 @@ div.search-wrap {
 
 .geoLocate {
     padding-top:8px;
+    display:inline-block;
 }
 
 
@@ -145,16 +152,16 @@ div.search-wrap {
 .sflabel {
     margin: 2px;
 }
- /*mapbox forward geo directive*/
+
 form.mapbbox-fgd{
     margin:0 auto;
-    margin-top:16px;
-    width:400px;
+    display: inline-block;
+    padding-top: 12px;
+    width:100%;
     position:relative;
 }
 form.mapbbox-fgd input[type="text"] {
-    float: left;
-    width:320px;
+    /*width:362px;*/
 
 }
 
@@ -168,6 +175,9 @@ form.mapbbox-fgd ul li {
     margin: 2px 0 0;
 }
 
+ul.mapbbox-fgdfilter {
+    width: 220px !important;
+}
 
 form.mapbbox-fgd ul li:last-of-type {
     padding-bottom:6px;
@@ -183,9 +193,25 @@ form.mapbbox-fgd ul {
     border-radius: 4px;
     background-color: white;
 }
+.fyesdselect, .fyesuser{
+    background: #ffffff url('https://doc.owncloud.org/server/8.0/developer_manual/_images/checkmark.png') no-repeat 3px;
+}
+
+.fyesdselect, .fyesdselect:hover {
+    background-color: #c2ddc5 !important;
+}
+
+.fyesuser, .fyesuser:hover {
+    background-color: #31b0d5 !important;
+    color: white;
+}
+
+.fno{
+
+}
 
 form.mapbbox-fgd ul li {
-    padding-left: 12px;
+    padding-left: 26px;
     padding-top:6px;
     padding-bottom:6px;
 }
@@ -194,4 +220,10 @@ form.mapbbox-fgd ul li:hover {
     cursor: pointer;
     cursor: hand;
     background-color:#e6e6e6;
+}
+
+
+.input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
 }
